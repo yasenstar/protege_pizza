@@ -47,6 +47,10 @@ Refer to the mindmap here:
 
 ![mindmap](img/pizza_tutorial.jpg)
 
+## Video List
+
+- [01 - Introduction](https://youtu.be/l0PZhqmTwfM)
+
 ---
 
 Hope you can get nice experience thorugh following this journey together with me, any questions are welcome to [reach_me](mailto:xiaoqizhao@outlook.com?subject=Protege-pizza.owl), thank you!  (2023)
