@@ -2,6 +2,27 @@
 
 Practice building pizza.owl ontology using Protege modeling tool
 
+## Pizza.OWL Modeling Video List 
+
+Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJunOz23vCEhzWg).
+
+![pizza](img/pizza.png)
+
+- [01 - Introduction](https://youtu.be/l0PZhqmTwfM)
+- [02 - Practice Guide Document Structure](https://youtu.be/eWx9_zJkiUY)
+- [03 - Installing Protege and understand Protege User Interface](https://youtu.be/Q6eq-cWBpfQ)
+- [04 - Create new Ontology (exercise 01~03)](https://youtu.be/IMjKcx93ens)
+- [05 - Named Classes (section 4.1, exercise 04)](https://youtu.be/QqVrFxaEFrI)
+- [06 - Using a Reasoner (section 4.2, exercise 05)]()
+  - [HermiT OWL Reasoner](http://www.hermit-reasoner.com/)
+  - [Pellet OWL DL reasoner for Java, from Stardog](https://github.com/stardog-union/pellet)
+
+## Structure of pizza.owl
+
+Refer to the mindmap here:
+
+![mindmap](img/pizza_tutorial.jpg)
+
 ## Ontologies inside Semantics Concept
 
 ![ontology-clipart](img/ontology.png)
@@ -44,25 +65,6 @@ Some reference quick link about Protégé:
 ## Visualized our Ontology Model
 
 View [here](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/protege_pizza/MyPizzaTutorial.rdf) which powered by [WebVOWL](http://vowl.visualdataweb.org/webvowl.html).
-
-## Video List (follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJunOz23vCEhzWg))
-
-![pizza](img/pizza.png)
-
-- [01 - Introduction](https://youtu.be/l0PZhqmTwfM)
-- [02 - Practice Guide Document Structure](https://youtu.be/eWx9_zJkiUY)
-- [03 - Installing Protege and understand Protege User Interface](https://youtu.be/Q6eq-cWBpfQ)
-- [04 - Create new Ontology (exercise 01~03)](https://youtu.be/IMjKcx93ens)
-- [05 - Named Classes (section 4.1, exercise 04)](https://youtu.be/QqVrFxaEFrI)
-- [06 - Using a Reasoner (section 4.2, exercise 05)]()
-  - [HermiT OWL Reasoner](http://www.hermit-reasoner.com/)
-  - [Pellet OWL DL reasoner for Java, from Stardog](https://github.com/stardog-union/pellet)
-
-## Structure of pizza.owl
-
-Refer to the mindmap here:
-
-![mindmap](img/pizza_tutorial.jpg)
 
 ---
 
