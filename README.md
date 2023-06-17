@@ -1,6 +1,6 @@
 # Ontology: Pizza.owl using Protégé
 
-Practice building pizza.owl ontology using Protege modeling tool
+Practice building pizza.owl ontology using Protege modeling tool, base on [Michael DeBillis](https://www.linkedin.com/in/michael-debellis-85329/)' great guide.
 
 ## Pizza.OWL Modeling Video List 
 
@@ -68,4 +68,4 @@ View [here](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/prot
 
 ---
 
-Hope you can get nice experience thorugh following this journey together with me, any questions are welcome to [reach_me](mailto:xiaoqizhao@outlook.com?subject=Protege-pizza.owl), thank you!  (2023)
+Hope you can get nice experience thorugh following this journey together with me, any questions are welcome to [reach_me_in_email](mailto:xiaoqizhao@outlook.com?subject=Protege-pizza.owl) or check my [LinkedIn](https://www.linkedin.com/in/xiaoqi-zhao-03715614/), thank you!  (2023)
