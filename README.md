@@ -17,6 +17,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
   - [HermiT OWL Reasoner](http://www.hermit-reasoner.com/)
   - [Pellet OWL DL reasoner for Java, from Stardog](https://github.com/stardog-union/pellet)
 - [07 - Disjoint Classes (section 4.3, exercise 06)](https://youtu.be/g7aoDsS5kSI)
+- [08 - Understand RDF Ontology File Structure](https://youtu.be/qjer-vEKMNg)
 
 ## Structure of pizza.owl
 
