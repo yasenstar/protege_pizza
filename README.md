@@ -16,6 +16,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [06 - Using a Reasoner (section 4.2, exercise 05)](https://youtu.be/TKMW5udKzIM)
   - [HermiT OWL Reasoner](http://www.hermit-reasoner.com/)
   - [Pellet OWL DL reasoner for Java, from Stardog](https://github.com/stardog-union/pellet)
+- [07 - Disjoint Classes (section 4.3, exercise 06)](https://youtu.be/g7aoDsS5kSI)
 
 ## Structure of pizza.owl
 
