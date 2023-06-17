@@ -41,7 +41,7 @@ Some reference quick link about Protégé:
 - [Protégé wiki](https://protegewiki.stanford.edu/wiki/Main_Page)
 - [Protégé in Github](https://github.com/protegeproject), from here you can get latest version
 
-## Video List
+## Video List (follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJunOz23vCEhzWg))
 
 ![pizza](img/pizza.png)
 
