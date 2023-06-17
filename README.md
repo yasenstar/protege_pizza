@@ -41,6 +41,10 @@ Some reference quick link about Protégé:
 - [Protégé wiki](https://protegewiki.stanford.edu/wiki/Main_Page)
 - [Protégé in Github](https://github.com/protegeproject), from here you can get latest version
 
+## Visualized our Ontology Model
+
+View [here](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/protege_pizza/MyPizzaTutorial.rdf) which powered by [WebVOWL](http://vowl.visualdataweb.org/webvowl.html).
+
 ## Video List (follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJunOz23vCEhzWg))
 
 ![pizza](img/pizza.png)
