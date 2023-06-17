@@ -13,7 +13,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [03 - Installing Protege and understand Protege User Interface](https://youtu.be/Q6eq-cWBpfQ)
 - [04 - Create new Ontology (exercise 01~03)](https://youtu.be/IMjKcx93ens)
 - [05 - Named Classes (section 4.1, exercise 04)](https://youtu.be/QqVrFxaEFrI)
-- [06 - Using a Reasoner (section 4.2, exercise 05)]()
+- [06 - Using a Reasoner (section 4.2, exercise 05)](https://youtu.be/TKMW5udKzIM)
   - [HermiT OWL Reasoner](http://www.hermit-reasoner.com/)
   - [Pellet OWL DL reasoner for Java, from Stardog](https://github.com/stardog-union/pellet)
 
