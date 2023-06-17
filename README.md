@@ -51,6 +51,7 @@ Refer to the mindmap here:
 
 - [01 - Introduction](https://youtu.be/l0PZhqmTwfM)
 - [02 - Practice Guide Document Structure](https://youtu.be/eWx9_zJkiUY)
+- [03 - Installing Protege and understand Protege User Interface](https://youtu.be/Q6eq-cWBpfQ)
 
 ---
 
