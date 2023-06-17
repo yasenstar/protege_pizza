@@ -48,8 +48,11 @@ Some reference quick link about Protégé:
 - [01 - Introduction](https://youtu.be/l0PZhqmTwfM)
 - [02 - Practice Guide Document Structure](https://youtu.be/eWx9_zJkiUY)
 - [03 - Installing Protege and understand Protege User Interface](https://youtu.be/Q6eq-cWBpfQ)
-- [04 - Create new Ontology](https://youtu.be/IMjKcx93ens)
+- [04 - Create new Ontology (exercise 01~03)](https://youtu.be/IMjKcx93ens)
 - [05 - Named Classes (section 4.1, exercise 04)](https://youtu.be/QqVrFxaEFrI)
+- [06 - Using a Reasoner (section 4.2, exercise 05)]()
+  - [HermiT OWL Reasoner](http://www.hermit-reasoner.com/)
+  - [Pellet OWL DL reasoner for Java, from Stardog](https://github.com/stardog-union/pellet)
 
 ## Structure of pizza.owl
 
