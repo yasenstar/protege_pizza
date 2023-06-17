@@ -41,17 +41,18 @@ Some reference quick link about Protégé:
 - [Protégé wiki](https://protegewiki.stanford.edu/wiki/Main_Page)
 - [Protégé in Github](https://github.com/protegeproject), from here you can get latest version
 
-## Structure of pizza.owl
-
-Refer to the mindmap here:
-
-![mindmap](img/pizza_tutorial.jpg)
-
 ## Video List
 
 - [01 - Introduction](https://youtu.be/l0PZhqmTwfM)
 - [02 - Practice Guide Document Structure](https://youtu.be/eWx9_zJkiUY)
 - [03 - Installing Protege and understand Protege User Interface](https://youtu.be/Q6eq-cWBpfQ)
+- [04 - Create new Ontology](https://youtu.be/IMjKcx93ens)
+
+## Structure of pizza.owl
+
+Refer to the mindmap here:
+
+![mindmap](img/pizza_tutorial.jpg)
 
 ---
 
