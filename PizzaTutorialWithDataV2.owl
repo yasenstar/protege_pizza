@@ -12,7 +12,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial">
         <rdfs:comment>A tutorial ontology for the Pizza domain.</rdfs:comment>
-        <rdfs:comment>Developed by Michael DeBellis. Please direct all comments and questions. to mdebellissf@gmail.com Also, see my blog for other information and resources relevant to OWL, SWRL, and other knowledge graph technology: https://www.michaeldebellis.com/blog</rdfs:comment>
+        <rdfs:comment xml:lang="gmail.com also, see my blog for other information and resources relevant to owl, swrl, and other knowledge graph technology: https://www.michaeldebellis.com/blog">Developed by Michael DeBellis. Please direct all comments and questions. to mdebellissf</rdfs:comment>
         <rdfs:comment>The PizzaTutorial is licensed under the GNU Affero General Public License v3.0
 Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.</rdfs:comment>
     </owl:Ontology>
