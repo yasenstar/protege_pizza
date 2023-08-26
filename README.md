@@ -21,6 +21,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [07 - Disjoint Classes (section 4.3, exercise 06)](https://youtu.be/g7aoDsS5kSI)
 - [08 - Understand RDF Ontology File Structure](https://youtu.be/qjer-vEKMNg)
 - [09 - Using Create Class Hierarchy (section 4.4, exercise 07~08)](https://youtu.be/FQdjYQMqfBI)
+- [10 - Object Properties](https://youtu.be/4DfR06bI500)
 
 ## Structure of pizza.owl
 
