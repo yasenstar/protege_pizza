@@ -1,4 +1,4 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="pizza.owl tutorial" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1686323667754" VGAP_QUANTITY="3 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
@@ -8,12 +8,12 @@
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_7974122" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#3c3836" BACKGROUND_COLOR="#fbf1c7" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_7974122" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -27,7 +27,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#ffffff" BACKGROUND_COLOR="#cc241d" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#cc241d"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_103960811" BORDER_WIDTH="3 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0">
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#cc241d" TRANSPARENCY="255" DESTINATION="ID_103960811"/>
@@ -35,7 +35,7 @@
 <edge COLOR="#cc241d"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#fdf6e3" BACKGROUND_COLOR="#282828" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt" BORDER_WIDTH="3.1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#2c2b29" BORDER_DASH_LIKE_EDGE="true">
 <font NAME="Ubuntu" SIZE="18"/>
 </stylenode>
@@ -76,16 +76,16 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="ch01 introduction" POSITION="right" ID="ID_1844456199" CREATED="1686323713926" MODIFIED="1686323728609"/>
-<node TEXT="ch02 requirements and the Protege UI" POSITION="right" ID="ID_320917976" CREATED="1686323729358" MODIFIED="1686323741570"/>
-<node TEXT="ch03 OWL ontologies overview" POSITION="right" ID="ID_1964726528" CREATED="1686323750103" MODIFIED="1686323763306">
+<node TEXT="ch01 introduction" POSITION="bottom_or_right" ID="ID_1844456199" CREATED="1686323713926" MODIFIED="1686323728609"/>
+<node TEXT="ch02 requirements and the Protege UI" POSITION="bottom_or_right" ID="ID_320917976" CREATED="1686323729358" MODIFIED="1686323741570"/>
+<node TEXT="ch03 OWL ontologies overview" POSITION="bottom_or_right" ID="ID_1964726528" CREATED="1686323750103" MODIFIED="1686323763306">
 <node TEXT="3.1 components of OWL ontologies" ID="ID_1938527352" CREATED="1686330866704" MODIFIED="1686330877389">
 <node TEXT="3.1.1 individuals" ID="ID_242879608" CREATED="1686330883000" MODIFIED="1686330891798"/>
 <node TEXT="3.1.2 properties" ID="ID_600190457" CREATED="1686330892235" MODIFIED="1686330907817"/>
 <node TEXT="3.1.3 classes" ID="ID_1649031439" CREATED="1686330908388" MODIFIED="1686330914137"/>
 </node>
 </node>
-<node TEXT="ch04 building an OWL ontology" POSITION="right" ID="ID_808215330" CREATED="1686323769070" MODIFIED="1686323779883">
+<node TEXT="ch04 building an OWL ontology" POSITION="bottom_or_right" ID="ID_808215330" CREATED="1686323769070" MODIFIED="1686323779883">
 <node TEXT="ex01: create a new OWL ontology" ID="ID_729877616" CREATED="1686330923734" MODIFIED="1686330940733"/>
 <node TEXT="ex02: set the preferences for new entities and rendering" ID="ID_1912835714" CREATED="1686330945549" MODIFIED="1686330957927"/>
 <node TEXT="ex03: add a comment annotation to ontology" ID="ID_1520449047" CREATED="1686330964461" MODIFIED="1686330974429"/>
@@ -106,6 +106,24 @@
 </node>
 <node TEXT="4.6 OWL porperties" ID="ID_158334547" CREATED="1686331171320" MODIFIED="1686331178109">
 <node TEXT="ex09: create some properties" ID="ID_523616874" CREATED="1686331181275" MODIFIED="1686331189755"/>
+<node TEXT="Object properties" FOLDED="true" ID="ID_1417061012" CREATED="1693053564797" MODIFIED="1693053573070">
+<node TEXT="Relationships between two individuals" ID="ID_553125583" CREATED="1693053588817" MODIFIED="1693053598836"/>
+<node TEXT="In OWL, only individuals can have values for object properties" ID="ID_479316746" CREATED="1693053676930" MODIFIED="1693053701296"/>
+<node TEXT="similar to the relations in E-R model" ID="ID_1684655312" CREATED="1693054575421" MODIFIED="1693054584486"/>
+<node TEXT="similar to properties with a range of some class in OOP" ID="ID_1140335463" CREATED="1693054612165" MODIFIED="1693054624970"/>
+</node>
+<node TEXT="Data properties" FOLDED="true" ID="ID_906800304" CREATED="1693053573672" MODIFIED="1693053577415">
+<node TEXT="Relations between an individual and a datatype such as xsd:string or xsd:dataTime" ID="ID_44323465" CREATED="1693053601801" MODIFIED="1693053624830"/>
+<node TEXT="In OWL, only individuals can have values for data properties" ID="ID_140590915" CREATED="1693053703059" MODIFIED="1693053715390"/>
+<node TEXT="similar to the attributes in E-R model" ID="ID_1065509184" CREATED="1693054589974" MODIFIED="1693054599347"/>
+<node TEXT="similar to OOP properties with a range that is a datatype" ID="ID_396432947" CREATED="1693054626382" MODIFIED="1693054641841"/>
+</node>
+<node TEXT="Annotation properties" FOLDED="true" ID="ID_547337637" CREATED="1693053578001" MODIFIED="1693053582668">
+<node TEXT="usually have datatypes as values although they can have objects" ID="ID_1797203661" CREATED="1693053626707" MODIFIED="1693053644974"/>
+<node TEXT="usually meta-data such as a comment or a label" ID="ID_1121874497" CREATED="1693053648507" MODIFIED="1693053663248"/>
+<node TEXT="In OWL, any entity can have an annotation property value since meta-data applies to all entities" ID="ID_344674009" CREATED="1693053716947" MODIFIED="1693053737296"/>
+<node TEXT="usually cannot be reasoned about" ID="ID_572549366" CREATED="1693054331973" MODIFIED="1693054347017"/>
+</node>
 </node>
 <node TEXT="4.7 inverse properties" ID="ID_240358113" CREATED="1686331193936" MODIFIED="1686331199984">
 <node TEXT="ex10: create some inverse properties" ID="ID_891087200" CREATED="1686331201354" MODIFIED="1686331209276"/>
@@ -152,7 +170,7 @@
 <node TEXT="ex26: create an InterestingPizza that has at least three toppings" ID="ID_598929433" CREATED="1686331759685" MODIFIED="1686331775619"/>
 </node>
 </node>
-<node TEXT="ch05 datatype proterties" POSITION="right" ID="ID_1703657255" CREATED="1686323780054" MODIFIED="1686323797178">
+<node TEXT="ch05 datatype proterties" POSITION="bottom_or_right" ID="ID_1703657255" CREATED="1686323780054" MODIFIED="1686323797178">
 <node TEXT="5.1 defining a data property" ID="ID_1669475927" CREATED="1686331783144" MODIFIED="1686331791735">
 <node TEXT="ex27: create a datatype property called hasCaloricContent" ID="ID_1579530266" CREATED="1686331796097" MODIFIED="1686331813439"/>
 </node>
@@ -164,10 +182,10 @@
 <node TEXT="ex32: create a HighCaloriePizza defined class" ID="ID_1932251002" CREATED="1686335085843" MODIFIED="1686335099729"/>
 </node>
 </node>
-<node TEXT="ch06 adding order to an enumerated class" POSITION="right" ID="ID_1312614168" CREATED="1686323799302" MODIFIED="1686323809888"/>
-<node TEXT="ch07 names: IRI&apos;s, labels, and namespaces" POSITION="right" ID="ID_416574278" CREATED="1686323810349" MODIFIED="1686323826817"/>
-<node TEXT="ch08 a larger ontology with some individuals" POSITION="right" ID="ID_1111048405" CREATED="1686323836071" MODIFIED="1686323849806"/>
-<node TEXT="ch09 queries: description logic and SPARQL" POSITION="right" ID="ID_1173967935" CREATED="1686323850221" MODIFIED="1686323862625">
+<node TEXT="ch06 adding order to an enumerated class" POSITION="bottom_or_right" ID="ID_1312614168" CREATED="1686323799302" MODIFIED="1686323809888"/>
+<node TEXT="ch07 names: IRI&apos;s, labels, and namespaces" POSITION="bottom_or_right" ID="ID_416574278" CREATED="1686323810349" MODIFIED="1686323826817"/>
+<node TEXT="ch08 a larger ontology with some individuals" POSITION="bottom_or_right" ID="ID_1111048405" CREATED="1686323836071" MODIFIED="1686323849806"/>
+<node TEXT="ch09 queries: description logic and SPARQL" POSITION="bottom_or_right" ID="ID_1173967935" CREATED="1686323850221" MODIFIED="1686323862625">
 <node TEXT="9.1: description logic queries" ID="ID_240243003" CREATED="1686335129852" MODIFIED="1686335194717">
 <node TEXT="ex33: try some description logic queries" ID="ID_843348068" CREATED="1686335157891" MODIFIED="1686335181607"/>
 </node>
@@ -176,19 +194,19 @@
 <node TEXT="9.2.2 SPARQL and IRI names" ID="ID_1532426756" CREATED="1686335280599" MODIFIED="1686335293733"/>
 </node>
 </node>
-<node TEXT="ch10 SWRL and SQWRL" POSITION="right" ID="ID_1982574526" CREATED="1686323863341" MODIFIED="1686323883176">
+<node TEXT="ch10 SWRL and SQWRL" POSITION="bottom_or_right" ID="ID_1982574526" CREATED="1686323863341" MODIFIED="1686323883176">
 <node TEXT="ex34: write your first SWRL rule" ID="ID_475355367" CREATED="1686335307772" MODIFIED="1686335320629"/>
 <node TEXT="ex35: write another SWRL rule" ID="ID_930780383" CREATED="1686335325704" MODIFIED="1686335334705"/>
 <node TEXT="ex36: write a SQWRL rule" ID="ID_640330184" CREATED="1686335338528" MODIFIED="1686335347420"/>
 </node>
-<node TEXT="ch11 SHACL" POSITION="right" ID="ID_133290783" CREATED="1686323883701" MODIFIED="1686323888771">
+<node TEXT="ch11 SHACL" POSITION="bottom_or_right" ID="ID_133290783" CREATED="1686323883701" MODIFIED="1686323888771">
 <node TEXT="11.1 OWA and monotonic reasoning" ID="ID_1163697728" CREATED="1686335356812" MODIFIED="1686335367808"/>
 <node TEXT="11.2 the real world is messy" ID="ID_980974229" CREATED="1686335370575" MODIFIED="1686335377398"/>
 <node TEXT="11.3 basic SHACL concepts" ID="ID_781348311" CREATED="1686335379092" MODIFIED="1686335386649"/>
 <node TEXT="11.4 the Protege SHACL plug-in" ID="ID_854164933" CREATED="1686335389556" MODIFIED="1686335400343"/>
 </node>
-<node TEXT="ch12 Web Protege" POSITION="right" ID="ID_317981913" CREATED="1686325216634" MODIFIED="1686325231920"/>
-<node TEXT="ch13 conclusions" POSITION="right" ID="ID_155728250" CREATED="1686325234262" MODIFIED="1686325243355"/>
-<node TEXT="ch14 bibliography" POSITION="right" ID="ID_90886172" CREATED="1686325243765" MODIFIED="1686325253840"/>
+<node TEXT="ch12 Web Protege" POSITION="bottom_or_right" ID="ID_317981913" CREATED="1686325216634" MODIFIED="1686325231920"/>
+<node TEXT="ch13 conclusions" POSITION="bottom_or_right" ID="ID_155728250" CREATED="1686325234262" MODIFIED="1686325243355"/>
+<node TEXT="ch14 bibliography" POSITION="bottom_or_right" ID="ID_90886172" CREATED="1686325243765" MODIFIED="1686325253840"/>
 </node>
 </map>
