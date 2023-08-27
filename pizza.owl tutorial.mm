@@ -104,7 +104,7 @@
 <node TEXT="4.5 create a PizzaTopping hierarchy" ID="ID_1055735125" CREATED="1686331119631" MODIFIED="1686331137479">
 <node TEXT="ex08: create subclasses of PizzaTopping" ID="ID_1589422046" CREATED="1686331138159" MODIFIED="1686331149032"/>
 </node>
-<node TEXT="4.6 OWL porperties" ID="ID_158334547" CREATED="1686331171320" MODIFIED="1686331178109">
+<node TEXT="4.6 OWL porperties" FOLDED="true" ID="ID_158334547" CREATED="1686331171320" MODIFIED="1686331178109">
 <node TEXT="ex09: create some properties" ID="ID_523616874" CREATED="1686331181275" MODIFIED="1686331189755"/>
 <node TEXT="Object properties" FOLDED="true" ID="ID_1417061012" CREATED="1693053564797" MODIFIED="1693053573070">
 <node TEXT="Relationships between two individuals" ID="ID_553125583" CREATED="1693053588817" MODIFIED="1693053598836"/>
@@ -128,12 +128,35 @@
 <node TEXT="4.7 inverse properties" ID="ID_240358113" CREATED="1686331193936" MODIFIED="1686331199984">
 <node TEXT="ex10: create some inverse properties" ID="ID_891087200" CREATED="1686331201354" MODIFIED="1686331209276"/>
 </node>
-<node TEXT="4.8 OWL object property characteristics" ID="ID_1497253479" CREATED="1686331215729" MODIFIED="1686331228476">
-<node TEXT="4.8.1 functional properties" ID="ID_1668752960" CREATED="1686331228859" MODIFIED="1686331235412"/>
-<node TEXT="4.8.2 inverse functional properties" ID="ID_883388361" CREATED="1686331241837" MODIFIED="1686331249459"/>
-<node TEXT="4.8.3 transitive properties" ID="ID_1028302633" CREATED="1686331249686" MODIFIED="1686331255694"/>
-<node TEXT="4.8.4 symmetric and asymmetric properties" ID="ID_1558167378" CREATED="1686331260656" MODIFIED="1686331270517"/>
-<node TEXT="4.8.5 reflexive and irreflexive properties" ID="ID_1242075338" CREATED="1686331273961" MODIFIED="1686331285378"/>
+<node TEXT="4.8 OWL object property characteristics" ID="ID_1497253479" CREATED="1686331215729" MODIFIED="1693150794752" LINK="https://www.w3.org/TR/owl-ref/">
+<node TEXT="4.8.1 functional properties" ID="ID_1668752960" CREATED="1686331228859" MODIFIED="1693149701264" VGAP_QUANTITY="3 pt">
+<node TEXT="for a given individual, there can be at most one individual that is related to the individual via the property" ID="ID_108922471" CREATED="1693149569532" MODIFIED="1693149675520" VSHIFT_QUANTITY="4.5 pt"/>
+<node TEXT="e.g. hasBirthMother" ID="ID_484153576" CREATED="1693149876388" MODIFIED="1693149884711"/>
+</node>
+<node TEXT="4.8.2 inverse functional properties" ID="ID_883388361" CREATED="1686331241837" MODIFIED="1686331249459">
+<node TEXT="If a property is inverse functional then it means that the inverse property is functional" ID="ID_1073460574" CREATED="1693149844733" MODIFIED="1693149865433"/>
+<node TEXT="e.g. isBirthMotherOf to hasBirthMother" ID="ID_1622025676" CREATED="1693149893119" MODIFIED="1693149907655"/>
+</node>
+<node TEXT="4.8.3 transitive properties" ID="ID_1028302633" CREATED="1686331249686" MODIFIED="1686331255694">
+<node TEXT="If a property P is transitive, and P relates individual a to individual b, and also individual b to individual c, then we can infer that individual a is related to individual c via property P." ID="ID_1204059508" CREATED="1693149963460" MODIFIED="1693150023666"/>
+<node TEXT="e.g. hasAncestor; greaterThan (in mathematic)" ID="ID_37754736" CREATED="1693150029087" MODIFIED="1693150089800"/>
+<node TEXT="Note: if a property is transitive is cannot be functional; if a property is transitive, then its inverse property must also be transitive." ID="ID_1088701816" CREATED="1693150095221" MODIFIED="1693150134896"/>
+</node>
+<node TEXT="4.8.4 symmetric and asymmetric properties" ID="ID_1558167378" CREATED="1686331260656" MODIFIED="1686331270517">
+<node TEXT="If a property P is symmetric, and the property relates individual a to individual b then individual b is also related to individual a via property P." ID="ID_1694271939" CREATED="1693150144671" MODIFIED="1693150187408"/>
+<node TEXT="Symmetric: e.g. hasSibling; hasSpouse" ID="ID_1534495405" CREATED="1693150188594" MODIFIED="1693150283382"/>
+<node TEXT="An Asymmetric property is a property that can never have symmetric values. If a property P is asymmetric then if a is related to b via that property b cannot be related to a via that property." ID="ID_734890805" CREATED="1693150205477" MODIFIED="1693150273698"/>
+<node TEXT="Asymmetric e.g. hasBirthMother" ID="ID_1887122893" CREATED="1693150274310" MODIFIED="1693150294945"/>
+</node>
+<node TEXT="4.8.5 reflexive and irreflexive properties" ID="ID_1242075338" CREATED="1686331273961" MODIFIED="1686331285378">
+<node TEXT="A reflexive property is a property that always relates an individual to itself. If a property P is reflexive then for all individuals a P will always relate a to a." ID="ID_1669186942" CREATED="1693150298142" MODIFIED="1693150361424">
+<node TEXT="Reference: W3C Owl 2 Specification" ID="ID_1267126619" CREATED="1693150467628" MODIFIED="1693150479412"/>
+<node TEXT="The important thing is that if you make a property reflexive that means its domain is owl:Thing." ID="ID_649643692" CREATED="1693150490822" MODIFIED="1693150518840"/>
+</node>
+<node TEXT="Reflexive e.g.: Equality." ID="ID_31946708" CREATED="1693150362511" MODIFIED="1693150383089"/>
+<node TEXT="An irreflexive property is a property that can never relate an individual to itself." ID="ID_455878115" CREATED="1693150383734" MODIFIED="1693150417031"/>
+<node TEXT="Irreflexive e.g.: hasBirthMother" ID="ID_1138133125" CREATED="1693150417533" MODIFIED="1693150455179"/>
+</node>
 <node TEXT="4.8.6 reasoners automatically enforce property characteristics" ID="ID_471162566" CREATED="1686331285991" MODIFIED="1686331300703"/>
 </node>
 <node TEXT="4.9 OWL property domains and ranges" ID="ID_1969737760" CREATED="1686331307610" MODIFIED="1686331317019">
@@ -168,6 +191,9 @@
 <node TEXT="4.15 adding Spiciness as a Property" ID="ID_130501377" CREATED="1686331724729" MODIFIED="1686331735088">
 <node TEXT="ex25: create and use the hasSpiciness property" ID="ID_904593240" CREATED="1686331738173" MODIFIED="1686331754056"/>
 <node TEXT="ex26: create an InterestingPizza that has at least three toppings" ID="ID_598929433" CREATED="1686331759685" MODIFIED="1686331775619"/>
+</node>
+<node TEXT="4.16 Cardinality Restrictions" ID="ID_757389838" CREATED="1693149746260" MODIFIED="1693149768660">
+<arrowlink DESTINATION="ID_1668752960"/>
 </node>
 </node>
 <node TEXT="ch05 datatype proterties" POSITION="bottom_or_right" ID="ID_1703657255" CREATED="1686323780054" MODIFIED="1686323797178">

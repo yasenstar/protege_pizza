@@ -22,6 +22,8 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [08 - Understand RDF Ontology File Structure](https://youtu.be/qjer-vEKMNg)
 - [09 - Using Create Class Hierarchy (section 4.4, exercise 07~08)](https://youtu.be/FQdjYQMqfBI)
 - [10 - Object Properties](https://youtu.be/4DfR06bI500)
+- [11 - Inverse Properties](https://youtu.be/cqQ8uqRjhNQ)
+- [12 - OWL Object Property Characteristics](https://youtu.be/bYx0LPxXAk8)
 
 ## Structure of pizza.owl
 
