@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="pizza.owl tutorial" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1686323667754" VGAP_QUANTITY="3 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#fbf1c7" zoom="0.75">
+<hook NAME="MapStyle" background="#fbf1c7" zoom="0.24936341">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_gruvbox_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -104,7 +104,7 @@
 <node TEXT="4.5 create a PizzaTopping hierarchy" ID="ID_1055735125" CREATED="1686331119631" MODIFIED="1686331137479">
 <node TEXT="ex08: create subclasses of PizzaTopping" ID="ID_1589422046" CREATED="1686331138159" MODIFIED="1686331149032"/>
 </node>
-<node TEXT="4.6 OWL porperties" FOLDED="true" ID="ID_158334547" CREATED="1686331171320" MODIFIED="1686331178109">
+<node TEXT="4.6 OWL porperties" ID="ID_158334547" CREATED="1686331171320" MODIFIED="1686331178109">
 <node TEXT="ex09: create some properties" ID="ID_523616874" CREATED="1686331181275" MODIFIED="1686331189755"/>
 <node TEXT="Object properties" FOLDED="true" ID="ID_1417061012" CREATED="1693053564797" MODIFIED="1693053573070">
 <node TEXT="Relationships between two individuals" ID="ID_553125583" CREATED="1693053588817" MODIFIED="1693053598836"/>
@@ -128,7 +128,7 @@
 <node TEXT="4.7 inverse properties" ID="ID_240358113" CREATED="1686331193936" MODIFIED="1686331199984">
 <node TEXT="ex10: create some inverse properties" ID="ID_891087200" CREATED="1686331201354" MODIFIED="1686331209276"/>
 </node>
-<node TEXT="4.8 OWL object property characteristics" FOLDED="true" ID="ID_1497253479" CREATED="1686331215729" MODIFIED="1693150794752" LINK="https://www.w3.org/TR/owl-ref/">
+<node TEXT="4.8 OWL object property characteristics" ID="ID_1497253479" CREATED="1686331215729" MODIFIED="1693150794752" LINK="https://www.w3.org/TR/owl-ref/">
 <node TEXT="4.8.1 functional properties" ID="ID_1668752960" CREATED="1686331228859" MODIFIED="1693149701264" VGAP_QUANTITY="3 pt">
 <node TEXT="for a given individual, there can be at most one individual that is related to the individual via the property" ID="ID_108922471" CREATED="1693149569532" MODIFIED="1693149675520" VSHIFT_QUANTITY="4.5 pt"/>
 <node TEXT="e.g. hasBirthMother" ID="ID_484153576" CREATED="1693149876388" MODIFIED="1693149884711"/>
@@ -166,7 +166,7 @@
 <node TEXT="ex12: define the domain and range for the hasBase property" ID="ID_42082905" CREATED="1686331347788" MODIFIED="1686331361150"/>
 </node>
 <node TEXT="4.10 describing and defining classes" ID="ID_1412597679" CREATED="1686331364559" MODIFIED="1686331372953">
-<node TEXT="Types of Classes defined by properties" ID="ID_994154195" CREATED="1693164579484" MODIFIED="1693164604910">
+<node TEXT="Types of Classes defined by properties" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_994154195" CREATED="1693164579484" MODIFIED="1693178277501">
 <node ID="ID_1527031116" CREATED="1693164606166" MODIFIED="1693164655969"><richcontent TYPE="NODE">
 
 <html>
@@ -251,8 +251,8 @@
 <node TEXT="ex25: create and use the hasSpiciness property" ID="ID_904593240" CREATED="1686331738173" MODIFIED="1686331754056"/>
 <node TEXT="ex26: create an InterestingPizza that has at least three toppings" ID="ID_598929433" CREATED="1686331759685" MODIFIED="1686331775619"/>
 </node>
-<node TEXT="4.16 Cardinality Restrictions" ID="ID_757389838" CREATED="1693149746260" MODIFIED="1693149768660">
-<arrowlink DESTINATION="ID_1668752960"/>
+<node TEXT="4.16 Cardinality Restrictions" ID="ID_757389838" CREATED="1693149746260" MODIFIED="1693178401607">
+<arrowlink DESTINATION="ID_1668752960" STARTINCLINATION="1538.24995 pt;0 pt;" ENDINCLINATION="845.24997 pt;0 pt;"/>
 </node>
 </node>
 <node TEXT="ch05 datatype proterties" POSITION="bottom_or_right" ID="ID_1703657255" CREATED="1686323780054" MODIFIED="1686323797178">
