@@ -29,7 +29,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 
 ## Structure of pizza.owl
 
-Refer to the mindmap here:
+Refer to the [mindmap file](pizza.owl%20tutorial.mm) here:
 
 ![mindmap](img/pizza_tutorial.jpg)
 
