@@ -128,7 +128,7 @@
 <node TEXT="4.7 inverse properties" ID="ID_240358113" CREATED="1686331193936" MODIFIED="1686331199984">
 <node TEXT="ex10: create some inverse properties" ID="ID_891087200" CREATED="1686331201354" MODIFIED="1686331209276"/>
 </node>
-<node TEXT="4.8 OWL object property characteristics" ID="ID_1497253479" CREATED="1686331215729" MODIFIED="1693150794752" LINK="https://www.w3.org/TR/owl-ref/">
+<node TEXT="4.8 OWL object property characteristics" FOLDED="true" ID="ID_1497253479" CREATED="1686331215729" MODIFIED="1693150794752" LINK="https://www.w3.org/TR/owl-ref/">
 <node TEXT="4.8.1 functional properties" ID="ID_1668752960" CREATED="1686331228859" MODIFIED="1693149701264" VGAP_QUANTITY="3 pt">
 <node TEXT="for a given individual, there can be at most one individual that is related to the individual via the property" ID="ID_108922471" CREATED="1693149569532" MODIFIED="1693149675520" VSHIFT_QUANTITY="4.5 pt"/>
 <node TEXT="e.g. hasBirthMother" ID="ID_484153576" CREATED="1693149876388" MODIFIED="1693149884711"/>
@@ -159,20 +159,79 @@
 </node>
 <node TEXT="4.8.6 reasoners automatically enforce property characteristics" ID="ID_471162566" CREATED="1686331285991" MODIFIED="1686331300703"/>
 </node>
-<node TEXT="4.9 OWL property domains and ranges" ID="ID_1969737760" CREATED="1686331307610" MODIFIED="1686331317019">
+<node TEXT="4.9 OWL property domains and ranges" FOLDED="true" ID="ID_1969737760" CREATED="1686331307610" MODIFIED="1686331317019">
+<node TEXT="The domain of a property is the set of all objects that can have that property asserted about it." ID="ID_1360798026" CREATED="1693158570099" MODIFIED="1693158599030"/>
+<node TEXT="The range is the set of all objects that can be the value of the property." ID="ID_132762512" CREATED="1693158599748" MODIFIED="1693158612925"/>
 <node TEXT="ex11: define the domain and range of the hasTopping property" ID="ID_193688812" CREATED="1686331324729" MODIFIED="1686331340541"/>
 <node TEXT="ex12: define the domain and range for the hasBase property" ID="ID_42082905" CREATED="1686331347788" MODIFIED="1686331361150"/>
 </node>
 <node TEXT="4.10 describing and defining classes" ID="ID_1412597679" CREATED="1686331364559" MODIFIED="1686331372953">
-<node TEXT="4.10.1 property restrictions" ID="ID_1272994921" CREATED="1686331376089" MODIFIED="1686331383336"/>
+<node TEXT="Types of Classes defined by properties" ID="ID_994154195" CREATED="1693164579484" MODIFIED="1693164604910">
+<node ID="ID_1527031116" CREATED="1693164606166" MODIFIED="1693164655969"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1. Primitive classes: are defined by conditions that are <span style="font-style: italic;">necessary</span><span>&#xa0;&#xa0;(but not sufficient) to hold for any individuals that are instances of that class or its subclasses.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1215448594" CREATED="1693164686265" MODIFIED="1693164745777"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2. Defined classes: are defined by both <span style="font-style: italic;">necessary</span><span>&#xa0;and </span><span style="font-style: italic;">sufficient</span><span>&#xa0;&#xa0;conditions.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="3. Anonymous classes: created by the reasoner when you use class expressions." ID="ID_547556926" CREATED="1693164746487" MODIFIED="1693164779359"/>
+</node>
+<node ID="ID_1272994921" CREATED="1686331376089" MODIFIED="1693164203538"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4.10.1 property restrictions (also called <span style="font-weight: bold;">axioms</span>&#xa0;in OWL)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Quantifier restrictions: describe that a property must have some or all values that are of a particular class" ID="ID_465194933" CREATED="1693163686396" MODIFIED="1693163716615">
+<node TEXT="existential restrictions: describe classes of individuals that participate in at least one relation along a specified property. (keyword in OWL: some)" ID="ID_1441785902" CREATED="1693163790971" MODIFIED="1693163876602"/>
+<node TEXT="universal restrictions: describe classes of individuals that for a given property only have relations along a property to individuals that are members of a specific class. (keyword in OWL: only)" ID="ID_1126262036" CREATED="1693163799653" MODIFIED="1693163929422"/>
+</node>
+<node TEXT="Cardinality restrictions: describe the number of individuals that must be related to a class by a specific property." ID="ID_825022644" CREATED="1693163726648" MODIFIED="1693163752158"/>
+<node TEXT="hasValue restrictions: describe specific values that a property must have." ID="ID_15588415" CREATED="1693163752830" MODIFIED="1693163773759"/>
+</node>
 <node TEXT="4.10.2 existential restrictions" ID="ID_1943188364" CREATED="1686331389974" MODIFIED="1686331397183">
 <node TEXT="ex13: add a restriction to Pizza that specifies a Pizza must have a PizzaBase" ID="ID_255959855" CREATED="1686331399386" MODIFIED="1686331423008"/>
-<node TEXT="ex14: create subclasses of Pizza: NamedPizza and MargheritaPizza" ID="ID_1017161283" CREATED="1686331430495" MODIFIED="1686331450319"/>
-<node TEXT="ex15: create restrictions that define a MargheritaPizza" ID="ID_870541573" CREATED="1686331454788" MODIFIED="1686331468114"/>
-<node TEXT="ex16: create AmericanaPizza by cloning MargheritaPizza and adding additional restrictions" ID="ID_1914041000" CREATED="1686331472917" MODIFIED="1686331498073"/>
-<node TEXT="ex17: create AmericanaHotPizza and SohoPizza" ID="ID_864889418" CREATED="1686331501568" MODIFIED="1686331513362"/>
-<node TEXT="ex18: make subclasses of NamedPizza disjoint" ID="ID_1087079419" CREATED="1686331515887" MODIFIED="1686331527960"/>
-<node TEXT="ex19: add a probe class called ProbeInconsistentTopping" ID="ID_1505382137" CREATED="1686331532103" MODIFIED="1686331548161"/>
+</node>
+<node TEXT="4.10.3 Creating Subclasses of Pizza" ID="ID_1955986094" CREATED="1693164433916" MODIFIED="1693164444484">
+<node TEXT="ex14: create subclasses of Pizza: NamedPizza and MargheritaPizza" POSITION="bottom_or_right" ID="ID_1017161283" CREATED="1686331430495" MODIFIED="1686331450319"/>
+<node TEXT="ex15: create restrictions that define a MargheritaPizza" POSITION="bottom_or_right" ID="ID_870541573" CREATED="1686331454788" MODIFIED="1686331468114"/>
+<node TEXT="ex16: create AmericanaPizza by cloning MargheritaPizza and adding additional restrictions" POSITION="bottom_or_right" ID="ID_1914041000" CREATED="1686331472917" MODIFIED="1686331498073"/>
+<node TEXT="ex17: create AmericanaHotPizza and SohoPizza" POSITION="bottom_or_right" ID="ID_864889418" CREATED="1686331501568" MODIFIED="1686331513362"/>
+<node TEXT="ex18: make subclasses of NamedPizza disjoint" POSITION="bottom_or_right" ID="ID_1087079419" CREATED="1686331515887" MODIFIED="1686331527960"/>
+</node>
+<node TEXT="4.10.4 Detecting a Class that can&apos;t Have Members" ID="ID_141051542" CREATED="1693164476887" MODIFIED="1693164488767">
+<node TEXT="ex19: add a probe class called ProbeInconsistentTopping" POSITION="bottom_or_right" ID="ID_1505382137" CREATED="1686331532103" MODIFIED="1686331548161"/>
 </node>
 </node>
 <node TEXT="4.11 primitive and defined classes (necessary and sufficient axioms)" ID="ID_1915518251" CREATED="1686331555686" MODIFIED="1686331573859">

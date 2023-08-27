@@ -202,14 +202,7 @@
 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Pizza -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Pizza">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#hasBase"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#PizzaBase"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Pizza"/>
     
 
 

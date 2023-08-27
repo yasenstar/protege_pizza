@@ -24,6 +24,8 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [10 - Object Properties](https://youtu.be/4DfR06bI500)
 - [11 - Inverse Properties](https://youtu.be/cqQ8uqRjhNQ)
 - [12 - OWL Object Property Characteristics](https://youtu.be/bYx0LPxXAk8)
+- [13 - OWL Property Domains and Ranges](https://youtu.be/gE_kKvS-R5o)
+- [14 - Existential Restriction](https://youtu.be/KG4D5PEhCKE)
 
 ## Structure of pizza.owl
 
