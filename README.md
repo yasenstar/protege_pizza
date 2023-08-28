@@ -30,6 +30,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [16 - Exercise 15: Create Restrictions that define a MargheritaPizza](https://youtu.be/zpw9knBt8Zw)
 - [17 - Exercise 16: Create AmericanaPizza by Cloning MargheritaPizza and Adding Additional Restrictions](https://youtu.be/sBm0Lz0vnP4)
 - [18 - Exercise 17: Create AmericanaHotPizza and SohoPizza](https://youtu.be/qISxhDleqf8)
+- [19 - Exercise 18: Make Subclasses of NamedPizza Disjoint](https://youtu.be/TZdaSRDWKm8)
 
 ## Structure of pizza.owl
 
