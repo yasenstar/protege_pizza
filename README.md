@@ -83,4 +83,6 @@ View [here](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/prot
 
 ---
 
+If you find the information here is interesting or useful, please consider [donate $1 dollar](https://paypal.me/zhaoxiaoqi/1) (secure Paypal link) for a coffee, thanks and enjoy!
+
 Hope you can get nice experience thorugh following this journey together with me, any questions are welcome to [reach_me_in_email](mailto:xiaoqizhao@outlook.com?subject=Protege-pizza.owl) or check my [LinkedIn](https://www.linkedin.com/in/xiaoqi-zhao-03715614/), thank you!  (2023)
