@@ -28,6 +28,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [14 - Existential Restriction](https://youtu.be/KG4D5PEhCKE)
 - [15 - Exercise 14: Create Subclasses of Pizza: NamedPizza and MargheritaPizza](https://youtu.be/tN5l1JjVVMw)
 - [16 - Exercise 15: Create Restrictions that define a MargheritaPizza](https://youtu.be/zpw9knBt8Zw)
+- [17 - Exercise 16: Create AmericanaPizza by Cloning MargheritaPizza and Adding Additional Restrictions](https://youtu.be/sBm0Lz0vnP4)
 
 ## Structure of pizza.owl
 
