@@ -27,6 +27,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [13 - OWL Property Domains and Ranges](https://youtu.be/gE_kKvS-R5o)
 - [14 - Existential Restriction](https://youtu.be/KG4D5PEhCKE)
 - [15 - Exercise 14: Create Subclasses of Pizza: NamedPizza and MargheritaPizza](https://youtu.be/tN5l1JjVVMw)
+- [16 - Exercise 15: Create Restrictions that define a MargheritaPizza](https://youtu.be/zpw9knBt8Zw)
 
 ## Structure of pizza.owl
 
