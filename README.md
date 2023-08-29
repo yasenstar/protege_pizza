@@ -33,6 +33,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [19 - Exercise 18: Make Subclasses of NamedPizza Disjoint](https://youtu.be/TZdaSRDWKm8)
 - [20 - Exercise 19: Add a Probe Class called ProbeInconsistentTopping](https://youtu.be/Gq3-zWinu1c)
 - [21 - Primitive Classes - Exercise 20: Create the CheesyPizza class](https://youtu.be/Bkb7DdBWGNw)
+- [22 - Exercise 21: Convert CheesyPizza from a Primitive Class to a Defined Class](https://youtu.be/x5_83xGCrZc)
 
 ## Structure of pizza.owl
 
