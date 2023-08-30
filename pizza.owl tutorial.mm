@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="pizza.owl tutorial" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1686323667754" VGAP_QUANTITY="3 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#fbf1c7" zoom="0.24936341">
+<hook NAME="MapStyle" background="#fbf1c7" zoom="0.75">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_gruvbox_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -249,10 +249,10 @@
 </node>
 <node TEXT="4.15 adding Spiciness as a Property" ID="ID_130501377" CREATED="1686331724729" MODIFIED="1686331735088">
 <node TEXT="ex25: create and use the hasSpiciness property" ID="ID_904593240" CREATED="1686331738173" MODIFIED="1686331754056"/>
-<node TEXT="ex26: create an InterestingPizza that has at least three toppings" ID="ID_598929433" CREATED="1686331759685" MODIFIED="1686331775619"/>
 </node>
 <node TEXT="4.16 Cardinality Restrictions" ID="ID_757389838" CREATED="1693149746260" MODIFIED="1693178401607">
 <arrowlink DESTINATION="ID_1668752960" STARTINCLINATION="1538.24995 pt;0 pt;" ENDINCLINATION="845.24997 pt;0 pt;"/>
+<node TEXT="ex26: create an InterestingPizza that has at least three toppings" POSITION="bottom_or_right" ID="ID_598929433" CREATED="1686331759685" MODIFIED="1686331775619"/>
 </node>
 </node>
 <node TEXT="ch05 datatype proterties" POSITION="bottom_or_right" ID="ID_1703657255" CREATED="1686323780054" MODIFIED="1686323797178">
