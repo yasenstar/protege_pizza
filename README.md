@@ -34,6 +34,8 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [20 - Exercise 19: Add a Probe Class called ProbeInconsistentTopping](https://youtu.be/Gq3-zWinu1c)
 - [21 - Primitive Classes - Exercise 20: Create the CheesyPizza class](https://youtu.be/Bkb7DdBWGNw)
 - [22 - Exercise 21: Convert CheesyPizza from a Primitive Class to a Defined Class](https://youtu.be/x5_83xGCrZc)
+- [23](https://youtu.be/rO195cLbwS4)
+- [24]()
 
 ## Structure of pizza.owl
 
