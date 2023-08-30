@@ -85,6 +85,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [26 - Adding Spiciness as a Property (Exercise 25: Create and Use the hasSpiciness Property)](https://youtu.be/ClmDiKU1VlY)
 - [27 - Cartinality Restrictions (exercise 26: Create an InterestingPizza that has at least three toppings)](https://youtu.be/efCHZ0q771A)
 - [28 - Defining a Data Property (Exercise 27: Create a Datatype Property called hasCaloricContent)](https://youtu.be/0Y1-SQ_sU9g)
+- [20 -](https://youtu.be/fTrWQE6y3Os)
 
 ## Visualized our Ontology Model
 
