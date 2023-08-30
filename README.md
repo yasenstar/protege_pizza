@@ -81,6 +81,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [22 - Exercise 21: Convert CheesyPizza from a Primitive Class to a Defined Class](https://youtu.be/x5_83xGCrZc)
 - [23 - Universal Restrictions (exercise 22: Create a Defined Class called VegetarianPizza)](https://youtu.be/rO195cLbwS4)
 - [24 - Automated Classification and Open World Reasoning (exercise 23)](https://youtu.be/s5wx6vQg650)
+- [25 - Defining an Enumerated Class (exercise 24)](https://youtu.be/ZNodw2fYxy0)
 
 ## Visualized our Ontology Model
 
