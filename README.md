@@ -4,39 +4,6 @@ Practice building pizza.owl ontology using Protege modeling tool, base on [Micha
 
 [Here](https://www.michaeldebellis.com/post/protegetutorialyoutubeplaylist) you can find the post by Michael in his site; and the [introduction](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) of the guide.
 
-## Pizza.OWL Modeling Video List 
-
-Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJunOz23vCEhzWg).
-
-![pizza](img/pizza.png)
-
-- [01 - Introduction](https://youtu.be/l0PZhqmTwfM)
-- [02 - Practice Guide Document Structure](https://youtu.be/eWx9_zJkiUY)
-- [03 - Installing Protege and understand Protege User Interface](https://youtu.be/Q6eq-cWBpfQ)
-- [04 - Create new Ontology (exercise 01~03)](https://youtu.be/IMjKcx93ens)
-- [05 - Named Classes (section 4.1, exercise 04)](https://youtu.be/QqVrFxaEFrI)
-- [06 - Using a Reasoner (section 4.2, exercise 05)](https://youtu.be/TKMW5udKzIM)
-  - [HermiT OWL Reasoner](http://www.hermit-reasoner.com/)
-  - [Pellet OWL DL reasoner for Java, from Stardog](https://github.com/stardog-union/pellet)
-- [07 - Disjoint Classes (section 4.3, exercise 06)](https://youtu.be/g7aoDsS5kSI)
-- [08 - Understand RDF Ontology File Structure](https://youtu.be/qjer-vEKMNg)
-- [09 - Using Create Class Hierarchy (section 4.4, exercise 07~08)](https://youtu.be/FQdjYQMqfBI)
-- [10 - Object Properties](https://youtu.be/4DfR06bI500)
-- [11 - Inverse Properties](https://youtu.be/cqQ8uqRjhNQ)
-- [12 - OWL Object Property Characteristics](https://youtu.be/bYx0LPxXAk8)
-- [13 - OWL Property Domains and Ranges](https://youtu.be/gE_kKvS-R5o)
-- [14 - Existential Restriction](https://youtu.be/KG4D5PEhCKE)
-- [15 - Exercise 14: Create Subclasses of Pizza: NamedPizza and MargheritaPizza](https://youtu.be/tN5l1JjVVMw)
-- [16 - Exercise 15: Create Restrictions that define a MargheritaPizza](https://youtu.be/zpw9knBt8Zw)
-- [17 - Exercise 16: Create AmericanaPizza by Cloning MargheritaPizza and Adding Additional Restrictions](https://youtu.be/sBm0Lz0vnP4)
-- [18 - Exercise 17: Create AmericanaHotPizza and SohoPizza](https://youtu.be/qISxhDleqf8)
-- [19 - Exercise 18: Make Subclasses of NamedPizza Disjoint](https://youtu.be/TZdaSRDWKm8)
-- [20 - Exercise 19: Add a Probe Class called ProbeInconsistentTopping](https://youtu.be/Gq3-zWinu1c)
-- [21 - Primitive Classes - Exercise 20: Create the CheesyPizza class](https://youtu.be/Bkb7DdBWGNw)
-- [22 - Exercise 21: Convert CheesyPizza from a Primitive Class to a Defined Class](https://youtu.be/x5_83xGCrZc)
-- [23 - Universal Restrictions (exercise 22: Create a Defined Class called VegetarianPizza)](https://youtu.be/rO195cLbwS4)
-- [24 - Automated Classification and Open World Reasoning (exercise 23)](https://youtu.be/s5wx6vQg650)
-
 ## Structure of pizza.owl
 
 Refer to the [mindmap file](pizza.owl%20tutorial.mm) here (note: get FreePlane to open the mindmap):
@@ -81,6 +48,39 @@ Some reference quick link about Protégé:
 - [Download Windows Version 5.6.1](https://protege.stanford.edu/software.php), also have Java package for platform independent installating.
 - [Protégé wiki](https://protegewiki.stanford.edu/wiki/Main_Page)
 - [Protégé in Github](https://github.com/protegeproject), from here you can get latest version
+
+## Pizza.OWL Modeling Video List 
+
+Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJunOz23vCEhzWg).
+
+![pizza](img/pizza.png)
+
+- [01 - Introduction](https://youtu.be/l0PZhqmTwfM)
+- [02 - Practice Guide Document Structure](https://youtu.be/eWx9_zJkiUY)
+- [03 - Installing Protege and understand Protege User Interface](https://youtu.be/Q6eq-cWBpfQ)
+- [04 - Create new Ontology (exercise 01~03)](https://youtu.be/IMjKcx93ens)
+- [05 - Named Classes (section 4.1, exercise 04)](https://youtu.be/QqVrFxaEFrI)
+- [06 - Using a Reasoner (section 4.2, exercise 05)](https://youtu.be/TKMW5udKzIM)
+  - [HermiT OWL Reasoner](http://www.hermit-reasoner.com/)
+  - [Pellet OWL DL reasoner for Java, from Stardog](https://github.com/stardog-union/pellet)
+- [07 - Disjoint Classes (section 4.3, exercise 06)](https://youtu.be/g7aoDsS5kSI)
+- [08 - Understand RDF Ontology File Structure](https://youtu.be/qjer-vEKMNg)
+- [09 - Using Create Class Hierarchy (section 4.4, exercise 07~08)](https://youtu.be/FQdjYQMqfBI)
+- [10 - Object Properties](https://youtu.be/4DfR06bI500)
+- [11 - Inverse Properties](https://youtu.be/cqQ8uqRjhNQ)
+- [12 - OWL Object Property Characteristics](https://youtu.be/bYx0LPxXAk8)
+- [13 - OWL Property Domains and Ranges](https://youtu.be/gE_kKvS-R5o)
+- [14 - Existential Restriction](https://youtu.be/KG4D5PEhCKE)
+- [15 - Exercise 14: Create Subclasses of Pizza: NamedPizza and MargheritaPizza](https://youtu.be/tN5l1JjVVMw)
+- [16 - Exercise 15: Create Restrictions that define a MargheritaPizza](https://youtu.be/zpw9knBt8Zw)
+- [17 - Exercise 16: Create AmericanaPizza by Cloning MargheritaPizza and Adding Additional Restrictions](https://youtu.be/sBm0Lz0vnP4)
+- [18 - Exercise 17: Create AmericanaHotPizza and SohoPizza](https://youtu.be/qISxhDleqf8)
+- [19 - Exercise 18: Make Subclasses of NamedPizza Disjoint](https://youtu.be/TZdaSRDWKm8)
+- [20 - Exercise 19: Add a Probe Class called ProbeInconsistentTopping](https://youtu.be/Gq3-zWinu1c)
+- [21 - Primitive Classes - Exercise 20: Create the CheesyPizza class](https://youtu.be/Bkb7DdBWGNw)
+- [22 - Exercise 21: Convert CheesyPizza from a Primitive Class to a Defined Class](https://youtu.be/x5_83xGCrZc)
+- [23 - Universal Restrictions (exercise 22: Create a Defined Class called VegetarianPizza)](https://youtu.be/rO195cLbwS4)
+- [24 - Automated Classification and Open World Reasoning (exercise 23)](https://youtu.be/s5wx6vQg650)
 
 ## Visualized our Ontology Model
 
