@@ -222,6 +222,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#InterestingPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#InterestingPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#hasTopping"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#PizzaTopping"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#JalapenoPepperTopping -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#JalapenoPepperTopping">
@@ -460,6 +479,29 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#SpicyBeefTopping">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#MeatTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#SpicyPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#SpicyPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#hasTopping"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#hasSpiciness"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Hot"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </owl:Class>
     
 

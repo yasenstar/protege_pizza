@@ -85,7 +85,7 @@
 <node TEXT="3.1.3 classes" ID="ID_1649031439" CREATED="1686330908388" MODIFIED="1686330914137"/>
 </node>
 </node>
-<node TEXT="ch04 building an OWL ontology" POSITION="bottom_or_right" ID="ID_808215330" CREATED="1686323769070" MODIFIED="1686323779883">
+<node TEXT="ch04 building an OWL ontology" FOLDED="true" POSITION="bottom_or_right" ID="ID_808215330" CREATED="1686323769070" MODIFIED="1686323779883">
 <node TEXT="ex01: create a new OWL ontology" ID="ID_729877616" CREATED="1686330923734" MODIFIED="1686330940733"/>
 <node TEXT="ex02: set the preferences for new entities and rendering" ID="ID_1912835714" CREATED="1686330945549" MODIFIED="1686330957927"/>
 <node TEXT="ex03: add a comment annotation to ontology" ID="ID_1520449047" CREATED="1686330964461" MODIFIED="1686330974429"/>
