@@ -91,6 +91,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [32 - Create a HighCaloriePizza Defined Class](https://youtu.be/fqpcYCD4rRE)
 - [33 - Adding Order to an Enumerated Class](https://youtu.be/5m2qRSrUAe8)
 - [34 - Names and Namespaces in Ontology (demo only)](https://youtu.be/7PPJPoJCFfE)
+- [35 - Chapter 8 A Larger Ontology with some Individuals](https://youtu.be/l-mY5urfE7k)
 
 ## Visualized our Ontology Model
 
