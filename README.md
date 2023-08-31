@@ -89,6 +89,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [30 -Customize Protege UI (exercise 30)](https://youtu.be/bun_1B5T27M)
 - [31 - Create a Datatype Restriction that Every Pizza hasCaloricContent](https://youtu.be/QUGmmfKWdHE)
 - [32 - Create a HighCaloriePizza Defined Class](https://youtu.be/fqpcYCD4rRE)
+- [33 - Adding Order to an Enumerated Class]()
 
 ## Visualized our Ontology Model
 
