@@ -244,6 +244,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#HighCaloriePizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#HighCaloriePizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#hasCaloricContent"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#InterestingPizza -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#InterestingPizza">
@@ -273,6 +300,14 @@
                 <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Hot"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#LowCaloriePizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#LowCaloriePizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#Pizza"/>
     </owl:Class>
     
 
@@ -383,6 +418,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#hasBase"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#PizzaBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/6/PizzaTutorial#hasCaloricContent"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
