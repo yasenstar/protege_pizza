@@ -93,6 +93,14 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [34 - Names and Namespaces in Ontology (demo only)](https://youtu.be/7PPJPoJCFfE)
 - [35 - Chapter 8 A Larger Ontology with some Individuals](https://youtu.be/l-mY5urfE7k)
 
+## Ontology Querying
+
+### Description Logic Query (DL)
+
+- [An Introduction to Description Logics and Query Rewriting](https://www.dcs.bbk.ac.uk/~roman/papers/RW12014.pdf), also available in the [repository folder](ontology_query/DL/RW12014_An%20Introduction%20to%20Description%20Logics%20and%20Query%20Rewriting.pdf)
+- [A Description Logic Primer](https://arxiv.org/pdf/1201.4089.pdf)
+- [Reasoning in Description Logics](ontology_query/DL/Reasoning%20in%20Description%20Logics.pdf)
+
 ## Visualized our Ontology Model
 
 View [here](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/protege_pizza/MyPizzaTutorial.rdf) which powered by [WebVOWL](http://vowl.visualdataweb.org/webvowl.html).
