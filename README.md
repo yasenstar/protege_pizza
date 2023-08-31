@@ -92,6 +92,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [33 - Adding Order to an Enumerated Class](https://youtu.be/5m2qRSrUAe8)
 - [34 - Names and Namespaces in Ontology (demo only)](https://youtu.be/7PPJPoJCFfE)
 - [35 - Chapter 8 A Larger Ontology with some Individuals](https://youtu.be/l-mY5urfE7k)
+- [36 - Ontology Query using DL (Exercise 33: Try Some Description Logic Queries)](https://youtu.be/3cwlMMQSPcA)
 
 ## Ontology Querying
 
