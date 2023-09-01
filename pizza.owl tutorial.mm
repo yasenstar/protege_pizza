@@ -78,7 +78,7 @@
 </hook>
 <node TEXT="ch01 introduction" POSITION="bottom_or_right" ID="ID_1844456199" CREATED="1686323713926" MODIFIED="1686323728609"/>
 <node TEXT="ch02 requirements and the Protege UI" POSITION="bottom_or_right" ID="ID_320917976" CREATED="1686323729358" MODIFIED="1686323741570"/>
-<node TEXT="ch03 OWL ontologies overview" POSITION="bottom_or_right" ID="ID_1964726528" CREATED="1686323750103" MODIFIED="1686323763306">
+<node TEXT="ch03 OWL ontologies overview" FOLDED="true" POSITION="bottom_or_right" ID="ID_1964726528" CREATED="1686323750103" MODIFIED="1686323763306">
 <node TEXT="3.1 components of OWL ontologies" ID="ID_1938527352" CREATED="1686330866704" MODIFIED="1686330877389">
 <node TEXT="3.1.1 individuals" ID="ID_242879608" CREATED="1686330883000" MODIFIED="1686330891798"/>
 <node TEXT="3.1.2 properties" ID="ID_600190457" CREATED="1686330892235" MODIFIED="1686330907817"/>
@@ -255,7 +255,7 @@
 <node TEXT="ex26: create an InterestingPizza that has at least three toppings" POSITION="bottom_or_right" ID="ID_598929433" CREATED="1686331759685" MODIFIED="1686331775619"/>
 </node>
 </node>
-<node TEXT="ch05 datatype proterties" POSITION="bottom_or_right" ID="ID_1703657255" CREATED="1686323780054" MODIFIED="1686323797178">
+<node TEXT="ch05 datatype properties" FOLDED="true" POSITION="bottom_or_right" ID="ID_1703657255" CREATED="1686323780054" MODIFIED="1693428453763">
 <node TEXT="5.1 defining a data property" ID="ID_1669475927" CREATED="1686331783144" MODIFIED="1686331791735">
 <node TEXT="ex27: create a datatype property called hasCaloricContent" ID="ID_1579530266" CREATED="1686331796097" MODIFIED="1686331813439"/>
 </node>
