@@ -97,7 +97,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [38 - Exercise 34: Write Your First SWRL Rule](https://youtu.be/bk5KrQIs6eU)
 - [39 - SWRL Tip Remove Ontology Prefixes from SWRL Rules](https://youtu.be/1OrvhURYYA0)
 - [40 - Exercise 35: Write Another SWRL Rule](https://youtu.be/dBrBWqkuSog)
-- [41 - ]()
+- [41 - SQWRL Rules ex36 Write a SQWRL Rule](https://youtu.be/eAZVmZa1Qpo)
 
 ## Ontology Querying
 
