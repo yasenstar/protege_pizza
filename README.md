@@ -97,6 +97,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [38 - Exercise 34: Write Your First SWRL Rule](https://youtu.be/bk5KrQIs6eU)
 - [39 - SWRL Tip Remove Ontology Prefixes from SWRL Rules](https://youtu.be/1OrvhURYYA0)
 - [40 - Exercise 35: Write Another SWRL Rule](https://youtu.be/dBrBWqkuSog)
+- [41 - ]()
 
 ## Ontology Querying
 
@@ -105,6 +106,10 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [An Introduction to Description Logics and Query Rewriting](https://www.dcs.bbk.ac.uk/~roman/papers/RW12014.pdf), also available in the [repository folder](ontology_query/DL/RW12014_An%20Introduction%20to%20Description%20Logics%20and%20Query%20Rewriting.pdf)
 - [A Description Logic Primer](https://arxiv.org/pdf/1201.4089.pdf)
 - [Reasoning in Description Logics](ontology_query/DL/Reasoning%20in%20Description%20Logics.pdf)
+
+### SQWRL
+
+- [SQWRL_a_query_language_for_OWL](ontology_query/SQWRL/SQWRL_a_query_language_for_OWL.pdf)
 
 ## Visualized our Ontology Model
 
