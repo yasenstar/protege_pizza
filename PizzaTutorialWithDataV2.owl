@@ -982,9 +982,9 @@ Permissions of this strongest copyleft license are conditioned on making availab
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Chef">
         <rdf:type rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Employee"/>
-        <hasPhone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">415-555-1234</hasPhone>
-        <ssn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333-22-2334</ssn>
-        <ssn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333-22-4444</ssn>
+        <hasPhone>415-555-1234</hasPhone>
+        <ssn>333-22-2334</ssn>
+        <ssn>333-22-4444</ssn>
     </owl:NamedIndividual>
     
 
@@ -1187,9 +1187,9 @@ Permissions of this strongest copyleft license are conditioned on making availab
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Manager">
         <rdf:type rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Employee"/>
-        <hasPhone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123-345-4567</hasPhone>
-        <hasPhone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">415-5554567</hasPhone>
-        <ssn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">321-23-4532</ssn>
+        <hasPhone>123-345-4567</hasPhone>
+        <hasPhone>415-5554567</hasPhone>
+        <ssn>321-23-4532</ssn>
     </owl:NamedIndividual>
     
 
@@ -1283,8 +1283,8 @@ Permissions of this strongest copyleft license are conditioned on making availab
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Waiter1">
         <rdf:type rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Employee"/>
-        <hasPhone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123-234-3434</hasPhone>
-        <ssn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123456666</ssn>
+        <hasPhone>123-234-3434</hasPhone>
+        <ssn>123456666</ssn>
     </owl:NamedIndividual>
     
 
@@ -1366,9 +1366,109 @@ Permissions of this strongest copyleft license are conditioned on making availab
             <rdf:Description rdf:about="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PizzaTopping"/>
         </owl:members>
     </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#np">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#numberOfPizzasPurchased"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#c"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#np"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasSpicinessPreference"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#c"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Hot"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#np"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasDiscount"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#c"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 

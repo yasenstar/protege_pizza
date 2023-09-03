@@ -95,7 +95,8 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [36 - Ontology Query using DL (Exercise 33: Try Some Description Logic Queries)](https://youtu.be/3cwlMMQSPcA)
 - [37 - Ontology Query using SPARQL](https://youtu.be/kK5iLNNqZnc)
 - [38 - Exercise 34: Write Your First SWRL Rule](https://youtu.be/bk5KrQIs6eU)
-- [39 - Exercise 35: Write Another SWRL Rule]()
+- [39 - SWRL Tip Remove Ontology Prefixes from SWRL Rules](https://youtu.be/1OrvhURYYA0)
+- [40 - Exercise 35: Write Another SWRL Rule](https://youtu.be/dBrBWqkuSog)
 
 ## Ontology Querying
 
