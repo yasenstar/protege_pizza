@@ -94,6 +94,8 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [35 - Chapter 8 A Larger Ontology with some Individuals](https://youtu.be/l-mY5urfE7k)
 - [36 - Ontology Query using DL (Exercise 33: Try Some Description Logic Queries)](https://youtu.be/3cwlMMQSPcA)
 - [37 - Ontology Query using SPARQL](https://youtu.be/kK5iLNNqZnc)
+- [38 - Exercise 34: Write Your First SWRL Rule](https://youtu.be/bk5KrQIs6eU)
+- [39 - Exercise 35: Write Another SWRL Rule]()
 
 ## Ontology Querying
 
