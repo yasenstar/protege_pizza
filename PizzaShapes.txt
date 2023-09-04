@@ -1,0 +1,58 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pizza: <http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+pizza:EmployeeShape
+    a sh:NodeShape ;
+    sh:targetClass pizza:Employee ; # Applies to all employees
+    sh:property [              # _:b0
+        sh:path pizza:ssn ;       # constrains the values of pizza:ssn
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [              # _:b1
+        sh:path pizza:ssn ;       # constrains the values of pizza:ssn
+        sh:datatype xsd:string ;
+        sh:pattern "^\\d{3}-\\d{2}-\\d{4}$" ;
+        sh:severity sh:Warning ;
+    ] ;
+	 sh:property [              # _:b2
+        sh:path pizza:hasPhone ;       # constrains the values of pizza:hasPhone
+        sh:minCount 1 ;
+    ] ;
+	sh:property [              # _:b3
+        sh:path pizza:hasPhone ;       # constrains the values of pizza:hasPhone
+        sh:datatype xsd:string ;
+        sh:pattern "^\\d{3}-\\d{3}-\\d{4}$" ;
+        sh:severity sh:Warning ;
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
+    .
+pizza:CustomerShape
+    a sh:NodeShape ;
+    sh:targetClass pizza:Customer ; # Applies to all customers
+        sh:property [              # _:b4
+        sh:path pizza:hasPhone ;       # constrains the values of pizza:hasPhone
+        sh:minCount 1 ;
+    ] ;
+        sh:property [              # _:b5
+        sh:path pizza:hasPhone ;       # constrains the values of pizza:hasPhone
+        sh:datatype xsd:string ;
+        sh:pattern "^\\d{3}-\\d{3}-\\d{4}$" ;
+        sh:severity sh:Warning ;
+    ] ;
+	sh:property [              # _:b6
+        sh:path pizza:hasDiscount ;       # constrains the values of pizza:hasDiscount
+        sh:datatype xsd:decimal ;
+        sh:minInclusive  0.0;
+        sh:maxInclusive 1.0 ;
+        sh:severity sh:Warning ;
+    ] ;
+    sh:closed false ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
+    .
+ ###### add SHACL vocabulary ###### 
