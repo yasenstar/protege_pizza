@@ -99,8 +99,9 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [40 - Exercise 35: Write Another SWRL Rule](https://youtu.be/dBrBWqkuSog)
 - [41 - SQWRL Rules ex36 Write a SQWRL Rule](https://youtu.be/eAZVmZa1Qpo)
 - [42 - SHACL](https://youtu.be/hatOoDLN7CE)
-- [43 - Web Protege (Part 1)](https://youtu.be/zPSFoPY9vGM)
-
+- [43 - WebProtege (Part 1)](https://youtu.be/zPSFoPY9vGM)
+- [44 - WebProtege (Part 2)](https://youtu.be/xAOgKmHoeeQ)
+- [45 - ]()
 
 ## Ontology Querying
 
