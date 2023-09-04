@@ -101,7 +101,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 - [42 - SHACL](https://youtu.be/hatOoDLN7CE)
 - [43 - WebProtege (Part 1)](https://youtu.be/zPSFoPY9vGM)
 - [44 - WebProtege (Part 2)](https://youtu.be/xAOgKmHoeeQ)
-- [45 - ]()
+- [45 - WebVOWL](https://youtu.be/2B5tvHAZICs)
 
 ## Ontology Querying
 
