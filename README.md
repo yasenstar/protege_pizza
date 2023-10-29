@@ -69,6 +69,8 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 | 02 - Practice Guide Document Structure | [link](https://youtu.be/eWx9_zJkiUY) | [link](https://www.bilibili.com/video/BV1684y1X7NG/) |
 | 03 - Installing Protege and understand Protege User Interface | [link](https://youtu.be/Q6eq-cWBpfQ) | [link](https://www.bilibili.com/video/BV1JN41137Cq/) |
 
+Below are videos published in YouTube already, will publish to bilibili soon and links will be added into above table then:
+
 - [04 - Create new Ontology (exercise 01~03)](https://youtu.be/IMjKcx93ens)
 - [05 - Named Classes (section 4.1, exercise 04)](https://youtu.be/QqVrFxaEFrI)
 - [06 - Using a Reasoner (section 4.2, exercise 05)](https://youtu.be/TKMW5udKzIM)
