@@ -4,6 +4,14 @@ Practice building pizza.owl ontology using Protege modeling tool, base on [Micha
 
 [Here](https://www.michaeldebellis.com/post/protegetutorialyoutubeplaylist) you can find the post by Michael in his site; and the [introduction](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) of the guide.
 
+## About this repository
+
+The repository is regularly synced to Gitee:
+
+- Link of Repository in Github: https://github.com/yasenstar/protege_pizza
+- Link of Repository in Gitee: https://gitee.com/yasenstar/protege_pizza
+
+
 ## Structure of pizza.owl
 
 Refer to the [mindmap file](pizza.owl%20tutorial.mm) here (note: get FreePlane to open the mindmap):
