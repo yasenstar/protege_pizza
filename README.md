@@ -68,7 +68,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 | 01 - Introduction | [link](https://youtu.be/l0PZhqmTwfM) | [link](https://www.bilibili.com/video/BV1Tu4y1J75J/) |
 | 02 - Practice Guide Document Structure | [link](https://youtu.be/eWx9_zJkiUY) | [link](https://www.bilibili.com/video/BV1684y1X7NG/) |
 | 03 - Installing Protege and understand Protege User Interface | [link](https://youtu.be/Q6eq-cWBpfQ) | [link](https://www.bilibili.com/video/BV1JN41137Cq/) |
-| 04 - Create new Ontology (exercise 01~03) | [link](https://youtu.be/IMjKcx93ens) | [link]
+| 04 - Create new Ontology (exercise 01~03) | [link](https://youtu.be/IMjKcx93ens) | [link](https://www.bilibili.com/video/BV1V84y1X73Y/) |
 
 Below are videos published in YouTube already, will publish to bilibili soon and links will be added into above table then:
 
