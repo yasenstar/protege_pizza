@@ -69,8 +69,8 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 | 02 - Practice Guide Document Structure | [link](https://youtu.be/eWx9_zJkiUY) | [link](https://www.bilibili.com/video/BV1684y1X7NG/) |
 | 03 - Installing Protege and understand Protege User Interface | [link](https://youtu.be/Q6eq-cWBpfQ) | [link](https://www.bilibili.com/video/BV1JN41137Cq/) |
 | 04 - Create new Ontology (exercise 01~03) | [link](https://youtu.be/IMjKcx93ens) | [link](https://www.bilibili.com/video/BV1V84y1X73Y/) |
-| 05 - Named Classes (section 4.1, exercise 04) | [link](https://youtu.be/QqVrFxaEFrI) |  |
-| 06 - Using a Reasoner (section 4.2, exercise 05) | [link](https://youtu.be/TKMW5udKzIM) |  |
+| 05 - Named Classes (section 4.1, exercise 04) | [link](https://youtu.be/QqVrFxaEFrI) | [link](https://www.bilibili.com/video/BV1oj411e7Ki/) |
+| 06 - Using a Reasoner (section 4.2, exercise 05) | [link](https://youtu.be/TKMW5udKzIM) | [link](https://www.bilibili.com/video/BV1oe411Q7E7/) |
 | 07 - Disjoint Classes (section 4.3, exercise 06) | [link](https://youtu.be/g7aoDsS5kSI) |  |
 | 08 - Understand RDF Ontology File Structure | [link](https://youtu.be/qjer-vEKMNg) |  |
 | 09 - Using Create Class Hierarchy (section 4.4, exercise 07~08) | [link](https://youtu.be/FQdjYQMqfBI) |  |
