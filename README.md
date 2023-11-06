@@ -110,7 +110,7 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 | 43 - WebProtege (Part 1) | [link](https://youtu.be/zPSFoPY9vGM) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298395061039923712&logTag=31431f458c4079451dfb) |
 | 44 - WebProtege (Part 2) | [link](https://youtu.be/xAOgKmHoeeQ) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298401226969285170&logTag=dea21c8b46fc1b70a885)|
 | 45 - WebVOWL | [link](https://youtu.be/2B5tvHAZICs) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298401644776489524&logTag=f73ea218fae90c544322) |
-| 46 - Query by SPARQL (revised) | | | |
+| 46 - Query by SPARQL (revised) | | | [link](https://www.ixigua.com/7298402070661759522?logTag=89af7afd975fdc6a6765) |
 
 ## Ontology Reasoner Reference
 
