@@ -104,12 +104,13 @@ Please follow my [Youtube Channel](https://www.youtube.com/channel/UCTshmTJGpJun
 | 37 - Ontology Query using SPARQL | [link](https://youtu.be/kK5iLNNqZnc) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298386588231270946&logTag=b68703a81ec0139352bd) |
 | 38 - Exercise 34: Write Your First SWRL Rule | [link](https://youtu.be/bk5KrQIs6eU) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298387320871485991&logTag=09d147f3e74f91f8e6c5) |
 | 39 - SWRL Tip Remove Ontology Prefixes from SWRL Rules |[link](https://youtu.be/1OrvhURYYA0)  |  | [link](https://www.ixigua.com/7297974941184918043?id=7298387985643668018&logTag=5bcbc5dcd2e33d8a3db4) |
-| 40 - Exercise 35: Write Another SWRL Rule | [link](https://youtu.be/dBrBWqkuSog) |  | |
+| 40 - Exercise 35: Write Another SWRL Rule | [link](https://youtu.be/dBrBWqkuSog) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298388914745082409&logTag=cfae7473a203994f3056) |
 | 41 - SQWRL Rules ex36 Write a SQWRL Rule | [link](https://youtu.be/eAZVmZa1Qpo) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298393066484793896&logTag=bbad49aabd05df2c5ce8) |
-| 42 - SHACL | [link](https://youtu.be/hatOoDLN7CE) |  | |
-| 43 - WebProtege (Part 1) | [link](https://youtu.be/zPSFoPY9vGM) |  | |
-| 44 - WebProtege (Part 2) | [link](https://youtu.be/xAOgKmHoeeQ) |  | |
+| 42 - SHACL | [link](https://youtu.be/hatOoDLN7CE) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298394490245644834&logTag=f3133bf7e3606b8c2931) |
+| 43 - WebProtege (Part 1) | [link](https://youtu.be/zPSFoPY9vGM) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298395061039923712&logTag=31431f458c4079451dfb) |
+| 44 - WebProtege (Part 2) | [link](https://youtu.be/xAOgKmHoeeQ) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298401226969285170&logTag=dea21c8b46fc1b70a885)|
 | 45 - WebVOWL | [link](https://youtu.be/2B5tvHAZICs) |  | [link](https://www.ixigua.com/7297974941184918043?id=7298401644776489524&logTag=f73ea218fae90c544322) |
+| 46 - Query by SPARQL (revised) | | | |
 
 ## Ontology Reasoner Reference
 
