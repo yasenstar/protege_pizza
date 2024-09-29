@@ -1,0 +1,1077 @@
+@prefix : <http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix pizza: <http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#> .
+@prefix swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@base <http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#> .
+
+<http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial> rdf:type owl:Ontology ;
+                                                                          rdfs:comment "A tutorial ontology for the Pizza domain." ,
+                                                                                       "Developed by Michael DeBellis. Please direct all comments and questions. to mdebellissf@gmail.com Also, see my blog for other information and resources relevant to OWL, SWRL, and other knowledge graph technology: https://www.michaeldebellis.com/blog" ,
+                                                                                       """The PizzaTutorial is licensed under the GNU Affero General Public License v3.0
+Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.""" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+swrla:isRuleEnabled rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasBase
+pizza:hasBase rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf pizza:hasIngredient ;
+              owl:inverseOf pizza:isBaseOf ;
+              rdfs:domain pizza:Pizza ;
+              rdfs:range pizza:PizzaBase .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasIngredient
+pizza:hasIngredient rdf:type owl:ObjectProperty ;
+                    owl:inverseOf pizza:isIngredientOf .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasSpiciness
+pizza:hasSpiciness rdf:type owl:ObjectProperty ;
+                   rdfs:domain pizza:PizzaTopping ;
+                   rdfs:range pizza:Spiciness .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasSpicinessPreference
+pizza:hasSpicinessPreference rdf:type owl:ObjectProperty ;
+                             rdfs:domain pizza:Customer ;
+                             rdfs:range pizza:Spiciness .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasTopping
+pizza:hasTopping rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf pizza:hasIngredient ;
+                 owl:inverseOf pizza:isToppingOf ;
+                 rdfs:domain pizza:Pizza ;
+                 rdfs:range pizza:PizzaTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isBaseOf
+pizza:isBaseOf rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf pizza:isIngredientOf .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isIngredientOf
+pizza:isIngredientOf rdf:type owl:ObjectProperty ,
+                              owl:FunctionalProperty .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isMilderThan
+pizza:isMilderThan rdf:type owl:ObjectProperty ;
+                   owl:inverseOf pizza:isSpicierThan .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isSpicierThan
+pizza:isSpicierThan rdf:type owl:ObjectProperty ,
+                             owl:TransitiveProperty ;
+                    rdfs:domain pizza:Spiciness ;
+                    rdfs:range pizza:Spiciness .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isToppingOf
+pizza:isToppingOf rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf pizza:isIngredientOf .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#purchasedByCustomer
+pizza:purchasedByCustomer rdf:type owl:ObjectProperty ;
+                          owl:inverseOf pizza:purchasedPizza ;
+                          rdf:type owl:FunctionalProperty .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#purchasedPizza
+pizza:purchasedPizza rdf:type owl:ObjectProperty ;
+                     rdfs:domain pizza:Customer ;
+                     rdfs:range pizza:Pizza .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasCaloricContent
+pizza:hasCaloricContent rdf:type owl:DatatypeProperty ;
+                        rdfs:domain pizza:Pizza ;
+                        rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasDiscount
+pizza:hasDiscount rdf:type owl:DatatypeProperty ;
+                  rdfs:domain pizza:Customer ;
+                  rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasPhone
+pizza:hasPhone rdf:type owl:DatatypeProperty ;
+               rdfs:domain pizza:Person ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#numberOfPizzasPurchased
+pizza:numberOfPizzasPurchased rdf:type owl:DatatypeProperty ;
+                              rdfs:domain pizza:Customer ;
+                              rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#ssn
+pizza:ssn rdf:type owl:DatatypeProperty ;
+          rdfs:domain pizza:Employee ;
+          rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaHotPizza
+pizza:AmericanaHotPizza rdf:type owl:Class ;
+                        rdfs:subClassOf pizza:NamedPizza ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty pizza:hasTopping ;
+                                          owl:someValuesFrom pizza:JalapenoPepperTopping
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty pizza:hasTopping ;
+                                          owl:someValuesFrom pizza:MozzarellaTopping
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty pizza:hasTopping ;
+                                          owl:someValuesFrom pizza:PepperoniTopping
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty pizza:hasTopping ;
+                                          owl:someValuesFrom pizza:TomatoTopping
+                                        ] ;
+                        rdfs:comment "A pizza that only has Mozzarella, Tomato, Jalapeno, and Pepperoni toppings" .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaPizza
+pizza:AmericanaPizza rdf:type owl:Class ;
+                     rdfs:subClassOf pizza:NamedPizza ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty pizza:hasTopping ;
+                                       owl:someValuesFrom pizza:MozzarellaTopping
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty pizza:hasTopping ;
+                                       owl:someValuesFrom pizza:PepperoniTopping
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty pizza:hasTopping ;
+                                       owl:someValuesFrom pizza:TomatoTopping
+                                     ] ;
+                     rdfs:comment "A pizza that only has Mozzarella, Tomato and Pepperoni toppings" .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AnchovyTopping
+pizza:AnchovyTopping rdf:type owl:Class ;
+                     rdfs:subClassOf pizza:SeafoodTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CaperTopping
+pizza:CaperTopping rdf:type owl:Class ;
+                   rdfs:subClassOf pizza:VegetableTopping ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty pizza:hasSpiciness ;
+                                     owl:hasValue pizza:Mild
+                                   ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CheeseTopping
+pizza:CheeseTopping rdf:type owl:Class ;
+                    rdfs:subClassOf pizza:PizzaTopping ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty pizza:hasSpiciness ;
+                                      owl:hasValue pizza:Mild
+                                    ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CheesyPizza
+pizza:CheesyPizza rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( pizza:Pizza
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty pizza:hasTopping ;
+                                                               owl:someValuesFrom pizza:CheeseTopping
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer
+pizza:Customer rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( pizza:Person
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty pizza:purchasedPizza ;
+                                                            owl:someValuesFrom pizza:Pizza
+                                                          ]
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty pizza:hasPhone ;
+                                                            owl:someValuesFrom xsd:string
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#DeepPanBase
+pizza:DeepPanBase rdf:type owl:Class ;
+                  rdfs:subClassOf pizza:PizzaBase ;
+                  owl:disjointWith pizza:ThinAndCrispyBase .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Employee
+pizza:Employee rdf:type owl:Class ;
+               rdfs:subClassOf [ owl:intersectionOf ( pizza:Person
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty pizza:ssn ;
+                                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onDataRange xsd:string
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#GreenPepperTopping
+pizza:GreenPepperTopping rdf:type owl:Class ;
+                         rdfs:subClassOf pizza:PepperTopping ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty pizza:hasSpiciness ;
+                                           owl:hasValue pizza:Medium
+                                         ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HamTopping
+pizza:HamTopping rdf:type owl:Class ;
+                 rdfs:subClassOf pizza:MeatTopping ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty pizza:hasSpiciness ;
+                                   owl:hasValue pizza:Mild
+                                 ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HighCaloriePizza
+pizza:HighCaloriePizza rdf:type owl:Class ;
+                       owl:equivalentClass [ owl:intersectionOf ( pizza:Pizza
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty pizza:hasCaloricContent ;
+                                                                    owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                         owl:onDatatype xsd:integer ;
+                                                                                         owl:withRestrictions ( [ xsd:minInclusive 400
+                                                                                                                ]
+                                                                                                              )
+                                                                                       ]
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HotVeggiePizza
+pizza:HotVeggiePizza rdf:type owl:Class ;
+                     owl:equivalentClass [ owl:intersectionOf ( pizza:VegetarianPizza
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty pizza:hasTopping ;
+                                                                  owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty pizza:hasSpiciness ;
+                                                                                       owl:hasValue pizza:Hot
+                                                                                     ]
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#InterestingPizza
+pizza:InterestingPizza rdf:type owl:Class ;
+                       owl:equivalentClass [ owl:intersectionOf ( pizza:Pizza
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty pizza:hasTopping ;
+                                                                    owl:minQualifiedCardinality "3"^^xsd:nonNegativeInteger ;
+                                                                    owl:onClass pizza:PizzaTopping
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#JalapenoPepperTopping
+pizza:JalapenoPepperTopping rdf:type owl:Class ;
+                            rdfs:subClassOf pizza:PepperTopping ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty pizza:hasSpiciness ;
+                                              owl:hasValue pizza:Hot
+                                            ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#LowCaloriePizza
+pizza:LowCaloriePizza rdf:type owl:Class ;
+                      owl:equivalentClass [ owl:intersectionOf ( pizza:Pizza
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty pizza:hasCaloricContent ;
+                                                                   owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                        owl:onDatatype xsd:integer ;
+                                                                                        owl:withRestrictions ( [ xsd:maxExclusive 400
+                                                                                                               ]
+                                                                                                             )
+                                                                                      ]
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MargheritaPizza
+pizza:MargheritaPizza rdf:type owl:Class ;
+                      rdfs:subClassOf pizza:NamedPizza ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty pizza:hasTopping ;
+                                        owl:someValuesFrom pizza:MozzarellaTopping
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty pizza:hasTopping ;
+                                        owl:someValuesFrom pizza:TomatoTopping
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty pizza:hasTopping ;
+                                        owl:allValuesFrom [ rdf:type owl:Class ;
+                                                            owl:unionOf ( pizza:MozzarellaTopping
+                                                                          pizza:TomatoTopping
+                                                                        )
+                                                          ]
+                                      ] ;
+                      rdfs:comment "A pizza that only has Mozzarella and Tomato toppings" .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MeatTopping
+pizza:MeatTopping rdf:type owl:Class ;
+                  rdfs:subClassOf pizza:PizzaTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MediumVeggiePizza
+pizza:MediumVeggiePizza rdf:type owl:Class ;
+                        owl:equivalentClass [ owl:intersectionOf ( pizza:VegetarianPizza
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty pizza:hasTopping ;
+                                                                     owl:allValuesFrom [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty pizza:hasSpiciness ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                              owl:onProperty pizza:isMilderThan ;
+                                                                                                              owl:hasValue pizza:Hot
+                                                                                                            ]
+                                                                                       ]
+                                                                   ]
+                                                                 ) ;
+                                              rdf:type owl:Class
+                                            ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MozzarellaTopping
+pizza:MozzarellaTopping rdf:type owl:Class ;
+                        rdfs:subClassOf pizza:CheeseTopping ;
+                        owl:disjointWith pizza:ParmesanTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MushroomTopping
+pizza:MushroomTopping rdf:type owl:Class ;
+                      rdfs:subClassOf pizza:VegetableTopping ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty pizza:hasSpiciness ;
+                                        owl:hasValue pizza:Mild
+                                      ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#NamedPizza
+pizza:NamedPizza rdf:type owl:Class ;
+                 rdfs:subClassOf pizza:Pizza .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#OliveTopping
+pizza:OliveTopping rdf:type owl:Class ;
+                   rdfs:subClassOf pizza:VegetableTopping ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty pizza:hasSpiciness ;
+                                     owl:hasValue pizza:Mild
+                                   ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#ParmesanTopping
+pizza:ParmesanTopping rdf:type owl:Class ;
+                      rdfs:subClassOf pizza:CheeseTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PepperTopping
+pizza:PepperTopping rdf:type owl:Class ;
+                    rdfs:subClassOf pizza:VegetableTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PepperoniTopping
+pizza:PepperoniTopping rdf:type owl:Class ;
+                       rdfs:subClassOf pizza:MeatTopping ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty pizza:hasSpiciness ;
+                                         owl:hasValue pizza:Medium
+                                       ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Person
+pizza:Person rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Pizza
+pizza:Pizza rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty pizza:hasBase ;
+                              owl:someValuesFrom pizza:PizzaBase
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty pizza:hasCaloricContent ;
+                              owl:someValuesFrom xsd:integer
+                            ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PizzaBase
+pizza:PizzaBase rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PizzaTopping
+pizza:PizzaTopping rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PrawnTopping
+pizza:PrawnTopping rdf:type owl:Class ;
+                   rdfs:subClassOf pizza:SeafoodTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#RedPepperTopping
+pizza:RedPepperTopping rdf:type owl:Class ;
+                       rdfs:subClassOf pizza:PepperTopping ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty pizza:hasSpiciness ;
+                                         owl:hasValue pizza:Hot
+                                       ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SalamiTopping
+pizza:SalamiTopping rdf:type owl:Class ;
+                    rdfs:subClassOf pizza:MeatTopping ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty pizza:hasSpiciness ;
+                                      owl:hasValue pizza:Medium
+                                    ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SeafoodTopping
+pizza:SeafoodTopping rdf:type owl:Class ;
+                     rdfs:subClassOf pizza:PizzaTopping ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty pizza:hasSpiciness ;
+                                       owl:hasValue pizza:Mild
+                                     ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SohoPizza
+pizza:SohoPizza rdf:type owl:Class ;
+                rdfs:subClassOf pizza:NamedPizza ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty pizza:hasTopping ;
+                                  owl:someValuesFrom pizza:MozzarellaTopping
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty pizza:hasTopping ;
+                                  owl:someValuesFrom pizza:OliveTopping
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty pizza:hasTopping ;
+                                  owl:someValuesFrom pizza:ParmesanTopping
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty pizza:hasTopping ;
+                                  owl:someValuesFrom pizza:TomatoTopping
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty pizza:hasTopping ;
+                                  owl:allValuesFrom [ rdf:type owl:Class ;
+                                                      owl:unionOf ( pizza:MozzarellaTopping
+                                                                    pizza:OliveTopping
+                                                                    pizza:ParmesanTopping
+                                                                    pizza:TomatoTopping
+                                                                  )
+                                                    ]
+                                ] ;
+                rdfs:comment "A pizza that  has Mozzarella, Olives, Parmesan, and Tomato toppings" .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Spiciness
+pizza:Spiciness rdf:type owl:Class ;
+                owl:equivalentClass [ rdf:type owl:Class ;
+                                      owl:oneOf ( pizza:Hot
+                                                  pizza:Medium
+                                                  pizza:Mild
+                                                )
+                                    ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SpicyBeefTopping
+pizza:SpicyBeefTopping rdf:type owl:Class ;
+                       rdfs:subClassOf pizza:MeatTopping ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty pizza:hasSpiciness ;
+                                         owl:hasValue pizza:Hot
+                                       ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SpicyPizza
+pizza:SpicyPizza rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( pizza:Pizza
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty pizza:hasTopping ;
+                                                              owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty pizza:hasSpiciness ;
+                                                                                   owl:hasValue pizza:Hot
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#ThinAndCrispyBase
+pizza:ThinAndCrispyBase rdf:type owl:Class ;
+                        rdfs:subClassOf pizza:PizzaBase .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#TomatoTopping
+pizza:TomatoTopping rdf:type owl:Class ;
+                    rdfs:subClassOf pizza:VegetableTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#TunaTopping
+pizza:TunaTopping rdf:type owl:Class ;
+                  rdfs:subClassOf pizza:SeafoodTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#VegetableTopping
+pizza:VegetableTopping rdf:type owl:Class ;
+                       rdfs:subClassOf pizza:PizzaTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#VegetarianPizza
+pizza:VegetarianPizza rdf:type owl:Class ;
+                      owl:equivalentClass [ owl:intersectionOf ( pizza:Pizza
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty pizza:hasTopping ;
+                                                                   owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                       owl:unionOf ( pizza:CheeseTopping
+                                                                                                     pizza:VegetableTopping
+                                                                                                   )
+                                                                                     ]
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaHotPizza1
+pizza:AmericanaHotPizza1 rdf:type owl:NamedIndividual ,
+                                  pizza:AmericanaHotPizza ;
+                         pizza:hasCaloricContent 767 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaHotPizza2
+pizza:AmericanaHotPizza2 rdf:type owl:NamedIndividual ,
+                                  pizza:AmericanaHotPizza ;
+                         pizza:hasCaloricContent 675 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaHotPizza3
+pizza:AmericanaHotPizza3 rdf:type owl:NamedIndividual ,
+                                  pizza:AmericanaHotPizza .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaPizza1
+pizza:AmericanaPizza1 rdf:type owl:NamedIndividual ,
+                               pizza:AmericanaPizza ;
+                      pizza:hasCaloricContent 723 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaPizza2
+pizza:AmericanaPizza2 rdf:type owl:NamedIndividual ,
+                               pizza:AmericanaPizza ;
+                      pizza:hasCaloricContent 543 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CheesyPizza1
+pizza:CheesyPizza1 rdf:type owl:NamedIndividual ,
+                            pizza:CheesyPizza ;
+                   pizza:hasCaloricContent 378 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Chef
+pizza:Chef rdf:type owl:NamedIndividual ,
+                    pizza:Employee ;
+           pizza:hasPhone "415-555-1234" ;
+           pizza:ssn "333-22-2334" ,
+                     "333-22-4444" .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#ChicagoAmericanaHotPizza1
+pizza:ChicagoAmericanaHotPizza1 rdf:type owl:NamedIndividual ,
+                                         pizza:AmericanaHotPizza .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CustomPizza1
+pizza:CustomPizza1 rdf:type owl:NamedIndividual ,
+                            pizza:Pizza ;
+                   pizza:hasTopping pizza:OliveTopping1 ,
+                                    pizza:SpicyBeefTopping1 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CustomPizza2
+pizza:CustomPizza2 rdf:type owl:NamedIndividual ,
+                            pizza:Pizza ;
+                   pizza:hasTopping pizza:GreenPepperTopping2 ,
+                                    pizza:MushroomTopping2 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer1
+pizza:Customer1 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Hot ;
+                pizza:purchasedPizza pizza:AmericanaHotPizza1 ,
+                                     pizza:AmericanaHotPizza2 ;
+                pizza:hasPhone "555-111-3332" ;
+                pizza:numberOfPizzasPurchased 2 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer10
+pizza:Customer10 rdf:type owl:NamedIndividual ,
+                          pizza:Customer ;
+                 pizza:hasSpicinessPreference pizza:Mild ;
+                 pizza:hasDiscount 2.0 ;
+                 pizza:hasPhone "555-111-3335" ;
+                 pizza:numberOfPizzasPurchased 1 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer2
+pizza:Customer2 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Medium ;
+                pizza:purchasedPizza pizza:CustomPizza2 ,
+                                     pizza:MargheritaPizza1 ;
+                pizza:hasPhone "555-1113342" ;
+                pizza:numberOfPizzasPurchased 2 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer3
+pizza:Customer3 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Mild ;
+                pizza:purchasedPizza pizza:MargheritaPizza2 ,
+                                     pizza:SohoPizza1 ;
+                pizza:numberOfPizzasPurchased 2 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer4
+pizza:Customer4 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Hot ;
+                pizza:purchasedPizza pizza:AmericanaHotPizza3 ,
+                                     pizza:HotVeggiePizza1 ;
+                pizza:hasPhone "555-111-3339" ;
+                pizza:numberOfPizzasPurchased 3 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer5
+pizza:Customer5 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Medium ;
+                pizza:purchasedPizza pizza:AmericanaPizza1 ,
+                                     pizza:MediumVeggiePizza1 ;
+                pizza:hasPhone "555-111-3339" ;
+                pizza:numberOfPizzasPurchased 2 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer6
+pizza:Customer6 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Medium ;
+                pizza:purchasedPizza pizza:AmericanaPizza2 ;
+                pizza:hasPhone "555-111-3338" ;
+                pizza:numberOfPizzasPurchased 1 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer7
+pizza:Customer7 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Mild ;
+                pizza:purchasedPizza pizza:CheesyPizza1 ;
+                pizza:hasPhone "555-111-3337" ;
+                pizza:numberOfPizzasPurchased 1 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer8
+pizza:Customer8 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Hot ;
+                pizza:purchasedPizza pizza:ChicagoAmericanaHotPizza1 ,
+                                     pizza:CustomPizza1 ;
+                pizza:hasPhone "555-111-3336" ;
+                pizza:numberOfPizzasPurchased 2 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer9
+pizza:Customer9 rdf:type owl:NamedIndividual ,
+                         pizza:Customer ;
+                pizza:hasSpicinessPreference pizza:Hot ;
+                pizza:purchasedPizza pizza:HotVeggiePizza3 ;
+                pizza:hasPhone "555-111-3334" ;
+                pizza:numberOfPizzasPurchased 1 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#GreenPepperTopping2
+pizza:GreenPepperTopping2 rdf:type owl:NamedIndividual ,
+                                   pizza:GreenPepperTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Hot
+pizza:Hot rdf:type owl:NamedIndividual ;
+          pizza:isSpicierThan pizza:Medium .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HotVeggiePizza1
+pizza:HotVeggiePizza1 rdf:type owl:NamedIndividual ,
+                               pizza:HotVeggiePizza .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HotVeggiePizza2
+pizza:HotVeggiePizza2 rdf:type owl:NamedIndividual ,
+                               pizza:HotVeggiePizza ;
+                      pizza:purchasedByCustomer pizza:Customer4 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HotVeggiePizza3
+pizza:HotVeggiePizza3 rdf:type owl:NamedIndividual ,
+                               pizza:HotVeggiePizza .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Manager
+pizza:Manager rdf:type owl:NamedIndividual ,
+                       pizza:Employee ;
+              pizza:hasPhone "123-345-4567" ,
+                             "415-5554567" ;
+              pizza:ssn "321-23-4532" .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MargheritaPizza1
+pizza:MargheritaPizza1 rdf:type owl:NamedIndividual ,
+                                pizza:MargheritaPizza ;
+                       pizza:hasCaloricContent 263 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MargheritaPizza2
+pizza:MargheritaPizza2 rdf:type owl:NamedIndividual ,
+                                pizza:MargheritaPizza ;
+                       pizza:hasCaloricContent 376 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Medium
+pizza:Medium rdf:type owl:NamedIndividual ;
+             pizza:isSpicierThan pizza:Mild .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MediumVeggiePizza1
+pizza:MediumVeggiePizza1 rdf:type owl:NamedIndividual ,
+                                  pizza:MediumVeggiePizza .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Mild
+pizza:Mild rdf:type owl:NamedIndividual ,
+                    pizza:Spiciness .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MushroomTopping2
+pizza:MushroomTopping2 rdf:type owl:NamedIndividual ,
+                                pizza:MushroomTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#OliveTopping1
+pizza:OliveTopping1 rdf:type owl:NamedIndividual ,
+                             pizza:OliveTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SohoPizza1
+pizza:SohoPizza1 rdf:type owl:NamedIndividual ,
+                          pizza:SohoPizza ;
+                 pizza:hasCaloricContent 342 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SohoPizza2
+pizza:SohoPizza2 rdf:type owl:NamedIndividual ,
+                          pizza:SohoPizza ;
+                 pizza:purchasedByCustomer pizza:Customer10 ;
+                 pizza:hasCaloricContent 322 .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SpicyBeefTopping1
+pizza:SpicyBeefTopping1 rdf:type owl:NamedIndividual ,
+                                 pizza:SpicyBeefTopping .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Waiter1
+pizza:Waiter1 rdf:type owl:NamedIndividual ,
+                       pizza:Employee ;
+              pizza:hasPhone "123-234-3434" ;
+              pizza:ssn "123456666" .
+
+
+###  http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Waiter2
+pizza:Waiter2 rdf:type owl:NamedIndividual ,
+                       pizza:Employee .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( pizza:AmericanaHotPizza
+                pizza:AmericanaPizza
+                pizza:MargheritaPizza
+                pizza:SohoPizza
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( pizza:AnchovyTopping
+                pizza:PrawnTopping
+                pizza:TunaTopping
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( pizza:CaperTopping
+                pizza:MushroomTopping
+                pizza:OliveTopping
+                pizza:PepperTopping
+                pizza:TomatoTopping
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( pizza:CheeseTopping
+                pizza:MeatTopping
+                pizza:SeafoodTopping
+                pizza:VegetableTopping
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( pizza:GreenPepperTopping
+                pizza:JalapenoPepperTopping
+                pizza:RedPepperTopping
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( pizza:HamTopping
+                pizza:PepperoniTopping
+                pizza:SalamiTopping
+                pizza:SpicyBeefTopping
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( pizza:Pizza
+                pizza:PizzaBase
+                pizza:PizzaTopping
+              )
+] .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+pizza:c rdf:type swrl:Variable .
+
+pizza:np rdf:type swrl:Variable .
+
+pizza:spr rdf:type swrl:Variable .
+
+[ swrla:isRuleEnabled "true"^^xsd:boolean ;
+   rdfs:comment "Provide a special discount for customers who prefer hot pizzas" ;
+   rdfs:label "LessSpicyDiscountRule" ;
+   rdf:type swrl:Imp ;
+   swrl:body [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:ClassAtom ;
+                           swrl:classPredicate pizza:Customer ;
+                           swrl:argument1 pizza:c
+                         ] ;
+               rdf:rest [ rdf:type swrl:AtomList ;
+                          rdf:first [ rdf:type swrl:DatavaluedPropertyAtom ;
+                                      swrl:propertyPredicate pizza:numberOfPizzasPurchased ;
+                                      swrl:argument1 pizza:c ;
+                                      swrl:argument2 pizza:np
+                                    ] ;
+                          rdf:rest [ rdf:type swrl:AtomList ;
+                                     rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                                                 swrl:propertyPredicate pizza:hasSpicinessPreference ;
+                                                 swrl:argument1 pizza:c ;
+                                                 swrl:argument2 pizza:spr
+                                               ] ;
+                                     rdf:rest [ rdf:type swrl:AtomList ;
+                                                rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                                                            swrl:propertyPredicate pizza:isMilderThan ;
+                                                            swrl:argument1 pizza:spr ;
+                                                            swrl:argument2 pizza:Hot
+                                                          ] ;
+                                                rdf:rest [ rdf:type swrl:AtomList ;
+                                                           rdf:first [ rdf:type swrl:BuiltinAtom ;
+                                                                       swrl:builtin swrlb:greaterThan ;
+                                                                       swrl:arguments [ rdf:type rdf:List ;
+                                                                                        rdf:first pizza:np ;
+                                                                                        rdf:rest [ rdf:type rdf:List ;
+                                                                                                   rdf:first 1 ;
+                                                                                                   rdf:rest rdf:nil
+                                                                                                 ]
+                                                                                      ]
+                                                                     ] ;
+                                                           rdf:rest rdf:nil
+                                                         ]
+                                              ]
+                                   ]
+                        ]
+             ] ;
+   swrl:head [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:DatavaluedPropertyAtom ;
+                           swrl:propertyPredicate pizza:hasDiscount ;
+                           swrl:argument1 pizza:c ;
+                           swrl:argument2 0.1
+                         ] ;
+               rdf:rest rdf:nil
+             ]
+ ] .
+
+[ swrla:isRuleEnabled "true"^^xsd:boolean ;
+   rdfs:comment "Provide a special discount for customers who prefer hot pizzas" ;
+   rdfs:label "HotDiscountRule" ;
+   rdf:type swrl:Imp ;
+   swrl:body [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:ClassAtom ;
+                           swrl:classPredicate pizza:Customer ;
+                           swrl:argument1 pizza:c
+                         ] ;
+               rdf:rest [ rdf:type swrl:AtomList ;
+                          rdf:first [ rdf:type swrl:DatavaluedPropertyAtom ;
+                                      swrl:propertyPredicate pizza:numberOfPizzasPurchased ;
+                                      swrl:argument1 pizza:c ;
+                                      swrl:argument2 pizza:np
+                                    ] ;
+                          rdf:rest [ rdf:type swrl:AtomList ;
+                                     rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                                                 swrl:propertyPredicate pizza:hasSpicinessPreference ;
+                                                 swrl:argument1 pizza:c ;
+                                                 swrl:argument2 pizza:Hot
+                                               ] ;
+                                     rdf:rest [ rdf:type swrl:AtomList ;
+                                                rdf:first [ rdf:type swrl:BuiltinAtom ;
+                                                            swrl:builtin swrlb:greaterThan ;
+                                                            swrl:arguments [ rdf:type rdf:List ;
+                                                                             rdf:first pizza:np ;
+                                                                             rdf:rest [ rdf:type rdf:List ;
+                                                                                        rdf:first 1 ;
+                                                                                        rdf:rest rdf:nil
+                                                                                      ]
+                                                                           ]
+                                                          ] ;
+                                                rdf:rest rdf:nil
+                                              ]
+                                   ]
+                        ]
+             ] ;
+   swrl:head [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:DatavaluedPropertyAtom ;
+                           swrl:propertyPredicate pizza:hasDiscount ;
+                           swrl:argument1 pizza:c ;
+                           swrl:argument2 0.2
+                         ] ;
+               rdf:rest rdf:nil
+             ]
+ ] .
+
+[ swrla:isRuleEnabled "true"^^xsd:boolean ;
+   rdfs:comment "Provide a special discount for customers who prefer hot pizzas (for testing)" ;
+   rdfs:label "TestHotDiscountRule" ;
+   rdf:type swrl:Imp ;
+   swrl:body [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:ClassAtom ;
+                           swrl:classPredicate pizza:Customer ;
+                           swrl:argument1 pizza:c
+                         ] ;
+               rdf:rest [ rdf:type swrl:AtomList ;
+                          rdf:first [ rdf:type swrl:DatavaluedPropertyAtom ;
+                                      swrl:propertyPredicate pizza:numberOfPizzasPurchased ;
+                                      swrl:argument1 pizza:c ;
+                                      swrl:argument2 pizza:np
+                                    ] ;
+                          rdf:rest [ rdf:type swrl:AtomList ;
+                                     rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                                                 swrl:propertyPredicate pizza:hasSpicinessPreference ;
+                                                 swrl:argument1 pizza:c ;
+                                                 swrl:argument2 pizza:Hot
+                                               ] ;
+                                     rdf:rest [ rdf:type swrl:AtomList ;
+                                                rdf:first [ rdf:type swrl:BuiltinAtom ;
+                                                            swrl:builtin swrlb:greaterThan ;
+                                                            swrl:arguments [ rdf:type rdf:List ;
+                                                                             rdf:first pizza:np ;
+                                                                             rdf:rest [ rdf:type rdf:List ;
+                                                                                        rdf:first 1 ;
+                                                                                        rdf:rest rdf:nil
+                                                                                      ]
+                                                                           ]
+                                                          ] ;
+                                                rdf:rest rdf:nil
+                                              ]
+                                   ]
+                        ]
+             ] ;
+   swrl:head [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:BuiltinAtom ;
+                           swrl:builtin <http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> ;
+                           swrl:arguments ( pizza:c
+                                            pizza:np
+                                          )
+                         ] ;
+               rdf:rest rdf:nil
+             ]
+ ] .
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
