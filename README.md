@@ -1,9 +1,6 @@
 # Ontology: Pizza.owl using Protégé
 
-<p align="center">
-  <a href="https://x.com/XiaoqiZhao">
-    <img src="https://img.shields.io/badge/follow-@lbugdb-1DA1F2?logo=twitter" alt="twitter(X)"></a>
-</p>
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)
 
 Practice building pizza.owl ontology using Protege modeling tool, base on [Michael DeBillis](https://www.linkedin.com/in/michael-debellis-85329/)' great guide.
 
