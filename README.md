@@ -4,6 +4,10 @@ Practice building pizza.owl ontology using Protege modeling tool, base on [Micha
 
 [Here](https://www.michaeldebellis.com/post/protegetutorialyoutubeplaylist) you can find the post by Michael in his site; and the [introduction](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) of the guide.
 
+## Project Status
+
+[![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE.txt)
+
 ## About this repository
 
 The repository is regularly synced to Gitee:
