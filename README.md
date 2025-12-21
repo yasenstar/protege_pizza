@@ -1,14 +1,10 @@
 # Ontology: Pizza.owl using Protégé
 
-![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)
-
-Practice building pizza.owl ontology using Protege modeling tool, base on [Michael DeBillis](https://www.linkedin.com/in/michael-debellis-85329/)' great guide.
-
-[Here](https://www.michaeldebellis.com/post/protegetutorialyoutubeplaylist) you can find the post by Michael in his site; and the [introduction](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) of the guide.
-
-## Project Status
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
 
 [![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE.txt)
+
+Practice building pizza.owl ontology using Protege modeling tool, base on [Michael DeBillis](https://www.linkedin.com/in/michael-debellis-85329/)' great guide. From [here](https://www.michaeldebellis.com/post/protegetutorialyoutubeplaylist) you can find the post by Michael in his site; and the [introduction](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) of the guide.
 
 ## About this repository
 
