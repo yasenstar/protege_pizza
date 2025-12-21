@@ -1,6 +1,8 @@
 # Ontology: Pizza.owl using Protégé
 
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
+
 
 [![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE.txt)
 ![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)
