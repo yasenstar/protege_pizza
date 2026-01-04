@@ -4,7 +4,7 @@
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
 
 
-[![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE.txt)
+![GitHub License](https://img.shields.io/github/license/yasenstar/protege_pizza)
 ![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)
 ![GitHub forks](https://img.shields.io/github/forks/yasenstar/protege_pizza)
 [![pages-build-deployment](https://github.com/yasenstar/protege_pizza/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/protege_pizza/actions/workflows/pages/pages-build-deployment)
