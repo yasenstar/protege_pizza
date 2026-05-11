@@ -4,6 +4,8 @@ This is the eBook to describing the detail contents from the series demo videos.
 
 Every chapter maps to the respective # of video.
 
+![book-cover-h](img/book-cover-h.jpg)
+
 Enjoy reading...
 
 Here are the quick links to every chapter:
