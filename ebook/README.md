@@ -11,4 +11,6 @@ Enjoy reading...
 Here are the quick links to every chapter:
 
 - [Chapter 01 - Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
-- [Chapter 02 - Building Your First Ontology in Protégé (WIP)](./ch02.md)
+- [Chapter 02 - Building Your First Ontology in Protégé](./ch02.md)
+- [Chapter 03 - Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md) - WIP
+
