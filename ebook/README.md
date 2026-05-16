@@ -326,7 +326,8 @@ Here are the quick links to every chapter:
 - [Chapter 01 - Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
 - [Chapter 02 - Building Your First Ontology in Protégé](./ch02.md)
 - [Chapter 03 - Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md)
-- [Chapter 04 — Creating Classes and Building the Pizza Ontology Skeleton in Protégé](./ch04.md) - WIP
+- [Chapter 04 — Creating Classes and Building the Pizza Ontology Skeleton in Protégé](./ch04.md)
+- [Chapter 05 — Defining Named Classes in the Pizza Ontology](./ch05.md) - WIP
 
 ---
 
