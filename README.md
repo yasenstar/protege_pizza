@@ -21,6 +21,19 @@ This repository is a companion to my **comprehensive video course**. I recommend
 
 ---
 
+## 📘 Companion eBook Now Available!
+
+Take your ontology engineering skills to the next level with the official companion eBook: **"Pizza OWL Ontology Practice"**. 
+
+Whether you want an offline, step-by-step text guide to match the video series or deeper conceptual explanations of Description Logics, this book is your perfect desk reference.
+
+* **Read the Source & Materials:** Check out the [`/ebook`](./ebook) directory right here in this repository.
+* **Get the Complete Digital Edition:** Available now on Leanpub in PDF, EPUB, and MOBI formats!
+
+👉 **[Grab your copy on Leanpub: Pizza OWL Ontology Practice](https://leanpub.com/pizza-owl-ontology-practice)** *By purchasing the book on Leanpub, you get access to lifetime free updates as the tutorial evolves and directly support the creation of more open-source semantic web content!*
+
+---
+
 ## 🛠 Repository Structure
 I have tracked my progress step-by-step. You can jump into any stage of the tutorial by using the files in:
 - `/snapshot_models`: RDF/OWL files at various stages of the tutorial.
@@ -61,12 +74,13 @@ I have tracked my progress step-by-step. You can jump into any stage of the tuto
 
 ## 🤝 Contributing & Support
 If you find this tutorial helpful, please:
-1. **Star** this repository to help others find it.
-2. **Subscribe** to the [YouTube Channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW) for updates.
-3. Feel free to open an **Issue** if you have questions about the modeling steps.
+1. ⭐ **Star** this repository to help others find it.
+2. 📺 **Subscribe** to the [YouTube Channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW) for future updates and courses. 
+3. 📘 **Buy the Book:** Support my work by picking up a copy of **[Pizza OWL Ontology Practice on Leanpub](https://leanpub.com/pizza-owl-ontology-practice)**.
+4. 💬 Feel free to open an **Issue** if you have questions about the modeling steps.
 
-**Happy Modeling!** 🍕
+**Happy Pizza Modeling!** 🍕
 
 ---
 
-Last updated at 2026-01-26
+Last updated at 2026-05-17
