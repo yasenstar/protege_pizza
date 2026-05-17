@@ -327,10 +327,11 @@ Here are the quick links to every chapter:
 - [Chapter 02 - Building Your First Ontology in Protégé](./ch02.md)
 - [Chapter 03 - Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md)
 - [Chapter 04 — Creating Classes and Building the Pizza Ontology Skeleton in Protégé](./ch04.md)
-- [Chapter 05 — Defining Named Classes in the Pizza Ontology](./ch05.md) - WIP
+- [Chapter 05 — Defining Named Classes in the Pizza Ontology](./ch05.md)
+- [Chapter 06 - Applying a Reasoner to the Pizza Ontology](./ch06.md) - WIP
 
 ---
 
 > "You" are the learner of this book, so while you're reading, I'll say to "you" directly instead of "learner" / "reader" from now on.
 
-Last updated at: 2026/05/15
+Last updated at: 2026/05/17
