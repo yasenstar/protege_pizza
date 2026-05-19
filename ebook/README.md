@@ -328,10 +328,11 @@ Here are the quick links to every chapter:
 - [Chapter 03 - Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md)
 - [Chapter 04 — Creating Classes and Building the Pizza Ontology Skeleton in Protégé](./ch04.md)
 - [Chapter 05 — Defining Named Classes in the Pizza Ontology](./ch05.md)
-- [Chapter 06 - Applying a Reasoner to the Pizza Ontology](./ch06.md) - WIP
+- [Chapter 06 - Applying a Reasoner to the Pizza Ontology](./ch06.md)
+- [Chapter 07 - Ensuring Semantic Integrity with Disjoint Classes](./ch07.md) - WIP
 
 ---
 
 > "You" are the learner of this book, so while you're reading, I'll say to "you" directly instead of "learner" / "reader" from now on.
 
-Last updated at: 2026/05/17
+Last updated at: 2026/05/19
