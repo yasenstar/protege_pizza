@@ -331,7 +331,7 @@ Here are the quick links to every chapter:
 - [Chapter 06 - Applying a Reasoner to the Pizza Ontology](./ch06.md)
 - [Chapter 07 - Ensuring Semantic Integrity with Disjoint Classes](./ch07.md)
 - [Chapter 08 - Understanding the RDF File Structure: Looking Beneath Protégé into the Language of Semantic Knowledge](./ch08.md)
-- [Chapter 09]() - WIP
+- [Chapter 09 -- Building Semantic Foundations Through Class Hierarchy](./ch09.md) - WIP
 
 ---
 
