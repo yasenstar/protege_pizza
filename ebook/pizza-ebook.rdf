@@ -39,6 +39,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CaperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CaperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping">
@@ -49,10 +57,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#GreenPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#GreenPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#JalapenoPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#JalapenoPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MushroomTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MushroomTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
     </owl:Class>
     
 
@@ -82,6 +114,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
@@ -91,6 +139,14 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#RedPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#RedPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping"/>
+    </owl:Class>
     
 
 
@@ -106,6 +162,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
     </owl:Class>
     
 
@@ -206,9 +270,27 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CaperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MushroomTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#GreenPepperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#JalapenoPepperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#RedPepperTopping"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
