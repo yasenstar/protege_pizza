@@ -1,5 +1,22 @@
 # eBook for Pizza.owl Ontology Practice using Protégé
 
+Here are the quick links to every chapter:
+
+- [Chapter 01 - Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
+- [Chapter 02 - Building Your First Ontology in Protégé](./ch02.md)
+- [Chapter 03 - Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md)
+- [Chapter 04 — Creating Classes and Building the Pizza Ontology Skeleton in Protégé](./ch04.md)
+- [Chapter 05 — Defining Named Classes in the Pizza Ontology](./ch05.md)
+- [Chapter 06 - Applying a Reasoner to the Pizza Ontology](./ch06.md)
+- [Chapter 07 - Ensuring Semantic Integrity with Disjoint Classes](./ch07.md)
+- [Chapter 08 - Understanding the RDF File Structure: Looking Beneath Protégé into the Language of Semantic Knowledge](./ch08.md)
+- [Chapter 09 - Building Semantic Foundations Through Class Hierarchy](./ch09.md)
+- [Chapter 10 - Connecting Concepts Through Object Properties](./ch10.md)
+- [Chapter 11 - Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md) - WIP
+
+---
+
+Table of Content of Preface
 - [From Ontology Learning to Executable Knowledge Architecture](#from-ontology-learning-to-executable-knowledge-architecture)
 - [Why the Pizza.owl Tutorial Matters](#why-the-pizzaowl-tutorial-matters)
 - [About This Book](#about-this-book)
@@ -12,7 +29,6 @@
 - [Acknowledgements](#acknowledgements)
 - [Related Resources](#related-resources)
 - [Final Thoughts](#final-thoughts)
-- [Quick Links to Chapters](#quick-links-to-chapters)
 
 ## From Ontology Learning to Executable Knowledge Architecture
 
@@ -318,22 +334,6 @@ Executable knowledge
 ```
 
 WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
-
-## Quick Links to Chapters
-
-Here are the quick links to every chapter:
-
-- [Chapter 01 - Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
-- [Chapter 02 - Building Your First Ontology in Protégé](./ch02.md)
-- [Chapter 03 - Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md)
-- [Chapter 04 — Creating Classes and Building the Pizza Ontology Skeleton in Protégé](./ch04.md)
-- [Chapter 05 — Defining Named Classes in the Pizza Ontology](./ch05.md)
-- [Chapter 06 - Applying a Reasoner to the Pizza Ontology](./ch06.md)
-- [Chapter 07 - Ensuring Semantic Integrity with Disjoint Classes](./ch07.md)
-- [Chapter 08 - Understanding the RDF File Structure: Looking Beneath Protégé into the Language of Semantic Knowledge](./ch08.md)
-- [Chapter 09 - Building Semantic Foundations Through Class Hierarchy](./ch09.md)
-- [Chapter 10 - Connecting Concepts Through Object Properties](./ch10.md)
-- [Chapter 11](./ch11.md) - WIP
 
 ---
 
