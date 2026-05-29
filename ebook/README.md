@@ -12,7 +12,10 @@ Here are the quick links to every chapter:
 - [Chapter 08 - Understanding the RDF File Structure: Looking Beneath Protégé into the Language of Semantic Knowledge](./ch08.md)
 - [Chapter 09 - Building Semantic Foundations Through Class Hierarchy](./ch09.md)
 - [Chapter 10 - Connecting Concepts Through Object Properties](./ch10.md)
-- [Chapter 11 - Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md) - WIP
+- [Chapter 11 - Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md)
+- [Chapter 12](./ch12.md) - WIP
+
+![book-cover-h](img/book-cover-h.jpg)
 
 ---
 
@@ -49,8 +52,6 @@ but still struggle to answer the most important question:
 > Why does ontology engineering actually matter in modern enterprise and AI systems?
 
 This book was created to answer that question.
-
-![book-cover-h](img/book-cover-h.jpg)
 
 ## Why the Pizza.owl Tutorial Matters
 
@@ -341,4 +342,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/05/27
+Last updated at: 2026/05/29
