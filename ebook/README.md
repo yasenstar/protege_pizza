@@ -2,6 +2,7 @@
 
 Here are the quick links to every chapter:
 
+- [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 - Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
 - [Chapter 02 - Building Your First Ontology in Protégé](./ch02.md)
 - [Chapter 03 - Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md)
@@ -157,7 +158,7 @@ Within EKA, the implementation roadmap is:
 ---
 title: The EKA Implementation Roadmap
 ---
-flowchart TD
+flowchart LR
 A[Diagramming] --> B[Meta-Model] --> C[Ontology] --> D[Knowledge Graph] --> E[Executable Intelligence]
 ```
 
