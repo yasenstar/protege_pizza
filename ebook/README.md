@@ -14,7 +14,8 @@ Here are the quick links to every chapter:
 - [Chapter 09 - Building Semantic Foundations Through Class Hierarchy](./ch09.md)
 - [Chapter 10 - Connecting Concepts Through Object Properties](./ch10.md)
 - [Chapter 11 - Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md)
-- [Chapter 12 -- Governing Semantic Relationship Behavior Through Object Property Characteristics](./ch12.md) - WIP
+- [Chapter 12 -- Governing Semantic Relationship Behavior Through Object Property Characteristics](./ch12.md)
+- [Chapter 13 ](./ch13.md) - WIP
 
 ![book-cover-h](img/book-cover-h.jpg)
 
@@ -343,4 +344,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/05/31
+Last updated at: 2026/06/03
