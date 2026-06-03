@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo/"
+     xmlns:geo="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#locatedIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#City"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#State"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Alabama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Alabama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#State"/>
+        <geo:locatedIn rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Alaska -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Alaska">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#State"/>
+        <geo:locatedIn rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Alexander_City -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Alexander_City">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#City"/>
+        <geo:locatedIn rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Alabama"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Anniston -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Anniston">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#City"/>
+        <geo:locatedIn rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Alabama"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Arizona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Arizona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#State"/>
+        <geo:locatedIn rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Arkansas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Arkansas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#State"/>
+        <geo:locatedIn rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#California -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#California">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#State"/>
+        <geo:locatedIn rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#United_States -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#United_States">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/geo#Country"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
