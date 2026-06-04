@@ -15,7 +15,7 @@ Here are the quick links to every chapter:
 - [Chapter 10 - Connecting Concepts Through Object Properties](./ch10.md)
 - [Chapter 11 - Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md)
 - [Chapter 12 -- Governing Semantic Relationship Behavior Through Object Property Characteristics](./ch12.md)
-- [Chapter 13 ](./ch13.md) - WIP
+- [Chapter 13 - Governing Semantic Boundaries with Property Domain and Range ](./ch13.md) - WIP
 
 ![book-cover-h](img/book-cover-h.jpg)
 
@@ -344,4 +344,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/06/03
+Last updated at: 2026/06/04
