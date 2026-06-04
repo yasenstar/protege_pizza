@@ -2,6 +2,7 @@
 
 Here are the quick links to every chapter:
 
+- [Preface from Author](./AuthorPreface.md)
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 - Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
 - [Chapter 02 - Building Your First Ontology in Protégé](./ch02.md)
