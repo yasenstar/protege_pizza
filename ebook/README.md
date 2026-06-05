@@ -1,6 +1,6 @@
 # eBook for Pizza.owl Ontology Practice using Protégé
 
-Here are the quick links to every chapter:
+Chapters List:
 
 - [Preface from Author](./AuthorPreface.md)
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
@@ -17,6 +17,9 @@ Here are the quick links to every chapter:
 - [Chapter 11 - Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md)
 - [Chapter 12 -- Governing Semantic Relationship Behavior Through Object Property Characteristics](./ch12.md)
 - [Chapter 13 - Governing Semantic Boundaries with Property Domain and Range ](./ch13.md) - WIP
+
+---
+<br>
 
 ![book-cover-h](img/book-cover-h.jpg)
 
@@ -345,4 +348,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/06/04
+Last updated at: 2026/06/05
