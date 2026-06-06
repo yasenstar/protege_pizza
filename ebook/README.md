@@ -4,19 +4,20 @@ Chapters List:
 
 - [Preface from Author](./AuthorPreface.md)
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
-- [Chapter 01 - Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
-- [Chapter 02 - Building Your First Ontology in Protégé](./ch02.md)
-- [Chapter 03 - Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md)
-- [Chapter 04 — Creating Classes and Building the Pizza Ontology Skeleton in Protégé](./ch04.md)
-- [Chapter 05 — Defining Named Classes in the Pizza Ontology](./ch05.md)
-- [Chapter 06 - Applying a Reasoner to the Pizza Ontology](./ch06.md)
-- [Chapter 07 - Ensuring Semantic Integrity with Disjoint Classes](./ch07.md)
-- [Chapter 08 - Understanding the RDF File Structure: Looking Beneath Protégé into the Language of Semantic Knowledge](./ch08.md)
-- [Chapter 09 - Building Semantic Foundations Through Class Hierarchy](./ch09.md)
-- [Chapter 10 - Connecting Concepts Through Object Properties](./ch10.md)
-- [Chapter 11 - Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md)
+- [Chapter 01 -- Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
+- [Chapter 02 -- Building Your First Ontology in Protégé](./ch02.md)
+- [Chapter 03 -- Installing Protégé and Understanding the Ontology Engineering Workspace](./ch03.md)
+- [Chapter 04 -- Creating Classes and Building the Pizza Ontology Skeleton in Protégé](./ch04.md)
+- [Chapter 05 -- Defining Named Classes in the Pizza Ontology](./ch05.md)
+- [Chapter 06 -- Applying a Reasoner to the Pizza Ontology](./ch06.md)
+- [Chapter 07 -- Ensuring Semantic Integrity with Disjoint Classes](./ch07.md)
+- [Chapter 08 -- Understanding the RDF File Structure: Looking Beneath Protégé into the Language of Semantic Knowledge](./ch08.md)
+- [Chapter 09 -- Building Semantic Foundations Through Class Hierarchy](./ch09.md)
+- [Chapter 10 -- Connecting Concepts Through Object Properties](./ch10.md)
+- [Chapter 11 -- Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md)
 - [Chapter 12 -- Governing Semantic Relationship Behavior Through Object Property Characteristics](./ch12.md)
-- [Chapter 13 - Governing Semantic Boundaries with Property Domain and Range ](./ch13.md) - WIP
+- [Chapter 13 -- Governing Semantic Boundaries with Property Domain and Range ](./ch13.md)
+- [Chapter 14]() - To be started
 
 ---
 <br>
