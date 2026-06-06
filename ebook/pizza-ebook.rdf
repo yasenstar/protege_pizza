@@ -22,6 +22,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasBase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasBase">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isBaseOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaBase"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping">
@@ -29,6 +39,12 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isBaseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isBaseOf"/>
     
 
 
@@ -141,6 +157,12 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaBase"/>
     
 
 
