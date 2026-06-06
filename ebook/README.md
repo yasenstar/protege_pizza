@@ -348,4 +348,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/06/05
+Last updated at: 2026/06/06
