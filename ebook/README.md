@@ -4,7 +4,8 @@
 
 Chapters List:
 
-- [Preface from Author](./AuthorPreface.md)
+- [Forward (by Timothy W. Cook)](./foreword_1_TimothyCook.md)
+- [Preface from the Author](./AuthorPreface.md)
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 -- Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
 - [Chapter 02 -- Building Your First Ontology in Protégé](./ch02.md)
@@ -353,4 +354,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/06/06
+Last updated at: 2026/06/11
