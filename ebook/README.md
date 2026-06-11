@@ -4,7 +4,7 @@
 
 Chapters List:
 
-- [Forward (by Timothy W. Cook)](./foreword_1_TimothyCook.md)
+- [Foreword (by Timothy W. Cook)](./foreword_1_TimothyCook.md)
 - [Preface from the Author](./AuthorPreface.md)
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 -- Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
