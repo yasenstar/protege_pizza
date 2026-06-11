@@ -20,7 +20,7 @@ Chapters List:
 - [Chapter 11 -- Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md)
 - [Chapter 12 -- Governing Semantic Relationship Behavior Through Object Property Characteristics](./ch12.md)
 - [Chapter 13 -- Governing Semantic Boundaries with Property Domain and Range ](./ch13.md)
-- [Chapter 14 -- Existential Restrictions: From Semantic Relationships to Semantic Requirements](./ch14.md) - WIP
+- [Chapter 14 -- Semantic Requirements – From Existential Restrictions to Universal Rules](./ch14.md) - WIP
 - ...
 - [Appendix A - Chapter mapping with Exercises](./Appex-A.md)
 
