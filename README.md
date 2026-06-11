@@ -6,6 +6,8 @@
 
 Welcome to the ultimate hands-on guide for learning **Ontology Engineering** using the famous `pizza.owl` tutorial. This repository is designed to take you from a complete beginner to an advanced user of **Protégé**, the world’s most popular ontology editor.
 
+🎉 We've reached 115 stars on GitHub! Thank you for your support.
+
 ## 🌟 Why Learn Ontology & Protégé?
 In the era of AI and Large Language Models (LLMs), **Ontologies** provide the structured "world knowledge" that machines need to reason. By mastering this tutorial, you will learn how to:
 - Define complex hierarchies and relationships.
