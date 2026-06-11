@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook/"
+     xml:base="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:pizza-ebook="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasBase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasBase">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isBaseOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaBase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isToppingOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isBaseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isBaseOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isToppingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#isToppingOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CaperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CaperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheesePizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheesePizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+        <rdfs:comment>Any pizza topping derived from cheese products.</rdfs:comment>
+        <rdfs:label>Cheese Topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#GreenPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#GreenPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#JalapenoPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#JalapenoPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MushroomTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MushroomTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NamedPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NamedPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NoClassDefined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NoClassDefined"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonSpicyTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonSpicyTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonVegetarianPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonVegetarianPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasBase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaBase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#RedPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#RedPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PepperTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SeafoodTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SeafoodTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+        <rdfs:comment>A pizza containing only non-meat toppings, suitable for vegetarian diets.</rdfs:comment>
+        <rdfs:label>Vegetarian Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping"/>
+        <pizza-ebook:isToppingOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MyCustomPizza"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MushroomTopping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MushroomTopping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MushroomTopping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MyCustomPizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MyCustomPizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NoClassDefined"/>
+        <pizza-ebook:hasTopping rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MyTopping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MyTopping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonSpicyTopping1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonSpicyTopping1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonSpicyTopping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NoClassDefined"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pepperoni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pepperoni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonVegetarianPizza"/>
+        <pizza-ebook:hasTopping rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonSpicyTopping1"/>
+        <pizza-ebook:hasTopping rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NamedPizza"/>
+        <pizza-ebook:hasTopping rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpecialPizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpecialPizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NamedPizza"/>
+        <pizza-ebook:hasTopping rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pepperoni"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SpicyTopping"/>
+        <pizza-ebook:hasTopping rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NonSpicyTopping1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MeatTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#GreenPepperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#JalapenoPepperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#RedPepperTopping"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
