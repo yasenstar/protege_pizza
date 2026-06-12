@@ -190,6 +190,7 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasBase"/>
@@ -255,6 +256,12 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping"/>
