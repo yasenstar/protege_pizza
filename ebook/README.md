@@ -4,8 +4,8 @@
 
 Chapters List:
 
-- [Foreword (by Timothy W. Cook)](./foreword_1_TimothyCook.md)
-- [Preface from the Author](./AuthorPreface.md)
+- [Foreword (by Timothy W. Cook)](./a01_foreword_1_TimothyCook.md)
+- [Preface from the Author](./a02_AuthorPreface.md)
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 -- Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
 - [Chapter 02 -- Building Your First Ontology in Protégé](./ch02.md)
@@ -22,7 +22,10 @@ Chapters List:
 - [Chapter 13 -- Governing Semantic Boundaries with Property Domain and Range ](./ch13.md)
 - [Chapter 14 -- Semantic Requirements – From Existential Restrictions to Universal Rules](./ch14.md) - WIP
 - ...
-- [Appendix A - Chapter mapping with Exercises](./Appex-A.md)
+- [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
+- [Contributors](./ch997_contributors.md)
+- [CHANGELOG](./ch998_CHANGELOG.md)
+- [Error Hunting](./ch999_error-hunting.md)
 
 ---
 <br>
@@ -31,7 +34,7 @@ Chapters List:
 
 ---
 
-Table of Content of Preface
+Table of Content of Opening
 - [From Ontology Learning to Executable Knowledge Architecture](#from-ontology-learning-to-executable-knowledge-architecture)
 - [Why the Pizza.owl Tutorial Matters](#why-the-pizzaowl-tutorial-matters)
 - [About This Book](#about-this-book)
@@ -354,4 +357,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/06/11
+Last updated at: 2026/06/12
