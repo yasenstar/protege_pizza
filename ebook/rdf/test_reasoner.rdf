@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:test-reasoner="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_CHILD -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_CHILD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_PARENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_COLLEAGUE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_COLLEAGUE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_SOCIAL_RELATION"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_PARENT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_PARENT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_SOCIAL_RELATION -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#HAS_SOCIAL_RELATION">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Church -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Church">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Person"/>
+        <test-reasoner:HAS_COLLEAGUE rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Turing"/>
+        <test-reasoner:HAS_SOCIAL_RELATION rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Turing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Michael -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Michael">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Person"/>
+        <test-reasoner:HAS_CHILD rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Oriana"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Oriana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Oriana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Person"/>
+        <test-reasoner:HAS_PARENT rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Michael"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Turing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Turing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Person"/>
+        <test-reasoner:HAS_COLLEAGUE rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Church"/>
+        <test-reasoner:HAS_SOCIAL_RELATION rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/5/test-reasoner#Church"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
