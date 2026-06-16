@@ -24,8 +24,8 @@ Chapters List:
 - ...
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
-- [CHANGELOG](./ch998_CHANGELOG.md)
-- [Error Hunting](./ch999_error-hunting.md)
+- [Error Hunting](./ch998_error-hunting.md)
+- [Error Tracker](./ch999_error-hunting.md)
 
 ---
 <br>
