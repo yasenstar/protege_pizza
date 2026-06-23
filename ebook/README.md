@@ -45,6 +45,8 @@ Table of Content of Opening
 - [What Makes This Book Different](#what-makes-this-book-different)
 - [How to Use This Book](#how-to-use-this-book)
 - [Acknowledgements](#acknowledgements)
+  - [Out Intellectual Heritage](#out-intellectual-heritage)
+  - [Special Thanks](#special-thanks)
 - [Related Resources](#related-resources)
 - [Final Thoughts](#final-thoughts)
 
@@ -310,10 +312,23 @@ The goal is learning how to engineer machine-understandable meaning.
 
 ## Acknowledgements
 
-Special thanks to:
+The evolution of knowledge representation is a collaborative journey. This eBook series is built upon the foundational framework of the **`"Pizza Tutorial"`**, originally developed by the Protégé community.
 
-- Michael DeBellis for creating one of the most influential practical OWL learning resources available to the ontology community. (Visit Michael's homepage here: https://www.michaeldebellis.com/)
-- Standford University and the Protégé community for advancing open ontology engineering tools and Semantic Web technologies.
+### Out Intellectual Heritage
+
+This work is a direct descendant of the **Protégé 4 Tutorial (version 1.3) by Matthew Horridge**. We are deeply indebted to the original visionaries who developed the preceding versions and established the core teaching material: **Holger Knublauch, Alan Rector, Robert Stevens, Chris Wroe, Simon Jupp, Georgina Moulton, Nick Drummond, and Sebastian Brandt.**
+
+In this modern adaptation, we have incorporated **Michael DeBellis's** revisions, which successfully bridged the transition to Protégé 5.5 and integrated advanced practices such as SWRL, SPARQL, and SHACL. Furthermore, we acknowledge the contributions of **Lorenz Buehmann, André Wolski, Dick Ooms, Colin Pilkington, Livia Pinera, Jans Aasman, Yan Xu, and the team at Franz Inc.**, whose work in applying these ontologies to real-world triple stores like AllegroGraph and Gruff has significantly shaped our current perspective on **Executable Knowledge Architecture (EKA)**.
+
+### Special Thanks
+
+We extend our sincere gratitude to **Michael DeBellis** for creating one of the most influencial practical OWL learning resources available to the ontology community. (Visit Michael's hompage here - https://www.michaeldebellis.com/). We also thank him for his meticulous technical audit for this series; his expert insights -- particularly regarding the crucial engineering distinction between modeling tool and persistent graph databases -- have been instrumental in ensuring this content meets the standards of modern production-grade environments.
+
+We are also honored to feature a foreword and ongoing review by **Timothy Cook (Founder of SDC)**. His guidance and endorsement have been vital in validating our approach, helping to bridge the gap between traditional semantic modeling and the sophisticated demands of modern enterprise architecture / knowledge architecture.
+
+Finally, we thank **Stanford University and the Protégé community** for their enduring commitment to advancing open ontology engineering tools and Semantic Web technologies.
+
+By preserving this attribution chain, we honor the intellectual legacy of the individuals and organizations that have sustained this field. We stand on the shoulders of these giants, aiming to provide a bridge from traditional semantic modeling to the future of `Executable Knowledge Architecture`.
 
 ## Related Resources
 
@@ -357,4 +372,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/06/12
+Last updated at: 2026/06/23
