@@ -30,10 +30,9 @@ Whether you want an offline, step-by-step text guide to match the video series o
 
 * **Read the Source & Materials:** Check out the [`/ebook`](./ebook) directory right here in this repository.
 * **Get the Complete Digital Edition:** Available now on Leanpub in PDF, EPUB, and MOBI formats!
+* Also, [here](./ebook/html/README) you may view the **HTML version** per chapter.
 
 👉 **[Grab your copy on Leanpub: Pizza OWL Ontology Practice](https://leanpub.com/pizza-owl-ontology-practice)** *By purchasing the book on Leanpub, you get access to lifetime free updates as the tutorial evolves and directly support the creation of more open-source semantic web content!*
-
-Also, [here](./ebook/html/) you may view the HTML version per chapter.
 
 ## 🛠 Repository Structure
 I have tracked my progress step-by-step. You can jump into any stage of the tutorial by using the files in:
