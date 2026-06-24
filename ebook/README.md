@@ -37,15 +37,17 @@ Chapters List:
 Table of Content of Opening
 - [From Ontology Learning to Executable Knowledge Architecture](#from-ontology-learning-to-executable-knowledge-architecture)
 - [Why the Pizza.owl Tutorial Matters](#why-the-pizzaowl-tutorial-matters)
+- [Why This Book?](#why-this-book)
 - [About This Book](#about-this-book)
 - [Why Ontology Matters Today](#why-ontology-matters-today)
 - [Ontology Within the EKA Framework](#ontology-within-the-eka-framework)
 - [This Book Is NOT Only About Pizza](#this-book-is-not-only-about-pizza)
 - [Who This Book Is For](#who-this-book-is-for)
 - [What Makes This Book Different](#what-makes-this-book-different)
-- [How to Use This Book](#how-to-use-this-book)
+- [How to Use This Book -- The Learning Journey](#how-to-use-this-book----the-learning-journey)
+- [Structural Integrity](#structural-integrity)
 - [Acknowledgements](#acknowledgements)
-  - [Out Intellectual Heritage](#out-intellectual-heritage)
+  - [Our Intellectual Heritage \& Licensing](#our-intellectual-heritage--licensing)
   - [Special Thanks](#special-thanks)
 - [Related Resources](#related-resources)
 - [Final Thoughts](#final-thoughts)
@@ -88,11 +90,11 @@ Rather than overwhelming learners immediately with advanced ontology theory, it 
 
 That educational philosophy strongly influenced the structure of this book.
 
-This eBook is based primarily on:
+This eBook serves as the comprehensive companion guide to the [Protégé OWL Pizza Tutorial Hands-on Series](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
 
-- Michael DeBellis' Protégé Pizza OWL Tutorial
-- the Protégé ontology engineering workflow
-- and a complete hands-on video series published through my YouTube channel beginning in 2023
+## Why This Book?
+
+Most ontology materials focus either on abstract theory or narrow tool operations. This book bridges that gap by connecting semantic engineering to the **Executable Knowledge Architecture (EKA)** framework. It is designed to help you engineer machine-understandable meaning for AI systems, enterprise knowledge platforms, and digital twins.
 
 ## About This Book
 
@@ -292,15 +294,14 @@ The book therefore combines:
 
 into a single progressive learning journey.
 
-## How to Use This Book
+## How to Use This Book -- The Learning Journey
 
 The recommended learning approach is:
 
-1. Watch the corresponding video chapter
-2. Read the matching eBook chapter carefully
-3. Repeat the Protégé exercises manually
-4. Reflect on the semantic modeling principles
-5. Connect the concepts back to enterprise knowledge systems
+1. **Watch**: The corresponding YouTube video chapter.
+2. **Read**: The matching eBook chapter for deeper conceptual context.
+3. **Practice**: Manual Protégé exercises and hands-on semantic modeling.
+4. **Reflect**: Map these semantic principles to your own enterprise architecture.
 
 Ontology engineering is not mastered through passive reading alone.
 
@@ -310,15 +311,25 @@ The goal is not merely learning Protégé.
 
 The goal is learning how to engineer machine-understandable meaning.
 
+## Structural Integrity
+
+* **Foreword**: By Timothy W. Cook (Founder of SDC).
+* **Core Curriculum**: Covers everything from basic class hierarchies and object properties to advanced SHACL, SPARQL, and reasoning behavior.
+* **Error Tracker**: An included log to help you troubleshoot common modeling pitfalls.
+
 ## Acknowledgements
 
 The evolution of knowledge representation is a collaborative journey. This eBook series is built upon the foundational framework of the **`"Pizza Tutorial"`**, originally developed by the Protégé community.
 
-### Out Intellectual Heritage
+### Our Intellectual Heritage & Licensing
 
 This work is a direct descendant of the **Protégé 4 Tutorial (version 1.3) by Matthew Horridge**. We are deeply indebted to the original visionaries who developed the preceding versions and established the core teaching material: **Holger Knublauch, Alan Rector, Robert Stevens, Chris Wroe, Simon Jupp, Georgina Moulton, Nick Drummond, and Sebastian Brandt.**
 
 In this modern adaptation, we have incorporated **Michael DeBellis's** revisions, which successfully bridged the transition to Protégé 5.5 and integrated advanced practices such as SWRL, SPARQL, and SHACL. Furthermore, we acknowledge the contributions of **Lorenz Buehmann, André Wolski, Dick Ooms, Colin Pilkington, Livia Pinera, Jans Aasman, Yan Xu, and the team at Franz Inc.**, whose work in applying these ontologies to real-world triple stores like AllegroGraph and Gruff has significantly shaped our current perspective on **Executable Knowledge Architecture (EKA)**.
+
+All educational content in this eBook is licensed under **CC BY-SA 4.0**.
+
+*For full legal details, please see the `README.md` and `LICENSE.md` files in the project root.*
 
 ### Special Thanks
 
@@ -372,4 +383,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/06/23
+Last updated at: 2026/06/24

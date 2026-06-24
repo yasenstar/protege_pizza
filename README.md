@@ -1,12 +1,13 @@
-# 🍕 Protégé Pizza Ontology: Master Semantic Modeling
+# 🍕 Mastering Ontology Engineering with Protégé and Pizza.owl
 
 [![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![YouTube Course](https://img.shields.io/badge/YouTube-Course-red?logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
+![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA--4.0-lightgrey.svg)
 
-Welcome to the ultimate hands-on guide for learning **Ontology Engineering** using the famous `pizza.owl` tutorial. This repository is designed to take you from a complete beginner to an advanced user of **Protégé**, the world’s most popular ontology editor.
+🎉 We've reached 119 stars on GitHub! Thank you for your support.
 
-🎉 We've reached 115 stars on GitHub! Thank you for your support.
+## Project Vision
+This repository is the official engineering environment for the "Mastering Ontology Engineering" project, providing a professional roadmap from semantic foundations to **Executable Knowledge Architecture (EKA)**. This project transforms the legendary Pizza OWL tutorial into a deep-dive professional experience, connecting ontology theory, Protégé operations, and real-world knowledge graph implementation.
 
 ## 🌟 Why Learn Ontology & Protégé?
 In the era of AI and Large Language Models (LLMs), **Ontologies** provide the structured "world knowledge" that machines need to reason. By mastering this tutorial, you will learn how to:
@@ -21,8 +22,6 @@ This repository is a companion to my **comprehensive video course**. I recommend
 ### 📺 Watch the Full Course: 
 [**Protégé 5.x Pizza Tutorial Video Series**](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
 
----
-
 ## 📘 Companion eBook Now Available!
 
 Take your ontology engineering skills to the next level with the official companion eBook: **"Pizza OWL Ontology Practice"**. 
@@ -34,15 +33,25 @@ Whether you want an offline, step-by-step text guide to match the video series o
 
 👉 **[Grab your copy on Leanpub: Pizza OWL Ontology Practice](https://leanpub.com/pizza-owl-ontology-practice)** *By purchasing the book on Leanpub, you get access to lifetime free updates as the tutorial evolves and directly support the creation of more open-source semantic web content!*
 
----
-
 ## 🛠 Repository Structure
 I have tracked my progress step-by-step. You can jump into any stage of the tutorial by using the files in:
 - `/snapshot_models`: RDF/OWL files at various stages of the tutorial.
 - `/ontology_ref`: Reference materials and SHACL shapes.
 - `Protege 5 New OWL Pizza Tutorial V3.2.pdf`: The core manual based on Michael DeBellis' guide.
 
----
+## Acknowledgements & Intellectual Heritage
+
+The evolution of knowledge representation is a collaborative journey. This work is a direct descendant of the **Protégé 4 Tutorial (version 1.3) by Matthew Horridge**, and we honor the foundational contributions of **Holger Knublauch, Alan Rector, Robert Stevens, Chris Wroe, Simon Jupp, Georgina Moulton, Nick Drummond, and Sebastian Brandt**. 
+
+We have incorporated revisions by **Michael DeBellis** (bridging Protégé 5.5 transitions and advanced SHACL/SPARQL practices) and acknowledge the critical insights from **Lorenz Buehmann, André Wolski, Dick Ooms, Colin Pilkington, Livia Pinera, Jans Aasman, Yan Xu, and the team at Franz Inc.**[cite: 1]. We are honored to feature a foreword and ongoing review by **Timothy W. Cook (Founder of SDC)**[cite: 1].
+
+## Licensing & Compliance
+
+To balance educational openness with software governance, this repository utilizes dual licensing[cite: 1]:
+* **Documentation & eBook Content**: Licensed under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**[cite: 1]. This ensures the "share-alike" requirement of the original Pizza Tutorial is strictly honored[cite: 1].
+* **Software, Code & Scripts**: Licensed under **GNU General Public License v3.0 (GPL-3.0)**[cite: 1].
+
+For full legal declarations and the detailed attribution chain, please refer to the `LICENSE.md` file in the root of this repository[cite: 1].
 
 ## 🚀 Getting Started
 
@@ -71,8 +80,9 @@ I have tracked my progress step-by-step. You can jump into any stage of the tuto
 - **Original Guide:** Based on Michael DeBellis' excellent Protégé OWL tutorial.
 - **Mind Map:** Use the [pizza.owl tutorial.mm](./pizza.owl%20tutorial.mm) (Open with FreePlane) for a visual overview.
 - **Visualization:** View the model via [WebVOWL](https://yasenstar.github.io/protege_pizza/).
-
----
+- **Official eBook**: Available in the `/ebook` folder.
+- **YouTube Playlist**: [Protégé OWL Pizza Tutorial Hands-on Series](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW).
+- **EKA Framework**: Official insights at [xiaoqi.com](https://xiaoqi.com/).
 
 ## 🤝 Contributing & Support
 If you find this tutorial helpful, please:
@@ -85,4 +95,4 @@ If you find this tutorial helpful, please:
 
 ---
 
-Last updated at 2026-05-17
+Last updated at 2026-06-24
