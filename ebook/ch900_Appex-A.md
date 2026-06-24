@@ -12,7 +12,8 @@
 | Chapter 11 | Exercise 10 |
 | Chapter 12 | (Added by Author) |
 | Chapter 13 | Exercise 11, Exercise 12 |
+| Chapter 14 | Exercise 13 |
 
 ---
 
-Last Updated at: 2026/06/06
+Last Updated at: 2026/06/24
