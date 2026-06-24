@@ -4,6 +4,8 @@
 
 Chapters List:
 
+- Cover Chapter - This file
+- [Legal & Licensing](./a00_legal-and-licensing.md)
 - [Foreword (by Timothy W. Cook)](./a01_foreword_1_TimothyCook.md)
 - [Preface from the Author](./a02_AuthorPreface.md)
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
