@@ -47,7 +47,7 @@ Table of Content of Opening
 - [This Book Is NOT Only About Pizza](#this-book-is-not-only-about-pizza)
 - [Who This Book Is For](#who-this-book-is-for)
 - [What Makes This Book Different](#what-makes-this-book-different)
-- [How to Use This Book -- The Learning Journey](#how-to-use-this-book----the-learning-journey)
+- [How to Use This Book - The Learning Journey](#how-to-use-this-book---the-learning-journey)
 - [Structural Integrity](#structural-integrity)
 - [Acknowledgements](#acknowledgements)
   - [Our Intellectual Heritage \& Licensing](#our-intellectual-heritage--licensing)
@@ -84,7 +84,7 @@ Using a familiar pizza domain, the tutorial teaches learners how to:
 - think semantically,
 - construct ontology hierarchies,
 - model relationships,
-- apply OWL logic (rules),
+- apply OWL logic (rules), and
 - and understand reasoning behavior inside Protégé
 
 What makes the Pizza tutorial special is that it gradually introduces semantic complexity in a highly structured manner.
@@ -108,7 +108,7 @@ This eBook was written as a companion knowledge guide to the YouTube playlist:
 
 _Since publishing the Protégé OWL Pizza Tutorial series in 2023, I’ve realized how valuable practical ontology learning remains for architects and AI practitioners. What started as a hands-on walkthrough of Michael DeBellis’ tutorial gradually became an important foundation for my EKA (Executable Knowledge Architecture) thinking — connecting ontology, knowledge graphs, and executable intelligence. The playlist may use pizza as the example domain, but its real purpose is helping learners develop semantic thinking and understand how machine-readable knowledge is engineered._
 
-While, the goal is not merely to transcribe the videos.
+However, the goal is not merely to transcribe the videos.
 
 Instead, this book expands the tutorial into a much deeper professional learning experience by combining:
 
@@ -138,7 +138,7 @@ Modern enterprises increasingly rely on:
 - contextual reasoning,
 - and machine-readable knowledge.
 
-Traditional architectures built purely on:
+Traditional architectures are built purely on:
 
 - servers and databases,
 - documents,
@@ -280,7 +280,7 @@ Most ontology books fall into one of two extremes:
 
 This book intentionally bridges both worlds.
 
-The objectives is to create `A Practical Ontology Engineering Handbook` that remains:
+The objective is to create `A Practical Ontology Engineering Handbook` that remains:
 
 - technically rigorous,
 - professionally structured,
@@ -297,7 +297,7 @@ The book therefore combines:
 
 into a single progressive learning journey.
 
-## How to Use This Book -- The Learning Journey
+## How to Use This Book - The Learning Journey
 
 The recommended learning approach is:
 
@@ -336,7 +336,7 @@ All educational content in this eBook is licensed under **CC BY-SA 4.0**.
 
 ### Special Thanks
 
-We extend our sincere gratitude to **Michael DeBellis** for creating one of the most influencial practical OWL learning resources available to the ontology community. (Visit Michael's hompage here - https://www.michaeldebellis.com/). We also thank him for his meticulous technical audit for this series; his expert insights -- particularly regarding the crucial engineering distinction between modeling tool and persistent graph databases -- have been instrumental in ensuring this content meets the standards of modern production-grade environments.
+We extend our sincere gratitude to **Michael DeBellis** for creating one of the most influential practical OWL learning resources available to the ontology community. (Visit Michael's homepage here - https://www.michaeldebellis.com/). We also thank him for his meticulous technical audit for this series; his expert insights -- particularly regarding the crucial engineering distinction between modeling tool and persistent graph databases -- have been instrumental in ensuring this content meets the standards of modern production-grade environments.
 
 We are also honored to feature a foreword and ongoing review by **Timothy Cook (Founder of SDC)**. His guidance and endorsement have been vital in validating our approach, helping to bridge the gap between traditional semantic modeling and the sophisticated demands of modern enterprise architecture / knowledge architecture.
 
@@ -353,7 +353,7 @@ Official Resources:
 
 Learning Resources:
 - YouTube Channel - Xiaoqi(Yasen) Zhao: http://www.youtube.com/@yasenzhao
-- Udemy Courese - Xiaoqi Zhao: https://www.udemy.com/user/xiaoqi-zhao
+- Udemy Course - Xiaoqi Zhao: https://www.udemy.com/user/xiaoqi-zhao
 
 ## Final Thoughts
 
@@ -378,7 +378,7 @@ But the destination is much larger:
 Executable knowledge
 ```
 
-WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
+Welcome to the World of Ontology Engineering!
 
 ---
 
@@ -386,4 +386,4 @@ WELCOME TO THE WORLD OF ONTOLOGY ENGINEERING.
 
 ---
 
-Last updated at: 2026/06/24
+Last updated at: 2026/06/25
