@@ -6,7 +6,8 @@
 - [`ch02.md`, Reviewed on 2026-06-25, Total Issues Found: 29](#ch02md-reviewed-on-2026-06-25-total-issues-found-29)
 - [`ch03.md`, Reviewed on 2026-06-25, Total Issues Found: 26](#ch03md-reviewed-on-2026-06-25-total-issues-found-26)
 - [`ch04.md`, Reviewed on: 2026-06-25, Total Issues Found: 11](#ch04md-reviewed-on-2026-06-25-total-issues-found-11)
-- [Summary of Severity Distribution](#summary-of-severity-distribution)
+- [`ch05.md`, Reviewed on: 2026-06-25, Total Issues Found: 10](#ch05md-reviewed-on-2026-06-25-total-issues-found-10)
+- [`ch06.md`, Reviewed on: 2026-06-25, Total Issues Found: 20](#ch06md-reviewed-on-2026-06-25-total-issues-found-20)
 
 
 ## `README.md`, Reviewed on: 2026-06-25, Total Issues Found: 9
@@ -196,9 +197,7 @@ Summary of Severity Distribution
 | 10 | Next Chapter Preview | `convertions` | Spelling | `convertions` → `conventions` | Medium |
 | 11 | Next Chapter Preview | `mdoel` | Spelling | `mdoel` → `model` | Medium |
 
----
-
-## Summary of Severity Distribution
+Summary of Severity Distribution
 
 | Severity | Count | Description |
 | :--- | :--- | :--- |
@@ -206,3 +205,61 @@ Summary of Severity Distribution
 | **Medium** | 7 | Spelling errors and grammar issues |
 | **Minor** | 4 | Punctuation, formatting, and minor inconsistencies |
 | **Total** | **11** | |
+
+## `ch05.md`, Reviewed on: 2026-06-25, Total Issues Found: 10
+
+| # | Section / Location | Current Text | Issue Type | Suggested Fix | Severity |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Opening paragraph | `relationshipos` | Spelling | `relationshipos` → `relationships` | Medium |
+| 2 | Opening paragraph | `gaph` | Spelling | `gaph` → `graph` | Medium |
+| 3 | 5.3 Content | `verieties` | Spelling | `verieties` → `varieties` | Medium |
+| 4 | 5.4 Content | `inder` | Spelling | `inder` → `infer` | Medium |
+| 5 | 5.5 Content | `clarify` | Spelling | `clarify` → `clarity` (in context of "semantic clarify") | Medium |
+| 6 | 5.5 Content | `retionale` | Spelling | `retionale` → `rationale` | Medium |
+| 7 | 5.6 Content | `wiht` | Spelling | `wiht` → `with` | Medium |
+| 8 | 5.6 Content | `orther` | Spelling | `orther` → `other` | Medium |
+| 9 | Next Chapter Preview | `demostrate` | Spelling | `demostrate` → `demonstrate` | Medium |
+| 10 | Next Chapter Preview | `framwork` | Spelling | `framwork` → `framework` | Medium |
+
+Summary of Severity Distribution
+
+| Severity | Count | Description |
+| :--- | :--- | :--- |
+| **High** | 0 | Critical errors that affect meaning or usability |
+| **Medium** | 10 | Spelling errors and grammar issues |
+| **Minor** | 0 | Formatting and minor inconsistencies |
+| **Total** | **10** | |
+
+## `ch06.md`, Reviewed on: 2026-06-25, Total Issues Found: 20
+
+| # | Section / Location | Current Text | Issue Type | Suggested Fix | Severity |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Opening paragraph | `essense` | Spelling | `essense` → `essence` | Medium |
+| 2 | 6.1 Content | `logicals` | Grammar | `logicals` → `logical` | Medium |
+| 3 | 6.1 Content | `following` | Grammar | `following` → `the following` | Minor |
+| 4 | 6.2 Content | `false positive` | Grammar | `false positive` → `false positives` | Minor |
+| 5 | 6.3 Content | `Pallet` | Spelling | `Pallet` → `Pellet` (correct reasoner name) | Medium |
+| 6 | 6.3 Content | `reasonder` | Spelling | `reasonder` → `reasoner` | Medium |
+| 7 | 6.3 Content | `Pallet` (second occurrence) | Spelling | `Pallet` → `Pellet` | Medium |
+| 8 | 6.4 Heading | `Interpreting Reasoner Outputs` | Spelling | `consistency` → `Consistency` (capitalization) | Medium |
+| 9 | 6.4 Content | `Suggeted` | Spelling | `Suggeted` → `Suggested` | Medium |
+| 10 | 6.4 Content | `imporve` | Spelling | `imporve` → `improve` | Medium |
+| 11 | 6.6 Content | `warming` | Spelling | `warming` → `warning` | Medium |
+| 12 | 6.6 Content | `worray` | Spelling | `worray` → `worry` | Medium |
+| 13 | 6.6 Content | `selec` | Spelling | `selec` → `select` | Medium |
+| 14 | 6.6 Content | `VegetarianPizz` | Spelling | `VegetarianPizz` → `VegetarianPizza` | Medium |
+| 15 | 6.6 Content | `perperty` | Spelling | `perperty` → `property` | Medium |
+| 16 | 6.6 Content | `ontolgoy` | Spelling | `ontolgoy` → `ontology` | Medium |
+| 17 | Chapter Summary | `knowldge` | Spelling | `knowldge` → `knowledge` | Medium |
+| 18 | Key Concepts table | `contraditions` | Spelling | `contraditions` → `contradictions` | Medium |
+| 19 | Next Chapter Preview | `Piza` | Spelling | `Piza` → `Pizza` | Medium |
+| 20 | Next Chapter Preview | `integraity` | Spelling | `integraity` → `integrity` | Medium |
+
+Summary of Severity Distribution
+
+| Severity | Count | Description |
+| :--- | :--- | :--- |
+| **High** | 0 | Critical errors that affect meaning or usability |
+| **Medium** | 17 | Spelling errors and grammar issues |
+| **Minor** | 3 | Formatting and minor inconsistencies |
+| **Total** | **20** | |
