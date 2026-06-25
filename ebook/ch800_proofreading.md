@@ -5,6 +5,8 @@
 - [`ch01.md`, Reviewed on 2026-06-25, Total Issues Found: 20](#ch01md-reviewed-on-2026-06-25-total-issues-found-20)
 - [`ch02.md`, Reviewed on 2026-06-25, Total Issues Found: 29](#ch02md-reviewed-on-2026-06-25-total-issues-found-29)
 - [`ch03.md`, Reviewed on 2026-06-25, Total Issues Found: 26](#ch03md-reviewed-on-2026-06-25-total-issues-found-26)
+- [`ch04.md`, Reviewed on: 2026-06-25, Total Issues Found: 11](#ch04md-reviewed-on-2026-06-25-total-issues-found-11)
+- [Summary of Severity Distribution](#summary-of-severity-distribution)
 
 
 ## `README.md`, Reviewed on: 2026-06-25, Total Issues Found: 9
@@ -177,3 +179,30 @@ Summary of Severity Distribution
 | **Medium** | 19 | Spelling errors and grammar issues |
 | **Minor** | 7 | Formatting, punctuation, and minor inconsistencies |
 | **Total** | **26** | |
+
+## `ch04.md`, Reviewed on: 2026-06-25, Total Issues Found: 11
+
+| # | Section / Location | Current Text | Issue Type | Suggested Fix | Severity |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Learning objectives | `Pizz ontology` | Spelling | `Pizz` → `Pizza` | Medium |
+| 2 | 4.1 Heading | `Classses` | Spelling | `Classses` → `Classes` | Medium |
+| 3 | 4.1 Content | `archors` | Spelling | `archors` → `anchors` | Medium |
+| 4 | 4.3 Content | `everytime` | Spelling | `everytime` → `every time` | Minor |
+| 5 | 4.4 Content | `concsistency` | Spelling | `concsistency` → `consistency` | Medium |
+| 6 | 4.4 Content | `→` | Formatting | Replace with LaTeX: `$\rightarrow$` for compatibility | Minor |
+| 7 | 4.5 Content | `skeleton ontology"` | Formatting | Replace `"` with `**` for bold formatting: `**skeleton ontology**` | Minor |
+| 8 | Chapter Summary | `interoperatability` | Spelling | `interoperatability` → `interoperability` | Medium |
+| 9 | Key Concepts table | `semantice` | Spelling | `semantice` → `semantic` | Medium |
+| 10 | Next Chapter Preview | `convertions` | Spelling | `convertions` → `conventions` | Medium |
+| 11 | Next Chapter Preview | `mdoel` | Spelling | `mdoel` → `model` | Medium |
+
+---
+
+## Summary of Severity Distribution
+
+| Severity | Count | Description |
+| :--- | :--- | :--- |
+| **High** | 0 | Critical errors that affect meaning or usability |
+| **Medium** | 7 | Spelling errors and grammar issues |
+| **Minor** | 4 | Punctuation, formatting, and minor inconsistencies |
+| **Total** | **11** | |
