@@ -9,6 +9,7 @@
 - [`ch05.md`, Reviewed on: 2026-06-25, Total Issues Found: 10](#ch05md-reviewed-on-2026-06-25-total-issues-found-10)
 - [`ch06.md`, Reviewed on: 2026-06-25, Total Issues Found: 20](#ch06md-reviewed-on-2026-06-25-total-issues-found-20)
 - [`ch07.md`, Reviewed on: 2026-06-25, Total Issues Found: 21](#ch07md-reviewed-on-2026-06-25-total-issues-found-21)
+- [`ch08.md`, Reviewed on: 2026-06-25, Total Issues Found: 26](#ch08md-reviewed-on-2026-06-25-total-issues-found-26)
 
 
 ## `README.md`, Reviewed on: 2026-06-25, Total Issues Found: 9
@@ -300,3 +301,42 @@ Summary of Severity Distribution
 | **Minor** | 4 | Formatting and minor inconsistencies |
 | **Total** | **21** | |
 
+## `ch08.md`, Reviewed on: 2026-06-25, Total Issues Found: 26
+
+| # | Section / Location | Current Text | Issue Type | Suggested Fix | Severity |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Chapter Introduction | `natually` | Spelling | `natually` → `naturally` | Medium |
+| 2 | Chapter Introduction | `repeatly` | Spelling | `repeatly` → `repeatedly` | Medium |
+| 3 | Chapter Introduction | `amonge` | Spelling | `amonge` → `among` | Medium |
+| 4 | Chapter Introduction | `thorugh` | Spelling | `thorugh` → `through` | Medium |
+| 5 | Chapter Introduction | `modele` | Spelling | `modele` → `model` | Medium |
+| 6 | 8.1 Content | `transition` | Grammar | `transition` → `transitions` (subject-verb agreement) | Medium |
+| 7 | 8.1 Content | `abstration` | Spelling | `abstration` → `abstraction` | Medium |
+| 8 | 8.1 Content | `And being thinking` | Grammar | `And being thinking` → `And begin thinking` | Medium |
+| 9 | 8.2 Content | `beginners` | Grammar | `beginners` → `beginner's` (possessive) | Minor |
+| 10 | 8.2 Content | `semantica` | Spelling | `semantica` → `semantic` | Medium |
+| 11 | 8.2 Content | `Predicat` | Spelling | `Predicat` → `Predicate` | Medium |
+| 12 | 8.3 Content | `digramming` | Spelling | `digramming` → `diagramming` | Medium |
+| 13 | 8.3 Content | `relationships follows` | Grammar | `relationships follows` → `relationships follow` | Medium |
+| 14 | 8.4 Content | `systax` | Spelling | `systax` → `syntax` | Medium |
+| 15 | 8.5 Content | `realization` | Grammar | `realization` → `realizations` (plural) | Minor |
+| 16 | 8.5 Content | `VegetarianPizz` | Spelling | `VegetarianPizz` → `VegetarianPizza` | Medium |
+| 17 | 8.6 Heading | `Natually` | Spelling | `Natually` → `Naturally` | Medium |
+| 18 | 8.6 Content | `Gool catch` | Spelling | `Gool catch` → `Good catch` | Medium |
+| 19 | 8.7 Content | `Ontolgoy` | Spelling | `Ontolgoy` → `Ontology` | Medium |
+| 20 | 8.7 Content | `qualfies` | Spelling | `qualfies` → `qualifies` | Medium |
+| 21 | 8.7 Content | `operrationalize` | Spelling | `operrationalize` → `operationalize` | Medium |
+| 22 | 8.9 Content | `tripes` | Spelling | `tripes` → `triples` | Medium |
+| 23 | 8.9 Content | `Example include` | Grammar | `Example include` → `Examples include` | Medium |
+| 24 | 8.10 Content | `They` | Grammar | `They` → `You` (inconsistent pronoun) | Medium |
+| 25 | Chapter Summary | `natually` | Spelling | `natually` → `naturally` | Medium |
+| 26 | Reference Demo Video | `in YouTube` | Grammar | `in YouTube` → `on YouTube` | Minor |
+
+Summary of Severity Distribution
+
+| Severity | Count | Description |
+| :--- | :--- | :--- |
+| **High** | 0 | Critical errors that affect meaning or usability |
+| **Medium** | 21 | Spelling errors and grammar issues |
+| **Minor** | 5 | Formatting and minor inconsistencies |
+| **Total** | **26** | |
