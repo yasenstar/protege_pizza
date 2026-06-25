@@ -4,6 +4,7 @@
 - [`ch00.md`, Reviewed on 2026-06-25, Total Issues Found: 17](#ch00md-reviewed-on-2026-06-25-total-issues-found-17)
 - [`ch01.md`, Reviewed on 2026-06-25, Total Issues Found: 20](#ch01md-reviewed-on-2026-06-25-total-issues-found-20)
 - [`ch02.md`, Reviewed on 2026-06-25, Total Issues Found: 29](#ch02md-reviewed-on-2026-06-25-total-issues-found-29)
+- [`ch03.md`, Reviewed on 2026-06-25, Total Issues Found: 26](#ch03md-reviewed-on-2026-06-25-total-issues-found-26)
 
 
 ## `README.md`, Reviewed on: 2026-06-25, Total Issues Found: 9
@@ -137,3 +138,42 @@ Summary of Severity Distribution
 | **Minor** | 9 | Formatting, punctuation, and minor inconsistencies |
 | **Total** | **29** | |
 
+## `ch03.md`, Reviewed on 2026-06-25, Total Issues Found: 26
+
+| # | Section / Location | Current Text | Issue Type | Suggested Fix | Severity |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Opening paragraph | `broader EKA (Executable Knowledge Architecture) frameworks` | Grammar | `frameworks` → `framework` | Minor |
+| 2 | Opening paragraph | `semantic workflow provides by Protégé` | Grammar | `provides` → `provided` | Medium |
+| 3 | Opening paragraph | `demostrated` | Spelling | `demostrated` → `demonstrated` | Medium |
+| 4 | 3.1 Content | `"Ontology' stage` | Punctuation | Remove stray single quote: `"Ontology' stage` → `"Ontology" stage` | Minor |
+| 5 | 3.1 Content | `semantic structurs` | Spelling | `structurs` → `structures` | Medium |
+| 6 | 3.2 Content | `archiectural` | Spelling | `archiectural` → `architectural` | Medium |
+| 7 | 3.3 Content | `useful way` | Grammar | `useful way` → `useful ways` | Minor |
+| 8 | 3.3 Content | `explian` | Spelling | `explian` → `explain` | Medium |
+| 9 | 3.4 Content | `prinicple` | Spelling | `prinicple` → `principle` | Medium |
+| 10 | 3.4 Content | `familiar ArchiMate` | Grammar | `familiar ArchiMate` → `familiar with ArchiMate` | Minor |
+| 11 | 3.4 Content | `the difference of their philosophy` | Grammar | `the difference of` → `the difference in` | Minor |
+| 12 | 3.5 Heading | `The Class Tab` | Spelling | `Classses` → `Classes` (in the referenced text) | Medium |
+| 13 | 3.5 Content | `logicl restrictions` | Spelling | `logicl` → `logical` | Medium |
+| 14 | 3.7 Content | `menaing` | Spelling | `menaing` → `meaning` | Medium |
+| 15 | 3.9 Content | `chekc` | Spelling | `chekc` → `check` | Medium |
+| 16 | 3.11 Content | `semantics APIs` | Grammar | `semantics` → `semantic` | Minor |
+| 17 | 3.12 Content | `fundamentallly` | Spelling | `fundamentallly` → `fundamentally` | Medium |
+| 18 | Key OWL Concepts | `standarized` | Spelling | `standarized` → `standardized` | Medium |
+| 19 | Key OWL Concepts | `format inheritance` | Spelling | `format` → `formal` | Medium |
+| 20 | Extended Reading - Bonus heading | `chekc` | Spelling | `chekc` → `check` | Medium |
+| 21 | Extended Reading - Fix the Problem heading | `chekc` | Spelling | `chekc` → `check` | Medium |
+| 22 | Extended Reading - Step 1 | `JRD` | Spelling | `JRD` → `JRE` (Java Runtime Environment) | Medium |
+| 23 | Extended Reading - Step 1 | `Jave` | Spelling | `Jave` → `Java` | Medium |
+| 24 | Extended Reading - Step 3 heading | `inot` | Spelling | `inot` → `into` | Medium |
+| 25 | Extended Reading - Step 3 | `Truest` | Spelling | `Truest` → `Trust` | Medium |
+| 26 | Reference heading | `Referencde` | Spelling | `Referencde` → `Reference` | Medium |
+
+Summary of Severity Distribution
+
+| Severity | Count | Description |
+| :--- | :--- | :--- |
+| **High** | 0 | Critical errors that affect meaning or usability |
+| **Medium** | 19 | Spelling errors and grammar issues |
+| **Minor** | 7 | Formatting, punctuation, and minor inconsistencies |
+| **Total** | **26** | |
