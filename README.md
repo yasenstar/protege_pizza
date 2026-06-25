@@ -4,7 +4,7 @@
 [![YouTube Course](https://img.shields.io/badge/YouTube-Course-red?logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
 ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA--4.0-lightgrey.svg)
 
-🎉 We've reached 119 stars on GitHub! Thank you for your support.
+🎉 We've reached 120 stars on GitHub! Thank you for your support.
 
 ## Project Vision
 This repository is the official engineering environment for the "Mastering Ontology Engineering" project, providing a professional roadmap from semantic foundations to **Executable Knowledge Architecture (EKA)**. This project transforms the legendary Pizza OWL tutorial into a deep-dive professional experience, connecting ontology theory, Protégé operations, and real-world knowledge graph implementation.
@@ -96,4 +96,4 @@ If you find this tutorial helpful, please:
 
 ---
 
-Last updated at 2026-06-24
+Last updated at 2026-06-25
