@@ -10,6 +10,7 @@
 - [`ch06.md`, Reviewed on: 2026-06-25, Total Issues Found: 20](#ch06md-reviewed-on-2026-06-25-total-issues-found-20)
 - [`ch07.md`, Reviewed on: 2026-06-25, Total Issues Found: 21](#ch07md-reviewed-on-2026-06-25-total-issues-found-21)
 - [`ch08.md`, Reviewed on: 2026-06-25, Total Issues Found: 26](#ch08md-reviewed-on-2026-06-25-total-issues-found-26)
+- [`ch09.md`, Reviewed on: 2026-06-25, Total Issues Found: 21](#ch09md-reviewed-on-2026-06-25-total-issues-found-21)
 
 
 ## `README.md`, Reviewed on: 2026-06-25, Total Issues Found: 9
@@ -340,3 +341,38 @@ Summary of Severity Distribution
 | **Medium** | 21 | Spelling errors and grammar issues |
 | **Minor** | 5 | Formatting and minor inconsistencies |
 | **Total** | **26** | |
+
+## `ch09.md`, Reviewed on: 2026-06-25, Total Issues Found: 21
+
+| # | Section / Location | Current Text | Issue Type | Suggested Fix | Severity |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Chapter Introduction | `this is interpretation` | Grammar | `this is` → `this` (remove extra word) | Medium |
+| 2 | Chapter Introduction | `categorizes` | Spelling | `categorizes` → `categories` | Medium |
+| 3 | Chapter Introduction | `knowledge graph lose` | Grammar | `lose` → `loses` (subject-verb agreement) | Medium |
+| 4 | 9.1 Content | `semantics meaning` | Grammar | `semantics` → `semantic` | Medium |
+| 5 | 9.2 Content | `VegentarianPizza` | Spelling | `VegentarianPizza` → `VegetarianPizza` | Medium |
+| 6 | 9.2 Content | `dependes` | Spelling | `dependes` → `depends` | Medium |
+| 7 | 9.2 Content | `hirarchy` | Spelling | `hirarchy` → `hierarchy` | Medium |
+| 8 | 9.3 Content | `Cheesetopping` | Capitalization | `Cheesetopping` → `CheeseTopping` (consistency) | Minor |
+| 9 | 9.3 Content | `Be contrast` | Grammar | `Be contrast` → `By contrast` | Medium |
+| 10 | 9.3 Content | `diffeence` | Spelling | `diffeence` → `difference` | Medium |
+| 11 | 9.4 Content | `geneinely` | Spelling | `geneinely` → `genuinely` | Medium |
+| 12 | 9.4 Content | `inferernce` | Spelling | `inferernce` → `inference` | Medium |
+| 13 | 9.4 Content | `CheessTopping` | Spelling | `CheessTopping` → `CheeseTopping` | Medium |
+| 14 | 9.6 Content | `clasification` | Spelling | `clasification` → `classification` | Medium |
+| 15 | 9.7 Content | `logicaaly` | Spelling | `logicaaly` → `logically` | Medium |
+| 16 | 9.7 Content | `sihft` | Spelling | `sihft` → `shift` | Medium |
+| 17 | 9.8 Heading | `Mistake 2` | Formatting | Missing closing heading tag: `Overly Flat Structures` → `Overly Flat Structures` | Minor |
+| 18 | 9.8 Heading | `Mistake 4` | Formatting | Missing closing heading tag: `Ignoring Future Scalability` → `Ignoring Future Scalability` | Minor |
+| 19 | 9.8 Content | `Exterprise` | Spelling | `Exterprise` → `Enterprise` | Medium |
+| 20 | Next Chapter Preview | `CheeseTopping` | Formatting | Add backticks for consistency: `CheeseTopping` | Minor |
+| 21 | Last updated | `5/24/2026` | Formatting | Consider ISO format: `2026-05-24` | Minor |
+
+Summary of Severity Distribution
+
+| Severity | Count | Description |
+| :--- | :--- | :--- |
+| **High** | 0 | Critical errors that affect meaning or usability |
+| **Medium** | 15 | Spelling errors and grammar issues |
+| **Minor** | 6 | Formatting and minor inconsistencies |
+| **Total** | **21** | |
