@@ -1,0 +1,4 @@
+/* Prevents page breaks inside code blocks and quotes */
+pre, blockquote, p {
+    page-break-inside: avoid;
+}
