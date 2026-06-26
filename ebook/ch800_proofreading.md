@@ -15,6 +15,7 @@
 - [`ch11.md`, Reviewed on: 2026-06-26, Total Issues Found: 24](#ch11md-reviewed-on-2026-06-26-total-issues-found-24)
 - [`ch12.md`, Reviewed on: 2026-06-26, Total Issues Found: 47](#ch12md-reviewed-on-2026-06-26-total-issues-found-47)
 - [`ch13.md`, Reviewed on: 2026-06-26, Total Issues Found: 59](#ch13md-reviewed-on-2026-06-26-total-issues-found-59)
+- [`ch14.md`, Reviewed on: 2026-06-24, Total Issues Found: 106](#ch14md-reviewed-on-2026-06-24-total-issues-found-106)
 
 
 ## `README.md`, Reviewed on: 2026-06-25, Total Issues Found: 9
@@ -597,3 +598,123 @@ Summary of Severity Distribution
 | **Medium** | 59 | Spelling errors and grammar issues |
 | **Minor** | 0 | Formatting and minor inconsistencies |
 | **Total** | **59** | |
+
+## `ch14.md`, Reviewed on: 2026-06-24, Total Issues Found: 106
+
+| # | Section / Location | Current Text | Issue Type | Suggested Fix | Severity |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | 14.1 Note | `interexcahngeable` | Spelling | `interexcahngeable` → `interchangeable` | Medium |
+| 2 | 14.1 Note | `same` | Spelling | `same` → `some` | Medium |
+| 3 | 14.2 Content | `Imaging` | Spelling | `Imaging` → `Imagine` | Medium |
+| 4 | 14.2 Content | `semantices` | Spelling | `semantices` → `semantics` | Medium |
+| 5 | 14.3 Content | `consider` | Capitalization | `consider` → `Consider` | Minor |
+| 6 | 14.3 Content | `sementic` | Spelling | `sementic` → `semantic` | Medium |
+| 7 | 14.3 Content | `logicall` | Spelling | `logicall` → `logically` | Medium |
+| 8 | 14.3 Content | `firest` | Spelling | `firest` → `first` | Medium |
+| 9 | 14.4.1 Content | `relationshiop` | Spelling | `relationshiop` → `relationship` | Medium |
+| 10 | 14.4.1 Content | `chile` | Spelling | `chile` → `child` | Medium |
+| 11 | 14.4.1 Content | `mozarella` | Spelling | `mozarella` → `mozzarella` | Medium |
+| 12 | 14.4.1 Content | `Concrol` | Spelling | `Concrol` → `Control` | Medium |
+| 13 | 14.4.2 Content | `ture` | Spelling | `ture` → `true` | Medium |
+| 14 | 14.4.4 Content | `Thsi` | Spelling | `Thsi` → `This` | Medium |
+| 15 | 14.4.4 Content | `Cartinality` | Spelling | `Cartinality` → `Cardinality` | Medium |
+| 16 | 14.5.1 Content | `sementic` | Spelling | `sementic` → `semantic` | Medium |
+| 17 | 14.5.2 Content | `Base on` | Grammar | `Base on` → `Based on` | Minor |
+| 18 | 14.5.2 Content | `Quary` | Spelling | `Quary` → `Query` | Medium |
+| 19 | 14.5.2 Content | `sytems` | Spelling | `sytems` → `systems` | Medium |
+| 20 | 14.5.3 Content | `instroduces` | Spelling | `instroduces` → `introduces` | Medium |
+| 21 | 14.5.3 Content | `ontolgoy` | Spelling | `ontolgoy` → `ontology` | Medium |
+| 22 | 14.6 Content | `fondation` | Spelling | `fondation` → `foundation` | Medium |
+| 23 | 14.6 Content | `Restrictiions` | Spelling | `Restrictiions` → `Restrictions` | Medium |
+| 24 | 14.6 Content | `folloing` | Spelling | `folloing` → `following` | Medium |
+| 25 | 14.7 Content | `differenctly` | Spelling | `differenctly` → `differently` | Medium |
+| 26 | 14.7.2 Content | `uner` | Spelling | `uner` → `under` | Medium |
+| 27 | 14.7.2 Content | `separting` | Spelling | `separting` → `separating` | Medium |
+| 28 | 14.7.3 Content | `exitential` | Spelling | `exitential` → `existential` | Medium |
+| 29 | 14.7.3 Content | `Mozzrellatopping` | Spelling | `Mozzrellatopping` → `MozzarellaTopping` | Medium |
+| 30 | 14.7.4 Content | `loggical` | Spelling | `loggical` → `logical` | Medium |
+| 31 | 14.7.4 Content | `inportantly` | Spelling | `inportantly` → `importantly` | Medium |
+| 32 | 14.7.4 Content | `absense` | Spelling | `absense` → `absence` | Medium |
+| 33 | 14.7.4 Content | `hightly` | Spelling | `hightly` → `highly` | Medium |
+| 34 | 14.7.4 Content | `knoweldge` | Spelling | `knoweldge` → `knowledge` | Medium |
+| 35 | 14.8 Content | `introducted` | Spelling | `introducted` → `introduced` | Medium |
+| 36 | 14.8 Content | `accidently` | Spelling | `accidently` → `accidentally` | Medium |
+| 37 | 14.8 Content | `goverance` | Spelling | `goverance` → `governance` | Medium |
+| 38 | 14.8.1 Content | `firse` | Spelling | `firse` → `first` | Medium |
+| 39 | 14.8.1 Content | `semantice` | Spelling | `semantice` → `semantic` | Medium |
+| 40 | 14.8.1 Content | `onotlogy` | Spelling | `onotlogy` → `ontology` | Medium |
+| 41 | 14.8.2 Content | `interprest` | Spelling | `interprest` → `interprets` | Medium |
+| 42 | 14.8.2 Content | `triggerring` | Spelling | `triggerring` → `triggering` | Medium |
+| 43 | 14.8.2 Content | `presense` | Spelling | `presense` → `presence` | Medium |
+| 44 | 14.8.2 Content | `univeral` | Spelling | `univeral` → `universal` | Medium |
+| 45 | 14.8.2 Content | `attemp` | Spelling | `attemp` → `attempt` | Medium |
+| 46 | 14.8.3 Heading | `Differece` | Spelling | `Differece` → `Difference` | Medium |
+| 47 | 14.8.3 Content | `milestoners` | Spelling | `milestoners` → `milestones` | Medium |
+| 48 | 14.8.3 Content | `extremebly` | Spelling | `extremebly` → `extremely` | Medium |
+| 49 | 14.8.3 Vacuous Truth | `Vacuour` | Spelling | `Vacuour` → `Vacuous` | Medium |
+| 50 | 14.8.3 Vacuous Truth | `compliain` | Spelling | `compliain` → `complain` | Medium |
+| 51 | 14.8.4 Content | `As first glance` | Grammar | `As first glance` → `At first glance` | Minor |
+| 52 | 14.8.4 Content | `semantice` | Spelling | `semantice` → `semantic` | Medium |
+| 53 | 14.9 Heading | `Classis` | Spelling | `Classis` → `Classic` | Medium |
+| 54 | 14.9 Content | `wold` | Spelling | `wold` → `would` | Medium |
+| 55 | 14.9.1 Content | `Pepproni` | Spelling | `Pepproni` → `Pepperoni` | Medium |
+| 56 | 14.9.1 Content | `accetable` | Spelling | `accetable` → `acceptable` | Medium |
+| 57 | 14.9.2 Content | `Support` | Spelling | `Support` → `Suppose` | Medium |
+| 58 | 14.9.3 Heading | `Compsition` | Spelling | `Compsition` → `Composition` | Medium |
+| 59 | 14.9.3 Content | `ahsTopping` | Spelling | `ahsTopping` → `hasTopping` | Medium |
+| 60 | 14.10 Content | `Noe4j` | Spelling | `Noe4j` → `Neo4j` | Medium |
+| 61 | 14.10 Content | `easiers` | Spelling | `easiers` → `easier` | Medium |
+| 62 | 14.10.1 Content | `Noe4j` | Spelling | `Noe4j` → `Neo4j` | Medium |
+| 63 | 14.10.1 Content | `Tomatotopping` | Spelling | `Tomatotopping` → `TomatoTopping` | Medium |
+| 64 | 14.10.1 Content | `repeatly` | Spelling | `repeatly` → `repeatedly` | Medium |
+| 65 | 14.10.2 Content | `evaludated` | Spelling | `evaludated` → `evaluated` | Medium |
+| 66 | 14.10.2 Content | `absense` | Spelling | `absense` → `absence` | Medium |
+| 67 | 14.10.3 Content | `repeatly` | Spelling | `repeatly` → `repeatedly` | Medium |
+| 68 | 14.10.4 Content | `paggerns` | Spelling | `paggerns` → `patterns` | Medium |
+| 69 | 14.10.4 Content | `esctions` | Spelling | `esctions` → `sections` | Medium |
+| 70 | 14.10.4 Content | `dimenstion` | Spelling | `dimenstion` → `dimension` | Medium |
+| 71 | 14.10.4 Content | `Defition` | Spelling | `Defition` → `Definition` | Medium |
+| 72 | 14.10.4 Part 3 | `idenifying` | Spelling | `idenifying` → `identifying` | Medium |
+| 73 | 14.10.4 Part 3 | `despit` | Spelling | `despit` → `despite` | Medium |
+| 74 | 14.10.4 Part 3 | `reasoners` | Grammar | `reasoners` → `reasoner` (singular) | Minor |
+| 75 | 14.10.4 Part 4 | `Pellte` | Spelling | `Pellte` → `Pellet` | Medium |
+| 76 | 14.10.4 Part 6 | `Scanario` | Spelling | `Scanario` → `Scenario` | Medium |
+| 77 | 14.10.4 Part 6 | `complement` | Spelling | `complement` → `complete` | Medium |
+| 78 | 14.11 Content | `realtionships` | Spelling | `realtionships` → `relationships` | Medium |
+| 79 | 14.11.2 Content | `sementic` | Spelling | `sementic` → `semantic` | Medium |
+| 80 | 14.11.2 Content | `reaonser` | Spelling | `reaonser` → `reasoner` | Medium |
+| 81 | 14.11.4 Content | `significatn` | Spelling | `significatn` → `significant` | Medium |
+| 82 | 14.11.6 Content | `ongology` | Spelling | `ongology` → `ontology` | Medium |
+| 83 | 14.11.6 Content | `incresingly` | Spelling | `incresingly` → `increasingly` | Medium |
+| 84 | 14.12.1 Content | `comceptual` | Spelling | `comceptual` → `conceptual` | Medium |
+| 85 | 14.12.1 Content | `releationships` | Spelling | `releationships` → `relationships` | Medium |
+| 86 | 14.12.1 Content | `becomine` | Spelling | `becomine` → `becoming` | Medium |
+| 87 | 14.12.1 Content | `Concetps` | Spelling | `Concetps` → `Concepts` | Medium |
+| 88 | 14.12.1 Content | `experimantation` | Spelling | `experimantation` → `experimentation` | Medium |
+| 89 | 14.12.1 Content | `buidling` | Spelling | `buidling` → `building` | Medium |
+| 90 | 14.12.1 Content | `deine` | Spelling | `deine` → `define` | Medium |
+| 91 | 14.12.3 Content | `construcing` | Spelling | `construcing` → `constructing` | Medium |
+| 92 | 14.12.4 Content | `structureal` | Spelling | `structureal` → `structural` | Medium |
+| 93 | 14.13 Content | `ecoounter` | Spelling | `ecoounter` → `encounter` | Medium |
+| 94 | 14.13.2 Content | `absense` | Spelling | `absense` → `absence` | Medium |
+| 95 | 14.13.2 Content | `lerans` | Spelling | `lerans` → `learns` | Medium |
+| 96 | 14.13.3 Content | `hasToppoing` | Spelling | `hasToppoing` → `hasTopping` | Medium |
+| 97 | 14.13.3 Content | `CheesePizaa` | Spelling | `CheesePizaa` → `CheesePizza` | Medium |
+| 98 | 14.13.4 SHACL Reading | `worder` | Spelling | `worder` → `wonder` | Medium |
+| 99 | 14.13.4 SHACL Reading | `recommentation` | Spelling | `recommentation` → `recommendation` | Medium |
+| 100 | 14.13.4 SHACL Reading | `remenber` | Spelling | `remenber` → `remember` | Medium |
+| 101 | 14.13.5 Content | `everthing` | Spelling | `everthing` → `everything` | Medium |
+| 102 | 14.13.5 Content | `pricision` | Spelling | `pricision` → `precision` | Medium |
+| 103 | 14.13.6 Heading | `Mistaks` | Spelling | `Mistaks` → `Mistakes` | Medium |
+| 104 | 14.13.6 Content | `Overtime` | Grammar | `Overtime` → `Over time` | Minor |
+| 105 | 14.14.1 Heading | `Leared` | Spelling | `Leared` → `Learned` | Medium |
+| 106 | 14.15 Key Concepts | `Equivalentto` | Capitalization | `Equivalentto` → `EquivalentTo` | Minor |
+
+Summary of Severity Distribution
+
+| Severity | Count | Description |
+| :--- | :--- | :--- |
+| **High** | 0 | Critical errors that affect meaning or usability |
+| **Medium** | 96 | Spelling errors and grammar issues |
+| **Minor** | 10 | Formatting, punctuation, and minor inconsistencies |
+| **Total** | **106** | |
