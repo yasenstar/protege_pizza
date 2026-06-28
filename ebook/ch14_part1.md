@@ -410,7 +410,14 @@ Meaning becomes **logically inferable.**
 
 To better understand property restrictions, it is useful to view them as a family of semantic mechanisms.
 
-![treeview](img/ch14_27_treeview.png)
+```mermaid
+treeView-beta
+"Quantifier Restriction"
+  "Existential Restrictions"
+  "Universal Restrictions"
+"Cardinality Restrictions"
+"hasValue Restrictions"
+```
 
 Broadly speaking as above tree-view, OWL property restrictions can be grouped into three major categories:
 
@@ -1135,4 +1142,4 @@ With this grammar foundation established, you are now ready to begin applying ex
 
 ---
 
-Last Updated at: 2026-06-26
+Last Updated at: 2026-06-28
