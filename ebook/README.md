@@ -24,7 +24,7 @@ Chapters List:
 - [Chapter 13 -- Governing Semantic Boundaries with Property Domain and Range ](./ch13.md)
 - [Chapter 14 -- Semantic Requirements – From Existential Restrictions to Universal Rules](./ch14.md)
 - [Chapter 15 -- Creating Subclasses: Building Semantic Taxonomy in Ontology](./ch15.md)
-- [Chapter 16] -- To be started
+- [Chapter 16 -- Expanding Named Pizza Hierarchy: Designing Scalable Taxonomies](./ch16.md) -- WIP
 - ...
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
