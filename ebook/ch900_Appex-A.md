@@ -14,7 +14,8 @@
 | Chapter 13 | Exercise 11, Exercise 12 |
 | Chapter 14 | Exercise 13 |
 | Chapter 15 | Exercise 14 |
+| Chapter 16 | Exercise 15 |
 
 ---
 
-Last Updated at: 2026/06/27
+Last Updated at: 2026-07-03
