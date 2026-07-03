@@ -6,8 +6,9 @@ Chapters List:
 
 - Cover Chapter - This file
 - [Legal & Licensing](./a00_legal-and-licensing.md)
-- [Foreword (by Timothy W. Cook)](./a01_foreword_1_TimothyCook.md)
-- [Preface from the Author](./a02_AuthorPreface.md)
+- [Foreword from Timothy W. Cook](./a01_foreword_1_TimothyCook.md)
+- [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
+- [Preface from the Author](./a03_AuthorPreface.md)
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 -- Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
 - [Chapter 02 -- Building Your First Ontology in Protégé](./ch02.md)
@@ -387,4 +388,4 @@ Welcome to the World of Ontology Engineering!
 
 ---
 
-Last updated at: 2026/06/29
+Last updated at: 2026-07-03

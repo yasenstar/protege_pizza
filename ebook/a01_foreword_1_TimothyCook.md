@@ -1,4 +1,4 @@
-# Foreword
+# Foreword from Timothy Cook
 
 For more than twenty years, ontology engineering has carried a quiet reputation: powerful in theory, hard to reach in practice. Michael DeBellis' Pizza tutorial did more than almost any other resource to change that, by letting people learn semantics with their hands instead of only their heads. What Xiaoqi Zhao has done here is take that well-loved starting point and carry it all the way to where the work actually has to live, which is inside real systems, under real governance.
 

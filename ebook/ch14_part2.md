@@ -383,6 +383,21 @@ toward:
 
 > **semantic intelligence.**
 
+> **Important Note on Inference Materialization**
+>
+> As you complete Exercise 13 and run the reasoner, you will observe inferred classifications appearing in Protégé's interface. It is important to understand how these inferences are handled.
+>
+> In Protégé's default desktop workflow, reasoner results are shown as **inferred axioms** -- they are displayed visually (e.g., in the class hierarchy or individuals view) but are **NOT automatically saved as asserted axioms** into the ontology file. This allows you to review and validate reasoning outcomes before deciding whether to make them permanent.
+>
+> However, this is a tool-specific behavior, not a universal principle of OWL reasoning. In production-grade semantic systems -- including triplestores, rule-enabled graph databases, and enterprise knowledge graph platforms -- inferred triples may be:
+> - **Materialized and persisted** (written back to storage),
+> - **Maintained as inferred closures** (updated incrementally), or
+> - **Exposed virtually** (computed on-the-fly at query time),
+>
+> depending on the system architecture and configuration.
+>
+> *The author here gratefully acknowledge **Michael DeBellis** for his expert technical review and clarifying this critical engineering distribution. The corrected wording in this note borrows directly from his suggestions. (Ref: GitHub Issue #9 (https://github.com/yasenstar/protege_pizza/issues/9))*
+
 ## 14.7 Understanding Reasoning Outcomes -- Asserted vs. Inferred Semantics
 
 After completing Exercise 13 and defining existential restrictions inside Protégé, learners may often encounter an interesting experience:
@@ -943,4 +958,4 @@ yet remain remarkably powerful in semantic interpretation.
 
 ---
 
-Last Updated at: 2026-06-27
+Last Updated at: 2026-07-03
