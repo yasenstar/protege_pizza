@@ -397,6 +397,8 @@ toward:
 > depending on the system architecture and configuration.
 >
 > *The author here gratefully acknowledge **Michael DeBellis** for his expert technical review and clarifying this critical engineering distribution. The corrected wording in this note borrows directly from his suggestions. (Ref: GitHub Issue #9 (https://github.com/yasenstar/protege_pizza/issues/9))*
+>
+> With this understanding in place, let us now examine how existential restrictions enable reasoning outcomes...
 
 ## 14.7 Understanding Reasoning Outcomes -- Asserted vs. Inferred Semantics
 
