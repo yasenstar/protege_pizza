@@ -16,7 +16,10 @@
 | Chapter 15 | Exercise 14 |
 | Chapter 16 | Exercise 15 |
 | Chapter 17 | Exercise 16 |
+| Chapter 18 | Exercise 17, Exercise 18 |
+| Chapter 19 | Exercise 19 |
+| Chapter 20 | Exercise 20 |
 
 ---
 
-Last Updated at: 2026-07-04
+Last Updated at: 2026-07-06
