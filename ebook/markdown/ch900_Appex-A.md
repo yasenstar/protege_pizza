@@ -13,13 +13,13 @@
 | Chapter 12 | (Added by Author) |
 | Chapter 13 | Exercise 11, Exercise 12 |
 | Chapter 14 | Exercise 13 |
-| Chapter 15 | Exercise 14 |
-| Chapter 16 | Exercise 15 |
-| Chapter 17 | Exercise 16 |
-| Chapter 18 | Exercise 17, Exercise 18 |
-| Chapter 19 | Exercise 19 |
-| Chapter 20 | Exercise 20 |
+| Chapter 16 | Exercise 14 |
+| Chapter 17 | Exercise 15 |
+| Chapter 18 | Exercise 16 |
+| Chapter 19 | Exercise 17, Exercise 18 |
+| Chapter 20 | Exercise 19 |
+| Chapter 21 | Exercise 20 |
 
 ---
 
-Last Updated at: 2026-07-06
+Last Updated at: 2026-07-08
