@@ -26,7 +26,7 @@ Take your ontology engineering skills to the next level with the official compan
 
 Whether you want an offline, step-by-step text guide to match the video series or deeper conceptual explanations of Description Logics, this book is your perfect desk reference.
 
-* **Read the Source & Materials:** Check out the [`/ebook`](./ebook) directory right here in this repository.
+* **Read the Source & Materials:** Check out the [`/ebook/markdown`](./ebook/markdown) directory right here in this repository.
 * **Get the Complete Digital Edition:** Available now on Leanpub in PDF, EPUB, and MOBI formats!
 * Also, [here](./ebook/html/README) you may view the **HTML version** per chapter.
 
