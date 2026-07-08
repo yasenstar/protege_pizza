@@ -24,9 +24,8 @@ Chapters List:
 - [Chapter 12 -- Governing Semantic Relationship Behavior Through Object Property Characteristics](./ch12.md)
 - [Chapter 13 -- Governing Semantic Boundaries with Property Domain and Range ](./ch13.md)
 - [Chapter 14 -- Semantic Requirements – From Existential Restrictions to Universal Rules](./ch14.md)
-- [Chapter 15 -- Creating Subclasses: Building Semantic Taxonomy in Ontology](./ch15.md)
-- [Chapter 16 -- Expanding Named Pizza Hierarchy: Designing Scalable Taxonomies](./ch16.md)
-- [Chapter 17 — Refining Subclasses Through Semantic Differentiation](./ch17.md) -- WIP
+- [Chapter 15 -- Semantic Knowledge Development Lifecycle (SKDL)](./ch15.md)
+- [Chapter 16](./ch16.md) -- To be started
 - ...
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
@@ -389,4 +388,4 @@ Welcome to the World of Ontology Engineering!
 
 ---
 
-Last updated at: 2026-07-04
+Last updated at: 2026-07-08
