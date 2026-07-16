@@ -3,11 +3,29 @@
 [![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers)
 [![YouTube Course](https://img.shields.io/badge/YouTube-Course-red?logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
 ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA--4.0-lightgrey.svg)
+[![Leanpub](https://img.shields.io/badge/Leanpub-Latest%20Edition-green?style=for-the-badge&logo=leanpub)](https://leanpub.com/pizza-owl-ontology-practice)
+[![Leanpub Version](https://img.shields.io/badge/version-v0.43.0-blue?style=for-the-badge)](https://leanpub.com/pizza-owl-ontology-practice)
+[![Leanpub Progress](https://img.shields.io/badge/progress-44%25-yellow?style=for-the-badge)](https://leanpub.com/pizza-owl-ontology-practice)
+[![Kindle Pre-order](https://img.shields.io/badge/Kindle-Pre--order-orange?logo=amazonkindle)](https://www.amazon.com/dp/B0H959WVZV)
+
+## 📢 Now Available for Kindle Pre-order!
+
+We are thrilled to announce that **"Mastering Ontology Engineering with Protégé and Pizza.owl"** is now available for pre-order on **Amazon Kindle**!
+
+- **Pre-order now:** [Amazon.com/dp/B0H959WVZV](https://www.amazon.com/dp/B0H959WVZV)
+- **Release Date:** December 31, 2026
+- **What you get:** The complete, continuously updated eBook, delivered to your Kindle device on release day.
+
+👉 **[Pre-order your Kindle copy today!](https://www.amazon.com/dp/B0H959WVZV)**
+
+---
 
 ## Project Vision
+
 This repository is the official engineering environment for the "Mastering Ontology Engineering" project, providing a professional roadmap from semantic foundations to **Executable Knowledge Architecture (EKA)**. This project transforms the legendary Pizza OWL tutorial into a deep-dive professional experience, connecting ontology theory, Protégé operations, and real-world knowledge graph implementation.
 
 ## 🌟 Why Learn Ontology & Protégé?
+
 In the era of AI and Large Language Models (LLMs), **Ontologies** provide the structured "world knowledge" that machines need to reason. By mastering this tutorial, you will learn how to:
 - Define complex hierarchies and relationships.
 - Use **Reasoners** to automatically classify data.
@@ -22,15 +40,15 @@ This repository is a companion to my **comprehensive video course**. I recommend
 
 ## 📘 Companion eBook Now Available!
 
-Take your ontology engineering skills to the next level with the official companion eBook: **"Pizza OWL Ontology Practice"**. 
+Take your ontology engineering skills to the next level with the official companion eBook: **"Pizza OWL Ontology Practice"**.
 
 Whether you want an offline, step-by-step text guide to match the video series or deeper conceptual explanations of Description Logics, this book is your perfect desk reference.
 
 * **Read the Source & Materials:** Check out the [`/ebook/markdown`](./ebook/markdown) directory right here in this repository.
-* **Get the Complete Digital Edition:** Available now on Leanpub in PDF, EPUB, and MOBI formats!
+* **Get the Complete Digital Edition:**
+    * **Leanpub:** Available now in PDF, EPUB, and MOBI formats with lifetime updates. 👉 **[Grab your copy on Leanpub](https://leanpub.com/pizza-owl-ontology-practice)**
+    * **Amazon Kindle:** Pre-order now for delivery on December 31, 2026. 👉 **[Pre-order on Amazon](https://www.amazon.com/dp/B0H959WVZV)**
 * Also, [here](./ebook/html/README) you may view the **HTML version** per chapter.
-
-👉 **[Grab your copy on Leanpub: Pizza OWL Ontology Practice](https://leanpub.com/pizza-owl-ontology-practice)** *By purchasing the book on Leanpub, you get access to lifetime free updates as the tutorial evolves and directly support the creation of more open-source semantic web content!*
 
 ## 🛠 Repository Structure
 I have tracked my progress step-by-step. You can jump into any stage of the tutorial by using the files in:
