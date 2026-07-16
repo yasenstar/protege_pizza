@@ -3,9 +3,19 @@
 [![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers)
 [![YouTube Course](https://img.shields.io/badge/YouTube-Course-red?logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
 ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA--4.0-lightgrey.svg)
-[![Available on Leanpub](https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/pizza-owl-ontology-practice)
-[![Leanpub Version](https://img.shields.io/badge/version-v0.43.0-blue?style=for-the-badge)](https://leanpub.com/pizza-owl-ontology-practice)
-[![Kindle Pre-order](https://img.shields.io/badge/Kindle-Pre--order-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/dp/B0H959WVZV)
+
+<!-- 平台徽章 - LeanPub & Kindle-->
+<p align="left">
+  <a href="https://leanpub.com/pizza-owl-ontology-practice">
+    <img src="https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge&logo=leanpub" alt="Leanpub Available" height="28">
+  </a>
+  <a href="https://leanpub.com/pizza-owl-ontology-practice">
+    <img src="https://img.shields.io/badge/Version-v0.43.0-blue?style=for-the-badge" alt="Version v0.43.0" height="28">
+  </a>
+  <a href="https://www.amazon.com/dp/B0H959WVZV">
+    <img src="https://img.shields.io/badge/Kindle-Pre--order-orange?style=for-the-badge&logo=amazonkindle" alt="Kindle Pre-order" height="28">
+  </a>
+</p>
 
 ## 📢 Now Available for Kindle Pre-order!
 
