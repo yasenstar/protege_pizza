@@ -353,4 +353,4 @@ Welcome to the World of Ontology Engineering!
 
 ---
 
-Last updated at: 2026-07-09
+KDP ISBN: 9798187528325, Last updated at: 2026-07-16
