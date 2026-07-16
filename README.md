@@ -3,10 +3,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers)
 [![YouTube Course](https://img.shields.io/badge/YouTube-Course-red?logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
 ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA--4.0-lightgrey.svg)
-[![Leanpub](https://img.shields.io/badge/Leanpub-Latest%20Edition-green?style=for-the-badge&logo=leanpub)](https://leanpub.com/pizza-owl-ontology-practice)
+[![Available on Leanpub](https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/pizza-owl-ontology-practice)
 [![Leanpub Version](https://img.shields.io/badge/version-v0.43.0-blue?style=for-the-badge)](https://leanpub.com/pizza-owl-ontology-practice)
-[![Leanpub Progress](https://img.shields.io/badge/progress-44%25-yellow?style=for-the-badge)](https://leanpub.com/pizza-owl-ontology-practice)
-[![Kindle Pre-order](https://img.shields.io/badge/Kindle-Pre--order-orange?logo=amazonkindle)](https://www.amazon.com/dp/B0H959WVZV)
+[![Kindle Pre-order](https://img.shields.io/badge/Kindle-Pre--order-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/dp/B0H959WVZV)
 
 ## 📢 Now Available for Kindle Pre-order!
 
