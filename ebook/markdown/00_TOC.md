@@ -22,7 +22,7 @@
 - [Chapter 13 -- Governing Semantic Boundaries with Property Domain and Range ](./ch13.md)
 - [Chapter 14 -- Semantic Requirements – From Existential Restrictions to Universal Rules](./ch14.md)
 - [Chapter 15 -- Semantic Knowledge Development Lifecycle (SKDL)](./ch15.md)
-- [Chapter 16 -- Conceptual Modeling: Building the First Semantic Taxonomy](./ch16.md)
+- [Chapter 16 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle](./ch16.md)
 - [Chapter 17] -- WIP
 - ...
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
@@ -32,4 +32,4 @@
 
 ---
 
-Last Updated at 2026-07-10
+Last Updated at 2026-07-16
