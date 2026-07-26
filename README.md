@@ -162,11 +162,11 @@ A heartfelt thank you to all the contributors who have helped improve this proje
 
 | GitHub User | Contribution Type |
 |-------------|-------------------|
-| [@nikokaoja](https://github.com/nikokaoja) | Issue |
-| @mlungsta89 | Issue |
+| [@nikokaoja](https://github.com/nikokaoja) | Kudos! in Issue |
+| [@mlungsta89](https://github.com/mlungsta89) | Issue |
 | Timothy W. Cook | Foreword for eBook |
-| Michael DeBellis | Issue / Foreword for eBook |
-| @LaraAcuna | Discussion |
+| Michael DeBellis | Issues / Foreword for eBook |
+| [@LaraAcuna](https://github.com/LaraAcuna) | Question in Discussion |
 | *Add your name here* | *Open an Issue or Discussion* |
 
 ### How to Contribute
