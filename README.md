@@ -64,7 +64,9 @@ This repository is a companion to my **comprehensive video course**. I recommend
 
 ### 📺 Watch the Full Course:
 
-[**Protégé 5.x Pizza Tutorial Video Series**](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
+- [**Protégé 5.x Pizza Tutorial Video Series (YouTube)** ![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
+- [**合集 Ontology Practice - Build pizza.owl in Protégé (BiliBili B站)** ![Bilibili](https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white)](https://space.bilibili.com/158390142/lists/2469670)
+- [**使用Protege建立Ontology (DouYin 抖音)** ![TikTok](https://img.shields.io/badge/DouYin-000000?logo=tiktok&logoColor=white)](https://www.douyin.com/collection/7298169423012038708/1)
 
 ---
 
