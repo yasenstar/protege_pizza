@@ -1,8 +1,9 @@
 # 🍕 Mastering Ontology Engineering with Protégé and Pizza.owl
 
 [![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers)
-[![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW)
 ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA--4.0-lightgrey.svg)
+
+[![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW)
 [![Leanpub](https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/pizza-owl-ontology-practice-volume1)
 [![Kindle](https://img.shields.io/badge/Kindle-Available-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/gp/product/B0H9D94LBP)
 
