@@ -23,7 +23,8 @@
 - [Chapter 14 -- Semantic Requirements – From Existential Restrictions to Universal Rules](./ch14.md)
 - [Chapter 15 -- Semantic Knowledge Development Lifecycle (SKDL)](./ch15.md)
 - [Chapter 16 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle](./ch16.md)
-- [Chapter 17 — Semantic Description: Stage 2 of the Semantic Knowledge Development Lifecycle] -- WIP
+- [Chapter 17 -- Semantic Description: Stage 2 of the Semantic Knowledge Development Lifecycle](./ch17.md)
+- [chapter 18 -- Knowledge Reuse: Stage 3] -- WIP
 - ...
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
@@ -32,4 +33,4 @@
 
 ---
 
-Last Updated at 2026-07-16
+Last Updated at 2026-08-02
