@@ -289,7 +289,9 @@ The goal is learning how to engineer machine-understandable meaning.
 
 ## Acknowledgements
 
-The evolution of knowledge representation is a collaborative journey. This eBook series is built upon the foundational framework of the **`"Pizza Tutorial"`**, originally developed by the Protégé community.
+This book has benefited greatly from the generous feedback, technical reviews, and professional discussions contributed by members of the ontology and semantic technologies community.
+
+The full acknowledgements are maintained here: [ACKNOWLEDGEMENTS.md](./00_ACKNOWLEDGEMENTS.md)
 
 ### Our Intellectual Heritage & Licensing
 
@@ -353,4 +355,4 @@ Welcome to the World of Ontology Engineering!
 
 ---
 
-KDP ISBN: 9798187528325, Last updated at: 2026-07-16
+Last updated at: 2026-08-06

@@ -1,7 +1,8 @@
 # Chapters List
 
-- [Cover Chapter](./README.md)
-- [Chapter List](./00_TOC.md) -- This File
+- [Cover Chapter (README)](./README.md)
+- [ACKNOWLEDGEMENTS](./00_ACKNOWLEDGEMENTS.md)
+- [Chapter List](./01_TOC.md) -- This File
 - [Legal & Licensing](./a00_legal-and-licensing.md)
 - [Foreword from Timothy W. Cook](./a01_foreword_1_TimothyCook.md)
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
@@ -33,4 +34,4 @@
 
 ---
 
-Last Updated at 2026-08-03
+Last Updated at 2026-08-06
