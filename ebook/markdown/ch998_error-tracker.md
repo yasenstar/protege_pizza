@@ -22,7 +22,7 @@ Suggested Fix:
 
 Add AllegroGraph by Franz Inc. and Amazon Neptune wherever graph databases and knowledge graph tools are discussed. Clarify that OWL ontologies can be loaded into RDF triplestores (AllegroGraph, GraphDB, Stardog, RDFox, Amazon Neptune, Apache Jena/Fuseki) and can also be transformed into property graph systems such as Neo4j, but doing so requires choices about how much OWL semantics, reasoning behavior, and RDF identity structure to preserve.
 
-Status: Pending | Chapters: 08, 14.10 | Target Version: v0.37.0
+Status: Pending | Chapters: 08, 15.3 | Target Version: v0.37.0
 
 ## Error E-003 | Severity: Must Fix | Reporter: Michael DeBellis | Date: 2026-06-16
 
@@ -34,7 +34,7 @@ Suggested Fix:
 
 Use the original tutorial definition: VegetarianPizza ≡ Pizza and (hasTopping only (CheeseTopping or VegetableTopping)). Then separately explain that named pizzas need closure axioms such as hasTopping only (MozzarellaTopping or TomatoTopping) before the reasoner can classify them as vegetarian under OWA.
 
-Status: Pending | Chapters: 14.8, 14.9 | Target Version: v0.37.0
+Status: Pending | Chapters: 15.1, 15.2 | Target Version: v0.37.0
 
 ## Error E-004 | Severity: Suggested Fix | Reporter: Michael DeBellis | Date: 2026-06-16
 
@@ -46,7 +46,7 @@ Suggested Fix:
 
 Distinguish between "reasoning-enabled" and "executable" throughout the book. Reserve "executable" for cases where Θ (triggers) and Φ (execution actions) are actually present.
 
-Status: Pending | Chapters: 00, 01, 14.11 | Target Version: v0.37.0
+Status: Pending | Chapters: 00, 01, 16.1 | Target Version: v0.37.0
 
 ## Error E-005 | Severity: Must Fix | Reporter: Michael DeBellis | Date: 2026-06-16
 
@@ -83,3 +83,7 @@ Suggested Fix:
 Run the entire manuscript through an LLM or professional proofreading tool and generate a fix report. Consider using spell-checking tools or asking Michael to assist with proofreading.
 
 Status: Pending | Chapters: All | Target Version: v0.37.0
+
+---
+
+Last updated at 2026-08-08

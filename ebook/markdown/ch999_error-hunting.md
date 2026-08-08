@@ -21,13 +21,13 @@
 
 No technical book is perfect -- including this one.
 
-Despite countless hours of writing, reviewing, testing, and refining, errors inevitably remain still. Some my be typographical. Others may be technical inaccurancies. A few might be conceptual oversights or outdated patterns that better approaches have since clarified.
+Despite countless hours of writing, reviewing, testing, and refining, errors inevitably remain still. Some my be typographical. Others may be technical inaccuracies. A few might be conceptual oversights or outdated patterns that better approaches have since clarified.
 
-This chapter exists for one reaon:
+This chapter exists for one reason:
 
 > **to invite you, the reader, to help make this book better!**
 
-Ontology engieering is a living discipline. Semantic technologies evolve. Best Practices mature. New tools introduce. And with your help, this book can evolve alongside them.
+Ontology engineering is a living discipline. Semantic technologies evolve. Best Practices mature. New tools introduce. And with your help, this book can evolve alongside them.
 
 This chapter serves three purposes:
 
@@ -46,8 +46,8 @@ Errors in a book could like this typically fall into below categories:
 | Technical Errors | These are factual mistakes about OWL, Protégé, RDF, reasoning, or the EKA framework itself | <li>Incorrect OWL syntax</li><li>Misleading logical statements</li><li>Reasoning behavior errors</li> |
 | Conceptual Errors | These are misunderstandings or oversimplifications that might mislead readers about deeper semantic principles. | <li>Oversimplified distinctions</li><li>Missing nuance in OWL</li><li>Confusing concepts</li> |
 | Typographical and Grammatical Errors | These are the "small stuff" -- but small fixes improve readability and professionalism. | <li>Misspellings</li><li>Missing words</li><li>Inconsistent terminology</li> |
-| Outdated or Deprecated Patterns | Ontology engineerng tools and standards evolve. What was best practice in 2025 may be outdated by 2028. | <li>Deprecated reasoner features</li><li>Outdated plugin names</li><li>Evolving OWL 2 features<li> |
-| Structural and Pedagogical Issues | These are not "errors" per se, but opportunities to improve learning effectiveness. | <li>Unclear explanations<li><li>Missing prerequisites</li><li>Exercise ambiguity</li><li>Brokden cross-reference</li> |
+| Outdated or Deprecated Patterns | Ontology engineering tools and standards evolve. What was best practice in 2025 may be outdated by 2028. | <li>Deprecated reasoner features</li><li>Outdated plugin names</li><li>Evolving OWL 2 features<li> |
+| Structural and Pedagogical Issues | These are not "errors" per se, but opportunities to improve learning effectiveness. | <li>Unclear explanations<li><li>Missing prerequisites</li><li>Exercise ambiguity</li><li>Broken cross-reference</li> |
 
 ## How to Report an Error
 
@@ -140,7 +140,7 @@ Rude or dismissive reports will be closed. Thoughtful, respectful reports will b
 1. **Review** -- I will test your proposed changes locally.
 2. **Feedback** -- If adjustments are needed, I will comment inline.
 3. **Merge** -- Once approved, your contribution becomes part of the book.
-4. **Attribution** -- Your name (or GitHub handle) will be added to the [`Contributors`](./contributors.md) section below.
+4. **Attribution** -- Your name (or GitHub handle) will be added to the [`Contributors`](./ch997_contributors.md) section below.
 
 ### Versioning and Updates
 
@@ -154,7 +154,7 @@ You can always find the latest version at `ebook` folder of https://github.com/y
 
 ## Contributors
 
-The following invididuals have contributed error reports, corrections, or improvements to this book. (also in the dedicated contributors file)
+The following individuals have contributed error reports, corrections, or improvements to this book. (also in the dedicated contributors file)
 
 | Name / GitHub Handle | Contribution Type | Chapter(s) | Date|
 | --- | --- | --- | --- |
@@ -201,7 +201,7 @@ That confusion -- even if not a "technical error" -- is worth reporting. Unclear
 
 > **Did you find a type, a missing word, or an inconsistent term?**
 
-Thos are trivial to fix and make the book more professional. Pleae report them.
+Those are trivial to fix and make the book more professional. Please report them.
 
 > **Did you try an example in Protégé and get a different result than the book described?**
 
@@ -211,7 +211,7 @@ Thank you for reading. Thank you for learning. And thank you, in advance, for he
 
 ---
 
-Last updated: 2026-06-12<br>
+Last updated: 2026-08-08<br>
 Repository: https://github.com/yasenstar/protege_pizza<br>
 Author contact: GitHub Issues (preferred) or via YouTube channel
 

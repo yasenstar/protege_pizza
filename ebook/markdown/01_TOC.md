@@ -31,7 +31,7 @@
 - ...
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
-- [Error Hunting](./ch998_error-hunting.md)
+- [Error Hunting](./ch998_error-tracker.md)
 - [Error Tracker](./ch999_error-hunting.md)
 
 ---
