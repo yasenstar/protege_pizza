@@ -14,15 +14,17 @@
 | Chapter 12 | (Added by Author) | N/A |
 | Chapter 13 | Exercise 11, Exercise 12 | 13 |
 | Chapter 14 | Exercise 13 | 14 |
-| Chapter 15 | N/A | N/A |
-| Chapter 16 | Exercise 14 | 15 |
-| Chapter 17 | Exercise 15 | 16 |
-| Chapter 18 | Exercise 16 | 17 |
-| Chapter 19 | Exercise 17, Exercise 18 | 18, 19 |
-| Chapter 20 | Exercise 19 | 20 |
-| Chapter 21 | Exercise 20 | 21 |
-| Chapter 22 | 
+| Chapter 15 | N/A (continues Chapter 14 topic) | 14 |
+| Chapter 16 | N/A (continues Chapter 14 topic) | 14 |
+| Chapter 17 | N/A | N/A |
+| Chapter 18 | Exercise 14 | 15 |
+| Chapter 19 | Exercise 15 | 16 |
+| Chapter 20 | Exercise 16 | 17 |
+| Chapter 21 | Exercise 17, Exercise 18 | 18, 19 |
+| Chapter 22 | Exercise 19 | 20 |
+| Chapter 23 | Exercise 20 | 21 |
+| Chapter 24 | 
 
 ---
 
-Last Updated at: 2026-07-10
+Last Updated at: 2026-08-08, renumbered following the Chapter 14 split (into Chapters 14-16) and the renumbering of former Chapters 15-18 into Chapters 17-20

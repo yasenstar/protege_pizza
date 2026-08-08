@@ -21,11 +21,13 @@
 - [Chapter 11 -- Strengthening Semantic Intelligence Through Inverse Properties](./ch11.md)
 - [Chapter 12 -- Governing Semantic Relationship Behavior Through Object Property Characteristics](./ch12.md)
 - [Chapter 13 -- Governing Semantic Boundaries with Property Domain and Range ](./ch13.md)
-- [Chapter 14 -- Semantic Requirements – From Existential Restrictions to Universal Rules](./ch14.md)
-- [Chapter 15 -- Semantic Knowledge Development Lifecycle (SKDL)](./ch15.md)
-- [Chapter 16 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle](./ch16.md)
-- [Chapter 17 -- Semantic Description: Stage 2 of the Semantic Knowledge Development Lifecycle](./ch17.md)
-- [chapter 18 -- Knowledge Reuse: Stage 3](ch18.md) -- WIP
+- [Chapter 14 -- Semantic Requirements: Existential Restriction and the Logic of "Some"](./ch14.md)
+- [Chapter 15 -- Semantic Requirements: Universal Restriction, Composition, and the Neo4j Mirror](./ch15.md)
+- [Chapter 16 -- Restriction as Governance: EKA Synthesis, Common Mistakes, and Unit Summary](./ch16.md)
+- [Chapter 17 -- Semantic Knowledge Development Lifecycle (SKDL)](./ch17.md)
+- [Chapter 18 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle](./ch18.md)
+- [Chapter 19 -- Semantic Description: Stage 2 of the Semantic Knowledge Development Lifecycle](./ch19.md)
+- [Chapter 20 -- Knowledge Reuse: Stage 3 of the Semantic Knowledge Development Lifecycle](./ch20.md) -- WIP
 - ...
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
@@ -34,4 +36,4 @@
 
 ---
 
-Last Updated at 2026-08-06
+Last Updated at 2026-08-08, updated following the Chapter 14 split (into Chapters 14-16) and the renumbering of former Chapters 15-18 into Chapters 17-20
