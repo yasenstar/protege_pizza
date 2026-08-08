@@ -33,7 +33,7 @@ One of the reasons is simple:
 As a result, many learners can:
 
 - memories OWL terminology,
-- click through Protégé demostrations,
+- click through Protégé demonstrations,
 - or understand isolated semantic concepts,
 
 but still struggle to answer the most important question:
@@ -179,7 +179,7 @@ The Pizza ontology teaches foundational semantic engineering patterns that scale
 - enterprise architecture,
 - healthcare,
 - finance,
-- manufactuoring,
+- manufacturing,
 - government,
 - cybersecurity,
 - digital twins,
@@ -355,4 +355,4 @@ Welcome to the World of Ontology Engineering!
 
 ---
 
-Last updated at: 2026-08-06
+Last updated at: 2026-08-08

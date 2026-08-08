@@ -4,7 +4,7 @@
 ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA--4.0-lightgrey.svg)
 
 [![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW)
-[![Leanpub](https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/pizza-owl-ontology-practice-volume1)
+[![Leanpub](https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)
 [![Kindle](https://img.shields.io/badge/Kindle-Available-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/gp/product/B0H9D94LBP)
 
 ## Project Vision
@@ -13,38 +13,36 @@ This repository is the official engineering environment for the "Mastering Ontol
 
 ---
 
-## 📚 Companion eBook — Now Available in Two Volumes!
+## 📚 Companion eBook — Now Available in Three Volumes!
 
-The complete companion eBook is now available in two volumes, published on both **Leanpub** and **Amazon Kindle (KDP)**.
+The complete companion eBook is now available in three volumes, published on both **Leanpub** and **Amazon Kindle (KDP)**. Volume 4 (the SKDL chapters) is in progress.
 
-### Volume 1: From Foundations to Reasoning
+### Volume 1: Chapter 00-08 -- Ontology Foundation in Protégé
 
-**Build Your First Ontology. Master Semantic Reasoning. Lay the Groundwork for Executable Knowledge.**
-
-- Covers Chapters 00–08: Protégé setup, classes, properties, reasoning, RDF.
-- Includes hands-on exercises, Protégé screenshots, and reasoning examples.
-- No prior ontology experience required.
+Start here. Install Protégé, build your first classes, run a reasoner, and meet the Executable Knowledge Architecture (EKA) framework that ties the whole series together.
 
 | Platform | Link |
 |----------|------|
-| **LeanPub** | [pizza-owl-ontology-practice-volume1](https://leanpub.com/pizza-owl-ontology-practice-volume1) |
+| **LeanPub** | [mastering-ontology-engineering-volume1](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume1) |
 | **Amazon Kindle** | [B0H9D94LBP](https://www.amazon.com/gp/product/B0H9D94LBP) |
 
-### Volume 2: From Class Hierarchy to Semantic Restrictions
+### Volume 2: Chapters 09-13 -- Object Properties, Characteristics, Domain and Range
 
-**Building Connected, Governed Knowledge Models.**
-
-- Covers Chapters 09–14: Object properties, inverse properties, property characteristics, domain and range, existential and universal restrictions.
-- Includes SPARQL queries and Neo4j integration examples.
+Turn a static class hierarchy into a real semantic graph: object properties, inverse properties, property characteristics, and domain/range.
 
 | Platform | Link |
 |----------|------|
-| **Leanpub** | [pizza-owl-ontology-practice-volume2](https://leanpub.com/pizza-owl-ontology-practice-volume2) |
+| **Leanpub** | [mastering-ontology-engineering-volume2](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume2) |
 | **Amazon Kindle** | [B0H98GY7VZ](https://www.amazon.com/dp/B0H98GY7VZ) |
 
-### Volume 3 (Coming Soon)
+### Volume 3: Chapters 14-16 -- Semantic Requirements and EKA Governance
 
-The SKDL methodology — Chapters 15–22 (Conceptual Modeling, Semantic Description, Knowledge Reuse, Governance, Validation, Reasoning, Executable Knowledge).
+The chapter that grew into its own book — existential and universal restrictions, the correct `VegetarianPizza` pattern, and how restrictions become EKA governance.
+
+| Platform | Link |
+|----------|------|
+| **Leanpub** | [mastering-ontology-engineering-volume3](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume3) |
+| **Amazon Kindle** | [B0H959WVZV](https://www.amazon.com/dp/B0H959WVZV) |
 
 👉 **[Read the Source & Materials](./ebook/markdown)** — All chapters are available for free in this repository under CC BY-SA 4.0.
 
@@ -145,7 +143,7 @@ If you find this tutorial helpful, please:
 
 - ⭐ Star this repository to help others find it.
 - 📺 Subscribe to the YouTube Channel for future updates and courses.
-- 📘 Buy the Book: Support my work by picking up a copy of the eBook on Leanpub ([Volume-1](https://leanpub.com/pizza-owl-ontology-practice-volume1), [Volume-2](https://leanpub.com/pizza-owl-ontology-practice-volume2)) or Amazon Kindle ([Volume-1](https://www.amazon.com/gp/product/B0H9D94LBP), [Volume-2](https://www.amazon.com/dp/B0H98GY7VZ)). (Volume-3 is on the way...)
+- 📘 Buy the Book: Support my work by picking up a copy of the eBook on Leanpub or Amazon Kindle
 - 💬 Feel free to open an Issue if you have questions about the modeling steps.
 
 ---
@@ -165,7 +163,7 @@ A heartfelt thank you to all the contributors who have helped improve this proje
 |-------------|-------------------|
 | [@nikokaoja](https://github.com/nikokaoja) | Kudos! in Issue |
 | [@mlungsta89](https://github.com/mlungsta89) | Issue |
-| Timothy W. Cook | Foreword for eBook |
+| Timothy W. Cook | Foreword for eBook, technical review |
 | Michael DeBellis | Issues / Foreword for eBook |
 | [@LaraAcuna](https://github.com/LaraAcuna) | Question in Discussion |
 | *Add your name here* | *Open an Issue or Discussion* |
@@ -182,4 +180,4 @@ Happy Pizza Modeling! 🍕
 
 ---
 
-*Last updated at 2026-07-26*
+Last updated at 2026-08-08
