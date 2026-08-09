@@ -12,7 +12,7 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 - `a00_legal-and-licensing.md`
 - `a01_foreword_1_TimothyCook.md`
 - `a02_foreword_2_MichaelDeBellis.md`
-- `a03_AuthorPreface.md`
+- `a10_AuthorPreface.md`
 
 ## Chapters
 
@@ -22,7 +22,6 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 
 ## Back Matter
 
-- `ch800_proofreading.md`
 - `ch900_Appex-A.md`
 - `ch997_contributors.md`
 - `ch998_error-tracker.md`
@@ -50,4 +49,4 @@ ch998_error-tracker.md
 ch999_error-hunting.md
 ```
 
-Last Updated at 2026-08-08
+Last Updated at 2026-08-09
