@@ -74,7 +74,7 @@ Summary of Severity Distribution
 | 16 | `0.9 Chapter (00) Summary` | `Achitecture` | Spelling | `Achitecture` $\rightarrow$ `Architecture` | Medium |
 | 17 | `0.9 Chapter (00) Summary` | `intellience` | Spelling | `intellience` $\rightarrow$ `intelligence` | Medium |
 
-Sumary of Severity Distribution
+Summary of Severity Distribution
 
 | Severity | Count | Discription |
 | --- | --- | --- |
