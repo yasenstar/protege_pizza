@@ -17,6 +17,13 @@
 - [`ch11.md`, Reviewed on: 2026-06-26, Total Issues Found: 24](#ch11md-reviewed-on-2026-06-26-total-issues-found-24)
 - [`ch12.md`, Reviewed on: 2026-06-26, Total Issues Found: 47](#ch12md-reviewed-on-2026-06-26-total-issues-found-47)
 - [`ch13.md`, Reviewed on: 2026-06-26, Total Issues Found: 59](#ch13md-reviewed-on-2026-06-26-total-issues-found-59)
+- [`ch13.md` — Technical Review Follow-up: Timothy W. Cook](#ch13md--technical-review-follow-up-timothy-w-cook)
+  - [Technical Review Items Addressed](#technical-review-items-addressed)
+  - [Issue #29 — Clarifying Domain Inference](#issue-29--clarifying-domain-inference)
+  - [Issue #30 — Γ Governance: Inference Is Not Enforcement](#issue-30--γ-governance-inference-is-not-enforcement)
+  - [Issue #31 — Copyediting Corrections](#issue-31--copyediting-corrections)
+  - [Review Acknowledgement](#review-acknowledgement)
+  - [Review Cycle Status](#review-cycle-status)
 - [`ch14.md`, Reviewed on: 2026-06-24, Total Issues Found: 34](#ch14md-reviewed-on-2026-06-24-total-issues-found-34)
 - [`ch15.md`, Reviewed on: 2026-06-24, Total Issues Found: 43](#ch15md-reviewed-on-2026-06-24-total-issues-found-43)
 - [`ch16.md`, Reviewed on: 2026-06-24, Total Issues Found: 29](#ch16md-reviewed-on-2026-06-24-total-issues-found-29)
@@ -603,6 +610,119 @@ Summary of Severity Distribution
 | **Minor** | 0 | Formatting and minor inconsistencies |
 | **Total** | **59** | |
 
+## `ch13.md` — Technical Review Follow-up: Timothy W. Cook
+
+Following the first technical review of Chapters 12 and 13 by **Timothy W. Cook**, three identified areas were reviewed and addressed in the revised Chapter 13.
+
+These changes are distinct from the spelling and copyediting corrections documented above. They represent substantive improvements to the technical precision and governance interpretation of the chapter.
+
+### Technical Review Items Addressed
+
+| Issue | Section / Location | Review Observation | Revision Applied | Status |
+| --- | --- | --- | --- | --- |
+| **#29** | `13.6 Domain and Range` | Clarify the relationship between OWL domain inference and what is visibly displayed in Protégé. | Added an explicit explanation that Domain semantics entail the subject's type under OWL semantics, while the visible Protégé result may depend on asserted types, the active reasoner, and reasoner configuration. The distinction between formal semantic inference and editor presentation is now explicit. | **Fixed** |
+| **#30** | `13.8.5 Γ - Governance` | Sharpen the distinction between OWL inference and governance/enforcement. | Retained the original semantic-governance narrative and added a dedicated distinction between **semantic inference** and **operational enforcement**. The revised section explains the complementary roles of ontology semantics, reasoning, validation, and policy enforcement, and strengthens the EKA maturity progression `K/R → Γ → Θ/Φ`. | **Fixed** |
+| **#31** | Chapter 13, various locations | Correct identified copyediting and wording errors. | Corrected the reviewed copyediting issues, including `support → suppose`, `posses → possess`, and `base on → based on`, together with related wording issues identified during the revision pass. | **Fixed** |
+
+### Issue #29 — Clarifying Domain Inference
+
+The revision to §13.6 preserves the original practical observation from Protégé rather than removing the unexpected behavior from the example.
+
+The revised explanation now distinguishes three related but different aspects:
+
+1. **OWL semantics** — what the Domain axiom logically entails;
+2. **Asserted knowledge** — what is explicitly stated in the ontology;
+3. **Protégé presentation and reasoning configuration** — what the user happens to see in the interface after reasoning.
+
+This distinction is important because a learner should not infer OWL semantics solely from the visual state of an ontology editor.
+
+The revised section therefore makes clear that a Domain axiom can entail the type of the property subject, while the displayed result may also depend on asserted information and the configured reasoner.
+
+**Review contribution:** This clarification was prompted by Timothy W. Cook's technical review and is intended to prevent ambiguity between formal OWL semantics and tool-specific presentation.
+
+### Issue #30 — Γ Governance: Inference Is Not Enforcement
+
+The most substantive revision resulting from the review was made to §13.8.5.
+
+The original discussion established Domain and Range as semantic guardrails contributing to:
+
+> **Γ — Governance**
+
+The revised section preserves this argument while adding an important engineering distinction:
+
+> **OWL inference determines what the ontology logically implies; governance enforcement determines what a governed system is permitted to accept or act upon.**
+
+The revision therefore distinguishes four complementary layers:
+
+- **Ontology semantics** define intended meaning.
+- **Reasoning** derives logical consequences.
+- **Validation** evaluates whether data conforms to defined constraints.
+- **Policy enforcement** determines whether an operation or decision should be accepted, rejected, flagged, or remediated.
+
+This avoids treating OWL axioms as if they were automatically enforcement rules.
+
+The distinction also strengthens the EKA maturity progression:
+
+> **K/R → Γ → Θ/Φ**
+
+where:
+
+- **K** represents structured knowledge;
+- **R** represents semantic relationships and reasoning;
+- **Γ** represents governance, including semantic discipline, validation, and, where required, enforcement;
+- **Θ** represents triggers;
+- **Φ** represents actions.
+
+In this interpretation, Γ becomes the bridge between **semantic interpretation** and **controlled operational use**.
+
+**Review contribution:** This refinement was directly informed by Timothy W. Cook's technical review. His observation helped sharpen the distinction between OWL inference and the broader governance, validation, and enforcement capabilities required by operational semantic systems.
+
+### Issue #31 — Copyediting Corrections
+
+The copyediting issues identified during the technical review were corrected as part of the Chapter 13 revision.
+
+Examples include:
+
+| Original | Corrected |
+| --- | --- |
+| `support` | `suppose` |
+| `posses` | `possess` |
+| `base on` | `based on` |
+
+Related wording and grammatical issues encountered during the review pass were also corrected where appropriate.
+
+These corrections are recorded here as the result of the technical-review cycle rather than as new conceptual changes to the chapter.
+
+### Review Acknowledgement
+
+The author gratefully acknowledges **Timothy W. Cook** for his careful technical review of the governing chapters and for the observations that led to these revisions.
+
+In particular, his review helped strengthen two important distinctions in the EKA Guide:
+
+> **Semantic inference is not the same as operational enforcement.**
+
+and
+
+> **Formal OWL semantics should be distinguished from tool-specific presentation behavior.**
+
+These observations have been incorporated into Chapter 13 and will also inform the treatment of governance, validation, and executable knowledge in subsequent stages of the **Semantic Knowledge Development Lifecycle (SKDL)**.
+
+### Review Cycle Status
+
+The first three technical-review items identified by Timothy W. Cook for Chapter 13 have now been addressed:
+
+- **Issue #29 — Fixed**
+- **Issue #30 — Fixed**
+- **Issue #31 — Fixed**
+
+The revised Chapter 13 was subsequently packaged for the updated Volume 2 release.
+
+Further technical-review comments will be handled using the same engineering workflow:
+
+**Review → GitHub Issue → Technical Revision → Verification → Release → Issue Closure**
+
+This review-driven process is now treated as part of the continuing quality and governance discipline of the EKA Guide.
+
 ## `ch14.md`, Reviewed on: 2026-06-24, Total Issues Found: 34
 
 | # | Section / Location | Current Text | Issue Type | Suggested Fix | Severity |
@@ -753,4 +873,4 @@ Summary of Severity Distribution
 
 ---
 
-Last updated at 2026-08-08
+Last updated at 2026-08-10

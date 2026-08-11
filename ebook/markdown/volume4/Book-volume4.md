@@ -23,7 +23,6 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 
 ## Back Matter
 
-- `ch800_proofreading.md`
 - `ch900_Appex-A.md`
 - `ch997_contributors.md`
 - `ch998_error-tracker.md`
@@ -45,7 +44,6 @@ ch17.md
 ch18.md
 ch19.md
 ch20.md
-ch800_proofreading.md
 ch900_Appex-A.md
 ch997_contributors.md
 ch998_error-tracker.md
