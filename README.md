@@ -46,6 +46,18 @@ The chapter that grew into its own book — existential and universal restrictio
 | **Leanpub** | [mastering-ontology-engineering-volume3](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume3) |
 | **Amazon Kindle** | [B0H959WVZV](https://www.amazon.com/dp/B0H959WVZV) |
 
+### Volume 4: Chapters 17-24 -- Semantic Knowledge Development Lifecycle (SKDL)
+
+You know how to build classes in Protégé. But do you know when to attach meaning — and when to wait?
+Volume 4 of "Mastering Ontology Engineering" introduces SKDL: the Semantic Knowledge Development Lifecycle. Seven stages. One discipline. Zero guesswork.
+From Aristotle to Description Logic. From taxonomy to executable knowledge.
+This is where pizza becomes philosophy — and philosophy become engineering.
+
+| Platform | Link |
+|----------|------|
+| **Leanpub** | [mastering-ontology-engineering-volume4](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume-4) |
+| **Amazon Kindle** | To be ready |
+
 👉 **[Read the Source & Materials](./ebook/markdown)** — All chapters are available for free in this repository under CC BY-SA 4.0.
 
 ---
@@ -182,4 +194,4 @@ Happy Pizza Modeling! 🍕
 
 ---
 
-Last updated at 2026-08-10
+Last updated at 2026-08-11

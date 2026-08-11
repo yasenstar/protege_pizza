@@ -27,3 +27,20 @@ Design approach: consolidate template and only change theme color and content te
 - Frame border: volume's own Accent color at 50% opacity
 - Border/pizza-slice icon: Accent
 - Subtitle/eyebrow text: Accent Light
+
+## 2026-08-11
+
+Added Volume 4 cover for SKDL chapters.
+
+| Volume 卷 | Theme Color | Logo Color | Sub Title |
+| --- | --- | --- | --- |
+| Volume 4 | 橙/琥珀 | 橙色披萨 | SKDL — Semantic Knowledge Development Lifecycle |
+
+### Cover Color Palette
+
+| Volume | Background | Accent | Accent Light |
+| --- | --- | --- | --- |
+| Volume 4 (Orange/Amber) | #2D1F0B | #E8913A | #F5D0A0 |
+
+- File: `cover-volume4-20260811.jpg`
+- Chapters: 17-24 (SKDL Stage 2 through Stage 7, in progress)

@@ -1,6 +1,6 @@
 # Volume 4 -- Publishing Manifest
 
-**Scope:** Chapters 17-20 (SKDL, ch20 WIP)
+**Scope:** Chapters 17-24 (SKDL, ch20 WIP)
 
 Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must exist in the volume's source folder in this exact order.
 
@@ -12,14 +12,18 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 - `a00_legal-and-licensing.md`
 - `a01_foreword_1_TimothyCook.md`
 - `a02_foreword_2_MichaelDeBellis.md`
-- `a03_AuthorPreface.md`
+- `a10_AuthorPreface.md`
 
 ## Chapters
 
 - `ch17.md`
 - `ch18.md`
 - `ch19.md`
-- `ch20.md`
+- `ch20.md` (WIP)
+- ch21.md
+- ch22.md
+- ch23.md
+- ch24.md
 
 ## Back Matter
 
@@ -39,7 +43,7 @@ README.md
 a00_legal-and-licensing.md
 a01_foreword_1_TimothyCook.md
 a02_foreword_2_MichaelDeBellis.md
-a03_AuthorPreface.md
+a10_AuthorPreface.md
 ch17.md
 ch18.md
 ch19.md
