@@ -21,7 +21,7 @@
 - Volume 1 -- Chapters 00-08: Ontology foundations in Protégé
 - **Volume 2 (this book)** -- Chapters 09-13: Object properties, characteristics, domain & range
 - Volume 3 -- Chapters 14-16: Semantic requirements (restrictions) and EKA governance
-- Volume 4 -- Chapters 17-24: Semantic Knowledge Development Lifecycle (SKDL), Stages 1-7
+- Volume 4 -- Chapters 17-24: Semantic Knowledge Development Lifecycle (SKDL), Stages 1-7 (WIP)
 
 - [Proofreading & Spell Check Log](./ch800_proofreading.md)
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
@@ -31,4 +31,4 @@
 
 ---
 
-Last Updated at 2026-08-08
+Last Updated at 2026-08-12
