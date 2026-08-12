@@ -5,7 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-26="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26"/>
     
 
@@ -40,7 +41,13 @@
 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#Application -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#Application">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#Business_Capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#Business_Capability">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#realizedBy"/>
@@ -54,12 +61,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#Business_Capability -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-26#Business_Capability"/>
     
 
 
