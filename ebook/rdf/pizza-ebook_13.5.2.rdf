@@ -21,6 +21,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#realizedByApplication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#realizedByApplication">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#Business_Capability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#Application"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#realizedByBusinessProcess -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#realizedByBusinessProcess">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#Business_Capability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#Business_Process"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#realized_By -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/7/untitled-ontology-25#realized_By">
