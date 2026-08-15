@@ -1,5 +1,6 @@
 # Chapters List -- Volume 3
 
+- Cover Page
 - [Cover Chapter (README)](./README.md)
 - [ACKNOWLEDGEMENTS](./00_ACKNOWLEDGEMENTS.md)
 - [Chapter List](./01_TOC_volume3.md) -- This File
@@ -28,4 +29,4 @@
 
 ---
 
-Last Updated at 2026-08-09
+Last Updated at 2026-08-15

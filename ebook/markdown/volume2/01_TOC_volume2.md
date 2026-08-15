@@ -1,5 +1,6 @@
 # Chapters List -- Volume 2
 
+- Cover Page
 - [Cover Chapter (README)](./README.md)
 - [ACKNOWLEDGEMENTS](./00_ACKNOWLEDGEMENTS.md)
 - [Chapter List](./01_TOC_volume2.md) -- This File
@@ -23,7 +24,6 @@
 - Volume 3 -- Chapters 14-16: Semantic requirements (restrictions) and EKA governance
 - Volume 4 -- Chapters 17-24: Semantic Knowledge Development Lifecycle (SKDL), Stages 1-7 (WIP)
 
-- [Proofreading & Spell Check Log](./ch800_proofreading.md)
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
 - [Error Tracker](./ch998_error-tracker.md)
@@ -31,4 +31,4 @@
 
 ---
 
-Last Updated at 2026-08-12
+Last Updated at 2026-08-15
