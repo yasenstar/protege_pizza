@@ -23,28 +23,22 @@ The complete companion eBook is now available in three volumes, published on bot
 
 Start here. Install Protégé, build your first classes, run a reasoner, and meet the Executable Knowledge Architecture (EKA) framework that ties the whole series together.
 
-| Platform | Link |
-|----------|------|
-| **LeanPub** | [mastering-ontology-engineering-volume1](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume1) |
-| **Amazon Kindle** | [B0H9D94LBP](https://www.amazon.com/gp/product/B0H9D94LBP) |
+- **LeanPub**: [mastering-ontology-engineering-volume1](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume1)
+- **Amazon Kindle**: [Volume 1: Chapter 00-08: From Semantic Foundations to Executable Knowledge Architecture (EKA)](https://www.amazon.com/gp/product/B0H9D94LBP)
 
 ### Volume 2: Chapters 09-13 -- Object Properties, Characteristics, Domain and Range
 
 Turn a static class hierarchy into a real semantic graph: object properties, inverse properties, property characteristics, and domain/range.
 
-| Platform | Link |
-|----------|------|
-| **Leanpub** | [mastering-ontology-engineering-volume2](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume2) |
-| **Amazon Kindle** | [B0H98GY7VZ](https://www.amazon.com/dp/B0H98GY7VZ) |
+- **Leanpub**: [mastering-ontology-engineering-volume2](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume2)
+- **Amazon Kindle**: [Volume 2: Chapters 09-13 -- Object Properties, Characteristics, Domain and Range](https://www.amazon.com/dp/B0H98GY7VZ)
 
 ### Volume 3: Chapters 14-16 -- Semantic Requirements and EKA Governance
 
 The chapter that grew into its own book — existential and universal restrictions, the correct `VegetarianPizza` pattern, and how restrictions become EKA governance.
 
-| Platform | Link |
-|----------|------|
-| **Leanpub** | [mastering-ontology-engineering-volume3](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume3) |
-| **Amazon Kindle** | [B0H959WVZV](https://www.amazon.com/dp/B0H959WVZV) |
+- **Leanpub**: [mastering-ontology-engineering-volume3](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume3)
+- **Amazon Kindle**: [VOLUME 3: Chapters 14-16 -- Semantic Requirements and EKA Governance](https://www.amazon.com/dp/B0H959WVZV)
 
 ### Volume 4: Chapters 17-24 -- Semantic Knowledge Development Lifecycle (SKDL)
 
@@ -53,10 +47,8 @@ Volume 4 of "Mastering Ontology Engineering" introduces SKDL: the Semantic Knowl
 From Aristotle to Description Logic. From taxonomy to executable knowledge.
 This is where pizza becomes philosophy — and philosophy become engineering.
 
-| Platform | Link |
-|----------|------|
-| **Leanpub** | [mastering-ontology-engineering-volume4](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume-4) |
-| **Amazon Kindle** | To be ready |
+- **Leanpub** | [mastering-ontology-engineering-volume4](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume-4)
+- **Amazon Kindle**: [VOLUME 4 -- Chapters 17-24 -- Semantic Knowledge Development Lifecycle](https://www.amazon.com/dp/B0HFP2Q9G6)
 
 👉 **[Read the Source & Materials](./ebook/markdown)** — All chapters are available for free in this repository under CC BY-SA 4.0.
 
@@ -194,4 +186,4 @@ Happy Pizza Modeling! 🍕
 
 ---
 
-Last updated at 2026-08-11
+Last updated at 2026-08-21
