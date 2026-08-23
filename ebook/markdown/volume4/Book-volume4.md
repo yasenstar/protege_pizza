@@ -6,6 +6,7 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 
 ## Front Matter
 
+- cover image of volume4
 - `README.md`
 - `00_ACKNOWLEDGEMENTS.md`
 - `01_TOC_volume4.md`
@@ -54,4 +55,4 @@ ch998_error-tracker.md
 ch999_error-hunting.md
 ```
 
-Last Updated at 2026-08-08
+Last Updated at 2026-08-23
