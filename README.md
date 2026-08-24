@@ -6,13 +6,15 @@
 [![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW)
 [![Leanpub](https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)
 [![Kindle](https://img.shields.io/badge/Kindle-Available-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)
+[![Official Ebook Hub](https://img.shields.io/badge/Official_Website-xiaoqi.com-blue?style=for-the-badge&logo=googlechrome)](https://xiaoqi.com)
 
-![132stars-cover](./img/github-pizza-cover-image-132star.png)
+![cover](./img/cover.png)
 
 ## Project Vision
 
 This repository is the official engineering environment for the "Mastering Ontology Engineering" project, providing a professional roadmap from semantic foundations to **Executable Knowledge Architecture (EKA)**. This project transforms the legendary Pizza OWL tutorial into a deep-dive professional experience, connecting ontology theory, Protégé operations, and real-world knowledge graph implementation.
 
+Explore the complete series and centralized resources at the [Official xiaoqi.com Ebook Hub](https://xiaoqi.com).
 ---
 
 ## 📚 Companion eBook — Now Available in Three Volumes!
@@ -134,6 +136,7 @@ For full legal declarations and the detailed attribution chain, please refer to 
 
 ## 🔗 Resources & Credits
 
+- **Official Ebook Hub**: [xiaoqi.com Ebook Section](https://xiaoqi.com)
 - **Original Guide:** Based on Michael DeBellis' excellent Protégé OWL tutorial.
 - **Mind Map:** Use the [pizza.owl tutorial.mm](./pizza.owl%20tutorial.mm) (Open with FreePlane) for a visual overview.
 - **Visualization:** View the model via [WebVOWL](https://yasenstar.github.io/protege_pizza/).
@@ -149,7 +152,7 @@ If you find this tutorial helpful, please:
 
 - ⭐ Star this repository to help others find it.
 - 📺 Subscribe to the YouTube Channel for future updates and courses.
-- 📘 Buy the Book: Support my work by picking up a copy of the eBook on Leanpub or Amazon Kindle
+- 📘 Buy the Book: Support my work by picking up a copy of the eBook on Leanpub or Amazon Kindle, or via [xiaoqi.com](https://xiaoqi.com)
 - 💬 Feel free to open an Issue if you have questions about the modeling steps.
 
 ---
@@ -186,4 +189,4 @@ Happy Pizza Modeling! 🍕
 
 ---
 
-Last updated at 2026-08-21
+Last updated at 2026-08-24
