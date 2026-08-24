@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "Disjointness",
+        "executability",
         "Gottfried",
         "interpretability",
         "Porphyrian",
@@ -8,6 +9,9 @@
         "rdfs",
         "Satisfiability",
         "SHACL",
-        "SKOS"
+        "SKOS",
+        "SPARQL",
+        "Stardog",
+        "TOGAF"
     ]
 }
