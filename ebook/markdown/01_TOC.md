@@ -27,7 +27,8 @@
 - [Chapter 17 -- Semantic Knowledge Development Lifecycle (SKDL)](./volume4/ch17.md)
 - [Chapter 18 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle](./volume4/ch18.md)
 - [Chapter 19 -- Semantic Description: Stage 2 of the Semantic Knowledge Development Lifecycle](./volume4/ch19.md)
-- [Chapter 20 -- Knowledge Reuse: Stage 3 of the Semantic Knowledge Development Lifecycle](./volume4/ch20.md) -- WIP
+- [Chapter 20 -- Knowledge Reuse: Stage 3 of the Semantic Knowledge Development Lifecycle](./volume4/ch20.md)
+- [Chapter 21 -- Semantic Governance: Stage 4 of Semantic Knowledge Development Lifecycle](./volume4/ch21.md) -- WIP
 - ...
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
@@ -36,4 +37,4 @@
 
 ---
 
-Last Updated at 2026-08-08, updated following the Chapter 14 split (into Chapters 14-16) and the renumbering of former Chapters 15-18 into Chapters 17-20
+Last Updated at 2026-08-25
