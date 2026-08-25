@@ -12,6 +12,8 @@
         "SKOS",
         "SPARQL",
         "Stardog",
-        "TOGAF"
+        "TOGAF",
+        "triplestore",
+        "triplestores"
     ]
 }
