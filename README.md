@@ -52,6 +52,12 @@ This is where pizza becomes philosophy — and philosophy become engineering.
 - **Leanpub** | [mastering-ontology-engineering-volume4](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume-4)
 - **Amazon Kindle**: [VOLUME 4 -- Chapters 17-24 -- Semantic Knowledge Development Lifecycle](https://www.amazon.com/dp/B0HFP2Q9G6)
 
+### Volume 5: Data Properties, Custom UI, and Graph Ecosystems (In Plan)
+
+### Volume 6: Advanced Reasoning, Constraints, and Interdisciplinary Depth (In Plan)
+
+### Volume 7 (Closing): EKA Practices & The SKDL Methodology Package (In Plan)
+
 👉 **[Read the Source & Materials](./ebook/markdown)** — All chapters are available for free in this repository under CC BY-SA 4.0.
 
 ---
