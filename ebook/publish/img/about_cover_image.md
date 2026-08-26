@@ -44,3 +44,21 @@ Added Volume 4 cover for SKDL chapters.
 
 - File: `cover-volume4-20260811.jpg`
 - Chapters: 17-24 (SKDL Stage 2 through Stage 7, in progress)
+
+## 2026-08-26
+
+Added Volume 5, Volume 6, and Volume 7 cover color palettes and tracking details.
+
+| Volume 卷 | Theme Color | Logo Color | Sub Title |
+| --- | --- | --- | --- |
+| Volume 5 | 钢蓝/石板灰 | 钢蓝色披萨 | Data Properties, Custom UI, and Graph Ecosystems |
+| Volume 6 | 碳灰/深青灰 | 青灰色披萨 | Advanced Reasoning, Constraints, and Interdisciplinary Depth |
+| Volume 7 | 深棕/古铜金 | 金色披萨 | EKA Practices & The SKDL Methodology Package |
+
+### Cover Color Palette
+
+| Volume | Background | Accent | Accent Light |
+| --- | --- | --- | --- |
+| Volume 5 (Steel Blue) | #1E293B | #38BDF8 | #BAE6FD |
+| Volume 6 (Slate Gray) | #18222A | #64748B | #CBD5E1 |
+| Volume 7 (Bronze/Gold) | #2C1E12 | #D97706 | #FDE68A |
