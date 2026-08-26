@@ -25,17 +25,19 @@
 | Volume-4 | Chapter 21 | Exercise 18 | Section 4.10.3 | 19 |
 | Volume-4 | Chapter 22 | Exercise 19 | Section 4.10.4 | 20 |
 | Volume-4 | Chapter 23 | Exercise 20 | Section 4.11 | 21 |
-| Volume-4 | Chapter 24 | N/A | N/A |
-| Volume-4 | | Exercise 21 | Section 4.11 | |
-| Volume-4 | | Exercise 22 | Section 4.12 | |
-| Volume-4 | | Exercise 23 | Section 4.13 | |
-| Volume-4 | | Exercise 24 | Section 4.14 | |
+| Volume-4 | Chapter 23 | Exercise 21 | Section 4.11 | |
+| Volume-4 | Chapter 24 | N/A | N/A | |
+| Volume-5 | | Exercise 22 | Section 4.12 | |
+| Volume-5 | | Exercise 23 | Section 4.13 | |
+| Volume-5 | | Exercise 24 | Section 4.14 | |
 | Volume 5 | | Exercise 25 | Section 4.15 | | 
 | Volume 5 | | Exercise 26 | Section 4.15 | | 
 | Volume 5 | | Exercise 27 | Section 5.1 | |
 | Volume 5 | | Exercise 28, 29, 30, 31, 32 | Section 5.2 | |
 | Volume 5 | | Exercise 33 | Section 9.1 | |
 | Volume 5 | | Exercise 34, 35, 36 | Section 10.0 | |
+| Volume 6 | | | | |
+| Volume 7 | | | | |
 ---
 
 Last Updated at: 2026-08-26
