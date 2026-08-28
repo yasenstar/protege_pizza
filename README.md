@@ -8,13 +8,23 @@
 [![Kindle](https://img.shields.io/badge/Kindle-Available-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)
 [![Official Ebook Hub](https://img.shields.io/badge/Official_Website-xiaoqi.com-blue?style=for-the-badge&logo=googlechrome)](https://xiaoqi.com)
 
-![cover](./img/cover.png)
-
 ## Project Vision
 
 This repository is the official engineering environment for the "Mastering Ontology Engineering" project, providing a professional roadmap from semantic foundations to **Executable Knowledge Architecture (EKA)**. This project transforms the legendary Pizza OWL tutorial into a deep-dive professional experience, connecting ontology theory, Protégé operations, and real-world knowledge graph implementation.
 
+## 🌟 Why Learn Ontology & Protégé?
+
+In the era of AI and Large Language Models (LLMs), **Ontologies** provide the structured "world knowledge" that machines need to reason. By mastering this tutorial, you will learn how to:
+
+- Define complex hierarchies and relationships.
+- Use **Reasoners** to automatically classify data.
+- Write **SWRL** rules to add intelligent logic.
+- Build the backbone of **Knowledge Graphs**.
+
 Explore the complete series and centralized resources at the [Official xiaoqi.com Ebook Hub](https://xiaoqi.com).
+
+![cover](./img/cover.png)
+
 ---
 
 ## 📚 Companion eBook — Now Available in Three Volumes!
@@ -42,7 +52,7 @@ The chapter that grew into its own book — existential and universal restrictio
 - **Leanpub**: [mastering-ontology-engineering-volume3](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume3)
 - **Amazon Kindle**: [VOLUME 3: Chapters 14-16 -- Semantic Requirements and EKA Governance](https://www.amazon.com/dp/B0H959WVZV)
 
-### Volume 4: Chapters 17-24 -- Semantic Knowledge Development Lifecycle (SKDL)
+### Volume 4: Chapters 17-24 -- Semantic Knowledge Development Lifecycle (SKDL) (In writing...)
 
 You know how to build classes in Protégé. But do you know when to attach meaning — and when to wait?
 Volume 4 of "Mastering Ontology Engineering" introduces SKDL: the Semantic Knowledge Development Lifecycle. Seven stages. One discipline. Zero guesswork.
@@ -52,24 +62,15 @@ This is where pizza becomes philosophy — and philosophy become engineering.
 - **Leanpub** | [mastering-ontology-engineering-volume4](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume-4)
 - **Amazon Kindle**: [VOLUME 4 -- Chapters 17-24 -- Semantic Knowledge Development Lifecycle](https://www.amazon.com/dp/B0HFP2Q9G6)
 
-### Volume 5: Data Properties, Custom UI, and Graph Ecosystems (In Plan)
+### Volume 5: EKA Part 1 — Executable Knowledge Implementation (In Plan)
 
-### Volume 6: Advanced Reasoning, Constraints, and Interdisciplinary Depth (In Plan)
+### Volume 6: EKA Part 2a — Advanced Reasoning & Interdisciplinary Depth (In Plan)
 
-### Volume 7 (Closing): EKA Practices & The SKDL Methodology Package (In Plan)
+### Volume 7: EKA Part 2b — Synthesis & Methodology (In Plan)
 
 👉 **[Read the Source & Materials](./ebook/markdown)** — All chapters are available for free in this repository under CC BY-SA 4.0.
 
 ---
-
-## 🌟 Why Learn Ontology & Protégé?
-
-In the era of AI and Large Language Models (LLMs), **Ontologies** provide the structured "world knowledge" that machines need to reason. By mastering this tutorial, you will learn how to:
-
-- Define complex hierarchies and relationships.
-- Use **Reasoners** to automatically classify data.
-- Write **SWRL** rules to add intelligent logic.
-- Build the backbone of **Knowledge Graphs**.
 
 ## 🎓 The Learning Path
 
@@ -195,4 +196,4 @@ Happy Pizza Modeling! 🍕
 
 ---
 
-Last updated at 2026-08-26
+Last updated at 2026-08-28

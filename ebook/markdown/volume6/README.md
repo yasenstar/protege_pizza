@@ -1,18 +1,23 @@
-# [Idea] Volume 6: Advanced Reasoning, Constraints, and Interdisciplinary Depth
+# [Idea] Volume 6: EKA Part 2a -- Advanced Reasoning and Interdisciplinary Depth
 
-## Focus Topic
+**Building on `Pizza` Tutorial Chapters 10, 11, 12 and Extended Content**
 
-- Rules
-- Constraints,
-- Web Collaboration, and
-- First-Principles Context
+| Chapter | Tutorial Connection | Core Content | Key Concepts |
+| --- | --- | --- | --- |
+| 31 | Chapter 10 (Extended) | SWRL Deep Dive; Rule-Based Reasoning | Advanced SWRL patterns; DROOLS integration; rul execution strategies; non-monotonic reasoning; when to use SWRL vs. DL axioms |
+| 32 | Chapter 11 (Extended) | SHACL Validation Constraints | Shapes Constraint Language; data integrity vs. logical reasoning; `sh:targetClass`; `sh:minCount`; `sh:maxCount`; `sh:pattern`; constraint validation in production |
+| 33 | Chapter 12 (Extended) | Web Protégé; Collaborative Ontology Development | Web Protégé workflows; threaded discussions; version management; round-trip editing; collaborative governance; multi-user ontology engineering |
+| 34 | Self-Created | Mathematical Foundations of Ontology Engineering | Set theory; Description Logic semantics (`SHIQ`, `SROIQ`); decidability and computational complexity; tableau algorithms; model-theoretic semantics |
+| 35 | Self-Created | Historical and Philosophical Context | From Aristotle's syllogisms to modern ontology; Porphyry's Tree; Leibniz's *Characteristica Universalis*; Frege's predicate logic; early AI knowledge representation (Loom, KL-ONE); W3C standards evolution (RDF, OWL, SPARQL, SHACL) |
+| 36 | Self-Created | Cross-Domain Integration and Case Studies | Ontology engineering in finance (FIBO); healthcare (SNOMED CT, ICD); manufacturing (Industry 4.0); government (NIEM, EU Interoperability); educational (sample?); biology (sample?); military (sample?); areospace (sample?); more...; real-world knowledge graph deployments |
 
-## Core Content in Mind
+**Volume 6 Focus:**
 
-- SWRL/SQWRL reasoning, SHACL validation constraints, and Web Protégé workflows (tutorial Chapter 10-12)
-- Self-Created Exercises: since there're no specific exercises in original `Pizza` tutorial, practical problem sets built beyond the standard `Pizza` domain to test real-world generalization
-- Interdisciplinary Integration: Grounding every core topic in its Mathematical roots (including set theory, description logic semantics), Historical evolution (from early AI knowledge representation to model W3C standards), and Philosophical implications (ontology, epistemology, and conceptual categorization of reality)
+- Extending beyond the tutorial with self-created exercises
+- Deepening the theoretical foundations (mathematical, history, philosophy)
+- Introducing production-grade validation and collaboration workflows
+- Connecting ontology engineering to other disciplines and real-world (also AI, AGI) domains.
 
 ---
 
-Last updated at 2026-08-26
+Last updated at 2026-08-28
