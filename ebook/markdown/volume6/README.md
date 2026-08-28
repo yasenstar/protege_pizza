@@ -2,6 +2,8 @@
 
 **Building on `Pizza` Tutorial Chapters 10, 11, 12 and Extended Content**
 
+<img src="img/cover_volume6.png" width="200"></img>
+
 | Chapter | Tutorial Connection | Core Content | Key Concepts |
 | --- | --- | --- | --- |
 | 31 | Chapter 10 (Extended) | SWRL Deep Dive; Rule-Based Reasoning | Advanced SWRL patterns; DROOLS integration; rul execution strategies; non-monotonic reasoning; when to use SWRL vs. DL axioms |

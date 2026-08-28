@@ -2,6 +2,8 @@
 
 **Building on `Pizza` Tutorial Chapter 5, 8, 9, 10**
 
+<img src="img/cover_volume5.png" width="200"></img>
+
 | Chapter | Tutorial Exercises | Core Content | Key OWL/Technical Concepts |
 | --- | --- | --- | --- |
 | 25 | Exercise 22, 23 | Universal restrictions; Open World Assumption; Closure Axioms | Universal restriction (`only`); `VegetarianPizza`; OWL deep dive; closure axioms |

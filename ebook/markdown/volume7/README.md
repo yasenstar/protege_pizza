@@ -2,6 +2,8 @@
 
 **Synthesizing All Preceding Contents; No Need Introducing New Tutorial Exercises**
 
+<img src="img/cover_volume7.png" width="200"></img>
+
 | Chapter | Core Content | Key Concepts |
 | --- | --- | --- |
 | 37 | EKA Synthesis | The complete EKA tuple ($K, R, \Theta, \Phi, \Gamma$); how each SKDL stage contributes to EKA; the maturity arc from concepts to execution |
