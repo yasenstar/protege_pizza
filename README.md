@@ -84,13 +84,18 @@ This repository is a companion to my **comprehensive video course**. I recommend
 
 ---
 
-## 🛠 Repository Structure
+## 🛠 Repository Structure -- Quick Navigation Guide
 
-I have tracked my progress step-by-step. You can jump into any stage of the tutorial by using the files in:
-
-- `/snapshot_models`: RDF/OWL files at various stages of the tutorial.
-- `/ontology_ref`: Reference materials and SHACL shapes.
-- `Protege 5 New OWL Pizza Tutorial V3.2.pdf`: The core manual based on Michael DeBellis' guide.
+| If you want to... | Go to |
+|---|---|
+| **Start the hands-on tutorial** | `/snapshot_models/` → open any `.rdf` in Protégé |
+| **Read the eBook for free** | `/ebook/markdown/` (volume1 through volume7) |
+| **Check your work against a reference** | `/ontology_ref/MyPizzaTutorial.rdf` or `/ontology_ref/PizzaTutorialWithDataV2.owl` |
+| **View the ontology visually** | [WebVOWL live demo](https://yasenstar.github.io/protege_pizza/) |
+| **See the big-picture mind map** | Open `pizza.owl tutorial.mm` in [FreePlane](https://www.freeplane.org/) |
+| **Build the book covers** | `/ebook/code/volume_cover_image_creating.py` |
+| **Understand SHACL validation** | `/ontology_ref/SHACL/` |
+| **Find legacy README versions** | `/archive/` |
 
 ---
 
@@ -178,10 +183,11 @@ A heartfelt thank you to all the contributors who have helped improve this proje
 | GitHub User | Contribution Type |
 |-------------|-------------------|
 | [@nikokaoja](https://github.com/nikokaoja) | Kudos! in Issue |
-| [@mlungsta89](https://github.com/mlungsta89) | Issue |
+| [@mlungsta89](https://github.com/mlungsta89) | Issue Report |
 | Timothy W. Cook | Foreword for eBook, technical review |
 | Michael DeBellis | Issues / Foreword for eBook |
 | [@LaraAcuna](https://github.com/LaraAcuna) | Question in Discussion |
+| [@sarcanon](https://github.com/sarcanon) | Issue Reports |
 | *Add your name here* | *Open an Issue or Discussion* |
 
 ### How to Contribute
@@ -196,4 +202,4 @@ Happy Pizza Modeling! 🍕
 
 ---
 
-Last updated at 2026-08-28
+Last updated at 2026-08-29
