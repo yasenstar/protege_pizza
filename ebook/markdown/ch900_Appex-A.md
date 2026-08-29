@@ -27,7 +27,7 @@
 | Volume-4 | Chapter 23 | Exercise 20 | Section 4.11 | 21 | Stage 6 — Semantic Reasoning (Primitive Classes) |
 | Volume-4 | Chapter 23 | Exercise 21 | Section 4.11 | | Stage 6 — Semantic Reasoning (Defined Classes) |
 | Volume-4 | Chapter 24 | N/A | N/A | | Stage 7 — Executable Knowledge (Introduction) |
-| Volume-5 | | Exercise 22 | Section 4.12 | | Universal Restrictions |
+| Volume-5 | Chapter 25| Exercise 22 | Section 4.12 | | Universal Restrictions |
 | Volume-5 | | Exercise 23 | Section 4.13 | | Open World Assumption & Closure Axioms |
 | Volume-5 | | Exercise 24 | Section 4.14 | | Enumerated Classes |
 | Volume-5 | | Exercise 25 | Section 4.15 | | hasValue Restrictions |
