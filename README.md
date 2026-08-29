@@ -91,7 +91,7 @@ This repository is a companion to my **comprehensive video course**. I recommend
 | **Start the hands-on tutorial** | `/snapshot_models/` → open any `.rdf` in Protégé |
 | **Read the eBook for free** | `/ebook/markdown/` (volume1 through volume7) |
 | **Check your work against a reference** | `/ontology_ref/MyPizzaTutorial.rdf` or `/ontology_ref/PizzaTutorialWithDataV2.owl` |
-| **View the ontology visually** | [WebVOWL live demo](https://yasenstar.github.io/protege_pizza/) |
+| **View the ontology visually** | [WebVOWL live demo on MyPizzaTutorial.rdf](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/protege_pizza/ontology_ref/MyPizzaTutorial.rdf) |
 | **See the big-picture mind map** | Open `pizza.owl tutorial.mm` in [FreePlane](https://www.freeplane.org/) |
 | **Build the book covers** | `/ebook/code/volume_cover_image_creating.py` |
 | **Understand SHACL validation** | `/ontology_ref/SHACL/` |
@@ -151,7 +151,7 @@ For full legal declarations and the detailed attribution chain, please refer to 
 - **Official Ebook Hub**: [xiaoqi.com Ebook Section](https://xiaoqi.com)
 - **Original Guide:** Based on Michael DeBellis' excellent Protégé OWL tutorial.
 - **Mind Map:** Use the [pizza.owl tutorial.mm](./pizza.owl%20tutorial.mm) (Open with FreePlane) for a visual overview.
-- **Visualization:** View the model via [WebVOWL](https://yasenstar.github.io/protege_pizza/).
+- **Visualization:** View the model via [WebVOWL](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/protege_pizza/ontology_ref/MyPizzaTutorial.rdf).
 - **Official eBook**: Available in the `/ebook` folder.
 - **YouTube Playlist**: [Protégé OWL Pizza Tutorial Hands-on Series](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW).
 - **EKA Framework**: Official insights at [xiaoqi.com](https://xiaoqi.com/).
