@@ -4,9 +4,18 @@
 ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA--4.0-lightgrey.svg)
 
 [![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW)
-[![Leanpub](https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)
-[![Kindle](https://img.shields.io/badge/Kindle-Available-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)
+[![Leanpub Ebook](https://img.shields.io/badge/Buy_on-Leanpub-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)
+[![Amazon Kindle](https://img.shields.io/badge/Buy_on-Amazon_Kindle-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)
 [![Official Ebook Hub](https://img.shields.io/badge/Official_Website-xiaoqi.com-blue?style=for-the-badge&logo=googlechrome)](https://xiaoqi.com)
+
+> 💡 **Looking for the complete, professional guide?** While this repository provides open-source snapshot code (the individual "pieces"), our structured multi-volume eBook series on **Leanpub** and **Amazon Kindle** provides the complete architectural framework, deep-dive explanations, and advanced engineering practices (such as Stage 4 Semantic Governance). 
+>
+> ![all books](./ebook/publish/img/complete_7_volumes_promotion_banner.jpg)
+>  
+> 👉 **[Get the Full eBook on Leanpub](#-companion-ebook---now-available-in-three-volumes)** or **[Get it on Amazon Kindle](#-companion-ebook---now-available-in-three-volumes)** to support this project!
+
+
+---
 
 ## Project Vision
 
@@ -29,7 +38,9 @@ Explore the complete series and centralized resources at the [Official xiaoqi.co
 
 ## 📚 Companion eBook — Now Available in Three Volumes!
 
-The complete companion eBook is now available in three volumes, published on both **Leanpub** and **Amazon Kindle (KDP)**. Volume 4 (the SKDL chapters) is in progress.
+> ⚠️ **The Code vs. The Architecture:** The open-source files in this repository show you *how* it looks in code. The companion eBook explains *why* it matters, providing full pedagogical text, formal enterprise context, and step-by-step methodology.
+
+The complete companion eBook is available across multiple volumes on both **Leanpub** and **Amazon Kindle (KDP)**. Volume 4 (the SKDL chapters, including Semantic Governance) is actively updating
 
 ### Volume 1: Chapter 00-08 -- Ontology Foundation in Protégé
 
@@ -68,7 +79,7 @@ This is where pizza becomes philosophy — and philosophy become engineering.
 
 ### Volume 7: EKA Part 2b — Synthesis & Methodology (In Plan)
 
-👉 **[Read the Source & Materials](./ebook/markdown)** — All chapters are available for free in this repository under CC BY-SA 4.0.
+👉 **[Read the Source Code & Markdown Files Directly](./ebook/markdown)** — All raw chapters remain open-source under CC BY-SA 4.0.
 
 ---
 
@@ -120,29 +131,8 @@ For full legal declarations and the detailed attribution chain, please refer to 
 
 ## 🚀 Getting Started
 
-### 1. Setup
-
-- Download [Protégé](https://protege.stanford.edu/).
-- Install a reasoner like **HermiT** or **Pellet** (included in most Protégé versions).
-
-### 2. Modules & Curriculum
-
-| Phase | Topics Covered | Key Videos |
-| :--- | :--- | :--- |
-| **Foundations** | Classes, Subclasses, and Disjointness | 01 - 09 |
-| **Properties** | Object Properties, Domains, and Ranges | 10 - 13 |
-| **Logic** | Existential & Universal Restrictions | 14 - 24 |
-| **Advanced** | SWRL Rules, SPARQL Queries, and SHACL | 37 - 42 |
-| **Cloud** | WebProtégé & WebVOWL | 43 - 45 |
-
----
-
-## 🧠 Key Concepts Covered
-
-- **Taxonomies vs. Ontologies:** Moving beyond simple hierarchies to complex logic.
-- **Open World Assumption:** Understanding how OWL reasoning differs from traditional databases.
-- **Description Logic (DL):** Learning to query your knowledge base effectively.
-- **SWRL & SQWRL:** Adding "If-Then" rules to your ontology.
+1. Download [Protégé](https://protege.stanford.edu/).
+2.  Install a reasoner like **HermiT** or **Pellet** (included in most Protégé versions).
 
 ---
 
@@ -154,24 +144,24 @@ For full legal declarations and the detailed attribution chain, please refer to 
 - **Visualization:** View the model via [WebVOWL](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/protege_pizza/ontology_ref/MyPizzaTutorial.rdf).
 - **Official eBook**: Available in the `/ebook` folder.
 - **YouTube Playlist**: [Protégé OWL Pizza Tutorial Hands-on Series](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW).
-- **EKA Framework**: Official insights at [xiaoqi.com](https://xiaoqi.com/).
+- **EKA Framework**: Official insights at [https://xiaoqi.com](https://xiaoqi.com/).
 
 ---
 
-## 🤝 Contributing & Support
+## 🤝 Support & Get the Book
 
-If you find this tutorial helpful, please:
+If you find this repository valuable for your learning or enterprise architecture work, please consider supporting the project:
 
-- ⭐ Star this repository to help others find it.
-- 📺 Subscribe to the YouTube Channel for future updates and courses.
-- 📘 Buy the Book: Support my work by picking up a copy of the eBook on Leanpub or Amazon Kindle, or via [xiaoqi.com](https://xiaoqi.com)
-- 💬 Feel free to open an Issue if you have questions about the modeling steps.
+- ⭐ **Star this repository** to help other developers find it.
+- 📺 **Subscribe** to the YouTube channel for ongoing tutorials.
+- 📘 **Buy the Complete eBook:** Purchase structured editions on **[Leanpub](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)** or **[Amazon Kindle](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)** to gain complete analytical chapters and offline formatting.
+- 💬 **Open an Issue** if you have technical questions about modeling logic.
 
 ---
 
 ## 👥 Contributors
 
-A heartfelt thank you to all the contributors who have helped improve this project through their issues, discussions, and feedback!
+A heartfelt thank you to all contributors who have helped improve this project
 
 <!--
   IMPORTANT: To keep this list up-to-date, please add your GitHub username below
@@ -200,6 +190,9 @@ We welcome contributions of all kinds! Here’s how you can help:
 
 Happy Pizza Modeling! 🍕
 
+> "The journey begins with pizza. But the real subject is meaning."
+> *-- Michael DeBellis*
+
 ---
 
-Last updated at 2026-08-29
+Last updated at 2026-08-30
