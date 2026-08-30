@@ -70,7 +70,7 @@ Volume 4 of "Mastering Ontology Engineering" introduces SKDL: the Semantic Knowl
 From Aristotle to Description Logic. From taxonomy to executable knowledge.
 This is where pizza becomes philosophy — and philosophy become engineering.
 
-- **Leanpub** | [mastering-ontology-engineering-volume4](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume-4)
+- **Leanpub**: [mastering-ontology-engineering-volume4](https://leanpub.com/mastering-ontology-engineering-with-protege-and-pizza-owl-volume-4)
 - **Amazon Kindle**: [VOLUME 4 -- Chapters 17-24 -- Semantic Knowledge Development Lifecycle](https://www.amazon.com/dp/B0HFP2Q9G6)
 
 ### Volume 5: EKA Part 1 — Executable Knowledge Implementation (In Plan)

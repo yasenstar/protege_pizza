@@ -145,6 +145,7 @@ Date: 2026-08-28</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MargheritaPizza"/>
         <rdfs:comment>A pizza that only has Mozzarella, Tomato, and Pepperoni toppings.</rdfs:comment>
     </owl:Class>
     
@@ -537,6 +538,14 @@ Date: 2026-08-28</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#PizzaA">
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#NamedPizza"/>
         <pizza-ebook:hasTopping rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SamplePizza_BreakDisjoint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#SamplePizza_BreakDisjoint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MargheritaPizza"/>
     </owl:NamedIndividual>
     
 
