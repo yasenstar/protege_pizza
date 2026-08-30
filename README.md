@@ -40,7 +40,7 @@ Explore the complete series and centralized resources at the [Official xiaoqi.co
 
 > ⚠️ **The Code vs. The Architecture:** The open-source files in this repository show you *how* it looks in code. The companion eBook explains *why* it matters, providing full pedagogical text, formal enterprise context, and step-by-step methodology.
 
-The complete companion eBook is available across multiple volumes on both **Leanpub** and **Amazon Kindle (KDP)**. Volume 4 (the SKDL chapters, including Semantic Governance) is actively updating
+The complete companion eBook is available across multiple volumes on both **[Leanpub](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)** and **[Amazon Kindle (KDP)](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)**. Volume 4 (the SKDL chapters, including Semantic Governance) is actively updating
 
 ### Volume 1: Chapter 00-08 -- Ontology Foundation in Protégé
 
