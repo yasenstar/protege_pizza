@@ -122,7 +122,7 @@ We have incorporated revisions by **Michael DeBellis** (bridging Protégé 5.5 t
 
 To balance educational openness with software governance, this repository utilizes dual licensing:
 
-- **Documentation & eBook Content**: Licensed under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. This ensures the "share-alike" requirement of the original Pizza Tutorial is strictly honored.
+- **Documentation & eBook Content**: Licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**. This ensures the non-commercial and share-alike constraints of the educational assets are strictly maintained.
 - **Software, Code & Scripts**: Licensed under **GNU General Public License v3.0 (GPL-3.0)**.
 
 For full legal declarations and the detailed attribution chain, please refer to the `LICENSE.md` file in the root of this repository.
@@ -196,4 +196,4 @@ Happy Pizza Modeling! 🍕
 
 ---
 
-Last updated at 2026-08-30
+Last updated at 2026-09-03
