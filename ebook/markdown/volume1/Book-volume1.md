@@ -30,8 +30,6 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 
 - `ch900_Appex-A.md`
 - `ch997_contributors.md`
-- `ch998_error-tracker.md`
-- `ch999_error-hunting.md`
 
 ---
 
@@ -56,8 +54,6 @@ ch07.md
 ch08.md
 ch900_Appex-A.md
 ch997_contributors.md
-ch998_error-tracker.md
-ch999_error-hunting.md
 ```
 
-Last Updated at 2026-08-25
+Last Updated at 2026-09-04
