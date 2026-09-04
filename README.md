@@ -178,7 +178,8 @@ A heartfelt thank you to all contributors who have helped improve this project
 | Michael DeBellis | Issues / Foreword for eBook |
 | [@LaraAcuna](https://github.com/LaraAcuna) | Question in Discussion |
 | [@sarcanon](https://github.com/sarcanon) | Issue Reports |
-| [@Jah-yee](https://github.com/Jah-yee) | Pull Request Contribution |
+| [@Jah-yee](https://github.com/Jah-yee) | Pull Request Contribution (PR #54) |
+| [@000wahab000](https://github.com/000wahab000) | Pull Request Contribution (PR #57) |
 | *Add your name here* | *Open an Issue or Discussion* |
 
 ### How to Contribute
