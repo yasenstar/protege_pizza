@@ -2,6 +2,8 @@
 
 | Name / GitHub Handle | Contribution Type | Issue/Discussion | Chapter(s) | Date | Memo |
 |----------------------|-------------------|----------|------------|------|------|
+| 000wahab000 | Pull Request Contribution | PR #57 | Various | 2026-09-04 | Contributed updates and improvements via Pull Request #57. |
+| Jah-yee | Pull Request Contribution | PR #54 | Various | 2026-09-04 | Submitted the repository's first community-contributed pull request, helping enhance project collaboration and open-source engagement. |
 | LaraAcuna | Question / Content Improvement | #26 | 13 | 2026-08-12 | Raised a thoughtful question about modeling `OR` semantics in Domain and Range (Chapter 13). Her question prompted the addition of a complete guide to `owl:unionOf`, separate properties, and local restriction patterns, including new screenshots, RDF examples, and a comparison table. This contribution significantly improved the practical guidance of Chapter 13. Fixed in v0.44.0. |
 | Michael DeBellis | Refinement Suggestion | #19 | 15 | 2026-07-01 | Proposed revised definition for VegetarianPizza pattern to align with common real-world interpretation (include cheese/dairy). Pending. |
 | Michael DeBellis | Terminology Clarification | #20 | Multiple | 2026-07-01 | Highlighted need to clearly distinguish "Annotation Properties" (reasoner-invisible) from logical property axioms. Pending. |
@@ -13,4 +15,4 @@
 | Your name here | Error report / Pull request / Question | — | X | YYYY-MM-DD | Brief Memo |
 
 ---
-Last updated: 2026-08-12
+Last updated: 2026-09-04
