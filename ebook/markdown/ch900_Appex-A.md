@@ -1,6 +1,6 @@
 # Appendix A -- Chapter Mapping with Exercises
 
-| Volume | Chapter | Exercise | Tutorial Section | Video | Notes |
+| Volume # | Chapter | Exercise | Tutorial Section | Video | Notes |
 | --- | --- | --- | --- | --- | --- |
 | Volume-1 | Chapter 00~03 | N/A | N/A | N/A | Foundations & EKA Introduction |
 | Volume-1 | Chapter 04 | Exercise 1, 2, 3 | Section 4.0 | 04 | Creating Named Classes |
