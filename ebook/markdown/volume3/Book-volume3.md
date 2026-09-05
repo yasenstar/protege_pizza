@@ -6,6 +6,7 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 
 ## Front Matter
 
+- Cover Page (cover_volume3_a4-v.pdf)
 - `README.md`
 - `00_ACKNOWLEDGEMENTS.md`
 - `01_TOC_volume3.md`
@@ -24,8 +25,6 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 
 - `ch900_Appex-A.md`
 - `ch997_contributors.md`
-- `ch998_error-tracker.md`
-- `ch999_error-hunting.md`
 
 ---
 
@@ -45,8 +44,6 @@ ch16.md
 ch800_proofreading.md
 ch900_Appex-A.md
 ch997_contributors.md
-ch998_error-tracker.md
-ch999_error-hunting.md
 ```
 
-Last Updated at 2026-08-09
+Last Updated at 2026-09-05

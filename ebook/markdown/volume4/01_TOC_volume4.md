@@ -9,7 +9,7 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 4 of 5)
+## This Volume's Chapters (Volume 4 of 7)
 
 - [Chapter 17 -- Semantic Knowledge Development Lifecycle (SKDL)](./ch17.md)
 - [Chapter 18 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle](./ch18.md)
@@ -20,19 +20,21 @@
 - [Chapter 23 -- Semantic Reasoning: Stage 6 of the Semantic Knowledge Development Lifecycle](./ch23.md)
 - [Chapter 24 -- Executable Knowledge: Stage 7 of the Semantic Knowledge Development Lifecycle](./ch24.md)
 
-## Full Book Roadmap (for reference -- other volumes sold separately)
+## Full Book Roadmap
 
-- Volume 1 -- Chapters 00-08: Ontology foundations in Protégé
-- Volume 2 -- Chapters 09-13: Object properties, characteristics, domain & range
-- Volume 3 -- Chapters 14-16: Semantic requirements (restrictions) and EKA governance
-- **Volume 4 (this book)** -- Chapters 17-24: Semantic Knowledge Development Lifecycle (SKDL), Stages 1-7 — complete methodology
-- Volume 5 -- Chapters 25-XX: Executable Knowledge Architecture (EKA) and AI integration
+- Volume 1 -- Chapters 00-08: Ontology Foundations in Protégé
+- Volume 2 -- Chapters 09-13: Object Properties, Characteristics, Domain and Range
+- Volume 3 -- Chapters 14-16: Semantic Requirements and EKA Governance
+- **Volume 4 (this book)** -- Chapters 17-24: Semantic Knowledge Development Lifecycle (SKDL) (In writing...)
+- Volume 5: EKA Part 1 — Executable Knowledge Implementation (In Plan)
+- Volume 6: EKA Part 2a — Advanced Reasoning & Interdisciplinary Depth (In Plan)
+- Volume 7: EKA Part 2b — Synthesis & Methodology (In Plan)
+
+## Appendix
 
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
-- [Error Tracker](./ch998_error-tracker.md)
-- [Error Hunting](./ch999_error-hunting.md)
 
 ---
 
-Last Updated at 2026-08-15
+Last Updated at 2026-09-05

@@ -9,7 +9,7 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 1 of 4)
+## This Volume's Chapters (Volume 1 of 7)
 
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 -- Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
@@ -21,16 +21,21 @@
 - [Chapter 07 -- Ensuring Semantic Integrity with Disjoint Classes](./ch07.md)
 - [Chapter 08 -- Understanding the RDF File Structure: Looking Beneath Protégé into the Language of Semantic Knowledge](./ch08.md)
 
-## Full Book Roadmap (for reference -- other volumes sold separately)
+## Full Book Roadmap
 
-- **Volume 1 (this book)** -- Chapters 00-08: Ontology foundations in Protégé
-- Volume 2 -- Chapters 09-13: Object properties, characteristics, domain & range
-- Volume 3 -- Chapters 14-16: Semantic requirements (restrictions) and EKA governance
-- Volume 4 -- Chapters 17-24: Semantic Knowledge Development Lifecycle (SKDL), Stages 1-7
+- **Volume 1 (this book)** -- Chapters 00-08: Ontology Foundations in Protégé
+- Volume 2 -- Chapters 09-13: Object Properties, Characteristics, Domain and Range
+- Volume 3 -- Chapters 14-16: Semantic Requirements and EKA Governance
+- Volume 4 -- Chapters 17-24: Semantic Knowledge Development Lifecycle (SKDL) (In writing...)
+- Volume 5: EKA Part 1 — Executable Knowledge Implementation (In Plan)
+- Volume 6: EKA Part 2a — Advanced Reasoning & Interdisciplinary Depth (In Plan)
+- Volume 7: EKA Part 2b — Synthesis & Methodology (In Plan)
+
+## Appendix
 
 - [Appendix A - Chapter mapping with Exercises](./ch900_Appex-A.md)
 - [Contributors](./ch997_contributors.md)
 
 ---
 
-Last Updated at 2026-09-04
+Last Updated at 2026-09-05
