@@ -32,7 +32,7 @@ One of the reasons is simple:
 
 As a result, many learners can:
 
-- memories OWL terminology,
+- remember OWL terminology,
 - click through Protégé demonstrations,
 - or understand isolated semantic concepts,
 
