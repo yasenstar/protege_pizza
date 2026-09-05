@@ -22,7 +22,7 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 - `ch19.md`
 - `ch20.md`
 - `ch21.md`
-- ch22.md (WIP)
+- `ch22.md` (WIP)
 - ch23.md
 - ch24.md
 
@@ -30,8 +30,6 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 
 - `ch900_Appex-A.md`
 - `ch997_contributors.md`
-- `ch998_error-tracker.md`
-- `ch999_error-hunting.md`
 
 ---
 
@@ -49,10 +47,10 @@ ch17.md
 ch18.md
 ch19.md
 ch20.md
+ch21.md
+ch22.md
 ch900_Appex-A.md
 ch997_contributors.md
-ch998_error-tracker.md
-ch999_error-hunting.md
 ```
 
 Last Updated at 2026-09-03
