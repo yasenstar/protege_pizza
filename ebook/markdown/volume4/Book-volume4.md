@@ -7,9 +7,9 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 ## Front Matter
 
 - cover image of volume4 (cover_volume4_a4-v.pdf)
+- `01_TOC_volume4.md`
 - `README.md`
 - `00_ACKNOWLEDGEMENTS.md`
-- `01_TOC_volume4.md`
 - `a00_legal-and-licensing.md`
 - `a01_foreword_1_TimothyCook.md`
 - `a02_foreword_2_MichaelDeBellis.md`
@@ -36,9 +36,9 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 ## Raw `Book.txt` (for Leanpub)
 
 ```text
+01_TOC_volume4.md
 README.md
 00_ACKNOWLEDGEMENTS.md
-01_TOC_volume4.md
 a00_legal-and-licensing.md
 a01_foreword_1_TimothyCook.md
 a02_foreword_2_MichaelDeBellis.md
