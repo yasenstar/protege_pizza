@@ -344,6 +344,15 @@ Date: 2026-08-28</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#ProbeInconsistentTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#ProbeInconsistentTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#RedPepperTopping -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#RedPepperTopping">
