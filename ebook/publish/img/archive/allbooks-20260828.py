@@ -77,7 +77,7 @@ def create_single_cover(vol_num, bg_hex, accent_hex, accent_light_hex, subtitle_
     # Fonts (Fallback to default or system TTF if available)
     try:
         font_eyebrow = ImageFont.truetype("DejaVuSans.ttf", 34)
-        font_title = ImageFont.truetype("DejaVuSerif-Bold.ttf", 82)
+        font_title = ImageFont.truetype("DejaVuSerif-Bold.ttf", 112)
         font_sub = ImageFont.truetype("DejaVuSans-Oblique.ttf", 54)
         font_vol = ImageFont.truetype("DejaVuSans-Bold.ttf", 74)
         font_body = ImageFont.truetype("DejaVuSans.ttf", 46)
@@ -86,16 +86,16 @@ def create_single_cover(vol_num, bg_hex, accent_hex, accent_light_hex, subtitle_
         font_eyebrow = font_title = font_sub = font_vol = font_body = font_author = ImageFont.load_default()
 
     # 2. Eyebrow text
-    draw.text((W/2, 100), "From Pizza.owl to Executable Intelligence", fill=accent_light, anchor="mt", font=font_eyebrow)
-    # draw.text((W/2, 129), "Executable Knowledge Architecture (EKA)", fill=accent_light, anchor="mt", font=font_eyebrow)
+    draw.text((W/2, 85), "From Semantic Foundations to", fill=accent_light, anchor="mt", font=font_eyebrow)
+    draw.text((W/2, 129), "Executable Knowledge Architecture (EKA)", fill=accent_light, anchor="mt", font=font_eyebrow)
     
     # 3. Pizza Slice Logo
     crust_color = lighten_color(accent_hex, 0.5)
     draw_pizza_slice(draw, cx=800, cy=460, size=185, slice_color=accent_color, crust_color=crust_color, bg_color_hex=bg_hex)
     
     # 4. Main Title
-    draw.text((W/2, 920), "EXECUTABLE KNOWLEDGE", fill="#FFFFFF", anchor="mt", font=font_title)
-    draw.text((W/2, 1040), "ARCHITECTURE (EKA)", fill="#FFFFFF", anchor="mt", font=font_title)
+    draw.text((W/2, 920), "Mastering Ontology", fill="#FFFFFF", anchor="mt", font=font_title)
+    draw.text((W/2, 1040), "Engineering", fill="#FFFFFF", anchor="mt", font=font_title)
     
     # 5. Subtitle
     draw.text((W/2, 1180), "with Protégé and Pizza.owl", fill=accent_color, anchor="mt", font=font_sub)
@@ -118,13 +118,13 @@ def create_single_cover(vol_num, bg_hex, accent_hex, accent_light_hex, subtitle_
 def generate_table_promotion_banner():
     # Volume metadata based on prompt
     volumes_data = [
-        (1, "#0B2E28", "#1D9E75", "#9FE1CB", ("SEMANTIC FOUNDATIONS", "Learning Ontology Engineering through Protégé and Pizza.owl")),
-        (2, "#0A2138", "#378ADD", "#B5D4F4", ("SEMANTIC RELATIONSHIPS", "Mastering Object Properties and Ontology Structures")),
-        (3, "#211A3D", "#7F77DD", "#CECBF6", ("SEMANTIC LOGIC", "From OWL Restrictions to Reasoning and Governance")),
-        (4, "#2D1F0B", "#E8913A", "#F5D0A0", ("SEMANTIC KNOWLEDGE ENGINEERING", "The Semantic Knowledge Development Lifecycle (SKDL)")),
-        (5, "#1E293B", "#38BDF8", "#BAE6FD", ("KNOWLEDGE GRAPH ENGINEERING", "Transforming Ontologies into Connected Intelligence")),
-        (6, "#18222A", "#64748B", "#CBD5E1", ("AI-READY SEMANTIC SYSTEMS", "Knowledge Graphs, Agents and Intelligent Retrieval")),
-        (7, "#1C0A0A", "#E11D48", "#FDA4AF", ("EXECUTABLE INTELLIGENCE", "Realizing the Vision of Executable Knowledge Architecture")),
+        (1, "#0B2E28", "#1D9E75", "#9FE1CB", ("Ontology Foundation", "in Protégé")),
+        (2, "#0A2138", "#378ADD", "#B5D4F4", ("Object Properties &", "Relationships")),
+        (3, "#211A3D", "#7F77DD", "#CECBF6", ("Semantic Requirements &", "EKA Governance")),
+        (4, "#2D1F0B", "#E8913A", "#F5D0A0", ("SKDL — Semantic Knowledge", "Development Lifecycle")),
+        (5, "#1E293B", "#38BDF8", "#BAE6FD", ("Data Properties, Custom UI,", "and Graph Ecosystems")),
+        (6, "#18222A", "#64748B", "#CBD5E1", ("Advanced Reasoning, Constraints,", "and Interdisciplinary Depth")),
+        (7, "#1C0A0A", "#E11D48", "#FDA4AF", ("EKA Practices & The SKDL", "Methodology Package")),
     ]
     
     covers = []
@@ -151,8 +151,8 @@ def generate_table_promotion_banner():
     except:
         font_header = font_subhead = ImageFont.load_default()
         
-    draw_banner.text((banner_w / 2, 40), "EXECUTABLE KNOWLEDGE ARCHITECTURE (EKA)", fill="#FFFFFF", anchor="mt", font=font_header)
-    draw_banner.text((banner_w / 2, 95), "From Pizza.owl to Executable Intelligence", fill="#9CA3AF", anchor="mt", font=font_subhead)
+    draw_banner.text((banner_w / 2, 40), "MASTERING ONTOLOGY ENGINEERING WITH PROTÉGÉ AND PIZZA.OWL", fill="#FFFFFF", anchor="mt", font=font_header)
+    draw_banner.text((banner_w / 2, 95), "The Complete 7-Volume Executable Knowledge Architecture (EKA) & SKDL Series", fill="#9CA3AF", anchor="mt", font=font_subhead)
     
     # Paste each volume cover onto the table
     start_y = margin_y + 60
