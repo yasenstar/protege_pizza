@@ -4,24 +4,19 @@
 
 ### From Pizza.owl to Executable Intelligence
 
-[GitHub stars](https://github.com/yasenstar/protege_pizza/stargazers)
-[License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg)
-[License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC--BY--NC--SA--4.0-lightgrey.svg)
+[![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers)
+![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC--BY--NC--SA--4.0-lightgrey.svg)
 
-[YouTube Course](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW)
-[Leanpub Ebook](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)
-[Amazon Kindle](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)
-[Official Ebook Hub](https://xiaoqi.com)
+[![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW)
+[![Leanpub Ebook](https://img.shields.io/badge/Buy_on-Leanpub-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)
+[![Amazon Kindle](https://img.shields.io/badge/Buy_on-Amazon_Kindle-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)
+[![Official Ebook Hub](https://img.shields.io/badge/Official_Website-xiaoqi.com-blue?style=for-the-badge&logo=googlechrome)](https://xiaoqi.com)
 
----
-
-[all books](./ebook/publish/img/complete_7_volumes_promotion_banner.jpg)
-
-💡 **Looking for the complete professional guide?**
-
-While this repository contains the open-source ontology models, markdown chapters, examples, and executable artifacts, the companion eBook series provides the complete architectural framework, engineering methodology, governance perspective, and the full EKA roadmap.
-
-👉 **Get the Full eBook on Leanpub** or **Amazon Kindle** to support the project.
+> 💡 **Looking for the complete, professional guide?** While this repository provides open-source snapshot code (the individual "pieces"), our structured multi-volume eBook series on **Leanpub** and **Amazon Kindle** provides the complete architectural framework, deep-dive explanations, and advanced engineering practices (such as Stage 4 Semantic Governance). 
+>
+> ![all books](./ebook/publish/img/complete_7_volumes_promotion_banner.jpg)
+>  
+> 👉 **[Get the Full eBook on Leanpub](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)** or **[Get it on Amazon Kindle](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)** to support this project!
 
 ---
 
@@ -120,7 +115,7 @@ By following this repository and companion eBook series, you will learn how to:
 - Prepare AI-ready semantic systems
 - Understand executable knowledge architecture
 
-[cover](./img/cover.png)
+![cover](./img/cover.png)
 
 ---
 
@@ -303,3 +298,7 @@ And in EKA:
 > The destination is Executable Intelligence.
 >
 > — EKA Project
+
+---
+
+Last updated at 2026-09-07
