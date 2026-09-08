@@ -36,7 +36,7 @@ The framework is represented as:
 EKA = (K, R, Θ, Φ, Γ)
 
 K = Knowledge
-R = Reasoning
+R = Reasoning & Rules
 Θ = Triggers
 Φ = Actions / Execution
 Γ = Governance
