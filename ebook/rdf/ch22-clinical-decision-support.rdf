@@ -64,6 +64,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/ch22-clinical-decision-support#HighRiskPatient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/ch22-clinical-decision-support#HighRiskPatient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/ch22-clinical-decision-support#Patient"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/ch22-clinical-decision-support#NonAllergicPatient -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/ch22-clinical-decision-support#NonAllergicPatient">
