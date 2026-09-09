@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EKA v0.63.0 Release — Post Cover</title>
+    <style>
+        /* ===== RESET ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #0b0e14;
+            font-family: 'Inter', 'Roboto Mono', 'SF Mono', monospace;
+            padding: 24px;
+        }
+
+        /* ===== CARD ===== */
+        .cover {
+            position: relative;
+            width: 1000px;
+            max-width: 100%;
+            aspect-ratio: 1000 / 562; /* ~16:9 */
+            background: linear-gradient(145deg, #0f141d 0%, #1a212e 100%);
+            border-radius: 32px;
+            padding: 40px 48px;
+            box-shadow:
+                0 20px 60px rgba(0, 0, 0, 0.8),
+                0 0 0 1px rgba(0, 255, 200, 0.08),
+                inset 0 0 120px rgba(0, 180, 255, 0.02);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.2s;
+            border: 1px solid rgba(0, 255, 200, 0.06);
+        }
+
+        /* ===== BACKGROUND NODES (subtle graph network) ===== */
+        .bg-graph {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            opacity: 0.15;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .bg-graph svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* ===== PIZZA ICON (floating) ===== */
+        .pizza-icon {
+            position: absolute;
+            right: 40px;
+            bottom: 40px;
+            font-size: 72px;
+            opacity: 0.08;
+            transform: rotate(-8deg);
+            z-index: 0;
+            pointer-events: none;
+            user-select: none;
+            filter: drop-shadow(0 0 30px rgba(255, 180, 50, 0.15));
+        }
+
+        /* ===== CONTENT (z-index 1) ===== */
+        .content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        /* ===== HEADER ===== */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .badge {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: rgba(0, 255, 200, 0.7);
+            background: rgba(0, 255, 200, 0.06);
+            padding: 6px 18px;
+            border-radius: 40px;
+            border: 1px solid rgba(0, 255, 200, 0.12);
+            backdrop-filter: blur(4px);
+        }
+
+        .version-tag {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.3);
+            letter-spacing: 1px;
+        }
+
+        /* ===== TITLE ===== */
+        .title-block {
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+
+        .title-main {
+            font-family: 'Inter', 'SF Pro Display', sans-serif;
+            font-weight: 700;
+            font-size: clamp(28px, 4.2vw, 52px);
+            letter-spacing: -0.02em;
+            color: #ffffff;
+            line-height: 1.1;
+            text-shadow: 0 2px 40px rgba(0, 180, 255, 0.08);
+        }
+
+        .title-main .accent {
+            background: linear-gradient(135deg, #00f5d4, #00b4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .title-sub {
+            font-family: 'Roboto Mono', monospace;
+            font-size: clamp(12px, 1.2vw, 16px);
+            color: rgba(255, 255, 255, 0.25);
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        /* ===== DIVIDER ===== */
+        .divider {
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 200, 0.2), transparent);
+            margin: 12px 0 16px 0;
+            opacity: 0.6;
+        }
+
+        /* ===== EKA TUPLE ===== */
+        .eka-tuple {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px 28px;
+            margin: 4px 0 8px 0;
+        }
+
+        .eka-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: clamp(14px, 1.3vw, 20px);
+            color: rgba(255, 255, 255, 0.85);
+            letter-spacing: 0.3px;
+        }
+
+        .eka-symbol {
+            font-weight: 700;
+            font-size: clamp(18px, 1.6vw, 26px);
+            color: #00f5d4;
+            text-shadow: 0 0 30px rgba(0, 245, 212, 0.15);
+            min-width: 28px;
+        }
+
+        .eka-label {
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.55);
+            font-size: clamp(12px, 1vw, 16px);
+        }
+
+        /* ===== RELEASE LINE ===== */
+        .release-line {
+            font-family: 'Roboto Mono', monospace;
+            font-size: clamp(12px, 1.1vw, 16px);
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 0.5px;
+            padding: 10px 0 4px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            margin-top: 4px;
+        }
+
+        .release-line strong {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .release-line .highlight {
+            color: #00f5d4;
+            font-weight: 500;
+        }
+
+        /* ===== FEATURES ===== */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px 40px;
+            margin: 8px 0 4px 0;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(13px, 1.1vw, 17px);
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .feature .icon {
+            font-size: clamp(16px, 1.2vw, 22px);
+        }
+
+        .feature .label {
+            font-weight: 400;
+        }
+
+        .feature .label strong {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .tagline {
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(13px, 1.1vw, 17px);
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.25);
+            letter-spacing: 1px;
+        }
+
+        .tagline em {
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .meta {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.15);
+            letter-spacing: 1px;
+            text-align: right;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 700px) {
+            .cover {
+                padding: 28px 24px;
+                border-radius: 20px;
+            }
+            .features {
+                gap: 10px 20px;
+            }
+            .eka-tuple {
+                gap: 8px 18px;
+            }
+            .pizza-icon {
+                font-size: 48px;
+                right: 20px;
+                bottom: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .cover {
+                padding: 20px 16px;
+            }
+            .badge {
+                font-size: 9px;
+                padding: 4px 12px;
+            }
+            .version-tag {
+                font-size: 10px;
+            }
+            .footer {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+            }
+            .meta {
+                text-align: left;
+            }
+            .title-main {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cover">
+
+        <!-- ===== BACKGROUND GRAPH NETWORK ===== -->
+        <div class="bg-graph">
+            <svg viewBox="0 0 1000 562" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                <!-- nodes -->
+                <circle cx="120" cy="80" r="6" fill="#00f5d4" opacity="0.5" />
+                <circle cx="280" cy="40" r="4" fill="#00b4ff" opacity="0.4" />
+                <circle cx="500" cy="60" r="8" fill="#00f5d4" opacity="0.3" />
+                <circle cx="720" cy="30" r="5" fill="#00b4ff" opacity="0.5" />
+                <circle cx="880" cy="90" r="6" fill="#00f5d4" opacity="0.4" />
+                <circle cx="80" cy="220" r="5" fill="#00b4ff" opacity="0.3" />
+                <circle cx="350" cy="180" r="7" fill="#00f5d4" opacity="0.4" />
+                <circle cx="620" cy="200" r="5" fill="#00b4ff" opacity="0.35" />
+                <circle cx="850" cy="250" r="6" fill="#00f5d4" opacity="0.3" />
+                <circle cx="150" cy="380" r="4" fill="#00b4ff" opacity="0.4" />
+                <circle cx="450" cy="420" r="7" fill="#00f5d4" opacity="0.3" />
+                <circle cx="780" cy="400" r="5" fill="#00b4ff" opacity="0.4" />
+                <circle cx="60" cy="490" r="6" fill="#00f5d4" opacity="0.3" />
+                <circle cx="320" cy="510" r="4" fill="#00b4ff" opacity="0.35" />
+                <circle cx="560" cy="480" r="8" fill="#00f5d4" opacity="0.25" />
+                <circle cx="920" cy="500" r="5" fill="#00b4ff" opacity="0.3" />
+
+                <!-- edges -->
+                <line x1="120" y1="80" x2="280" y2="40" stroke="#00f5d4" stroke-width="0.8" opacity="0.15" />
+                <line x1="280" y1="40" x2="500" y2="60" stroke="#00b4ff" stroke-width="0.8" opacity="0.12" />
+                <line x1="500" y1="60" x2="720" y2="30" stroke="#00f5d4" stroke-width="0.8" opacity="0.15" />
+                <line x1="720" y1="30" x2="880" y2="90" stroke="#00b4ff" stroke-width="0.8" opacity="0.12" />
+                <line x1="120" y1="80" x2="80" y2="220" stroke="#00f5d4" stroke-width="0.8" opacity="0.1" />
+                <line x1="280" y1="40" x2="350" y2="180" stroke="#00b4ff" stroke-width="0.8" opacity="0.1" />
+                <line x1="500" y1="60" x2="620" y2="200" stroke="#00f5d4" stroke-width="0.8" opacity="0.12" />
+                <line x1="880" y1="90" x2="850" y2="250" stroke="#00b4ff" stroke-width="0.8" opacity="0.1" />
+                <line x1="80" y1="220" x2="150" y2="380" stroke="#00f5d4" stroke-width="0.8" opacity="0.08" />
+                <line x1="350" y1="180" x2="450" y2="420" stroke="#00b4ff" stroke-width="0.8" opacity="0.1" />
+                <line x1="620" y1="200" x2="780" y2="400" stroke="#00f5d4" stroke-width="0.8" opacity="0.08" />
+                <line x1="850" y1="250" x2="920" y2="500" stroke="#00b4ff" stroke-width="0.8" opacity="0.08" />
+                <line x1="150" y1="380" x2="320" y2="510" stroke="#00f5d4" stroke-width="0.8" opacity="0.08" />
+                <line x1="450" y1="420" x2="560" y2="480" stroke="#00b4ff" stroke-width="0.8" opacity="0.08" />
+                <line x1="780" y1="400" x2="920" y2="500" stroke="#00f5d4" stroke-width="0.8" opacity="0.08" />
+                <line x1="60" y1="490" x2="320" y2="510" stroke="#00b4ff" stroke-width="0.8" opacity="0.06" />
+                <line x1="560" y1="480" x2="780" y2="400" stroke="#00f5d4" stroke-width="0.8" opacity="0.06" />
+
+                <!-- subtle glow nodes -->
+                <circle cx="500" cy="60" r="18" fill="#00f5d4" opacity="0.03" />
+                <circle cx="450" cy="420" r="22" fill="#00b4ff" opacity="0.02" />
+            </svg>
+        </div>
+
+        <!-- ===== PIZZA ICON ===== -->
+        <div class="pizza-icon">🍕</div>
+
+        <!-- ===== CONTENT ===== -->
+        <div class="content">
+
+            <!-- HEADER -->
+            <div class="header">
+                <span class="badge">✦ EKA SERIES</span>
+                <span class="version-tag">v0.63.0</span>
+            </div>
+
+            <!-- TITLE -->
+            <div class="title-block">
+                <div class="title-main">
+                    EXECUTABLE KNOWLEDGE<br />
+                    <span class="accent">ARCHITECTURE (EKA)</span>
+                </div>
+                <div class="title-sub">From Pizza.owl to Executable Intelligence</div>
+            </div>
+
+            <!-- DIVIDER -->
+            <div class="divider"></div>
+
+            <!-- EKA TUPLE -->
+            <div class="eka-tuple">
+                <div class="eka-item">
+                    <span class="eka-symbol">[ K ]</span>
+                    <span class="eka-label">Knowledge Graph</span>
+                </div>
+                <div class="eka-item">
+                    <span class="eka-symbol">[ R ]</span>
+                    <span class="eka-label">Reasoning &amp; Rules</span>
+                </div>
+                <div class="eka-item">
+                    <span class="eka-symbol">[ Θ ]</span>
+                    <span class="eka-label">Triggers</span>
+                </div>
+                <div class="eka-item">
+                    <span class="eka-symbol">[ Φ ]</span>
+                    <span class="eka-label">Execution</span>
+                </div>
+                <div class="eka-item">
+                    <span class="eka-symbol">[ Γ ]</span>
+                    <span class="eka-label">Semantic Governance</span>
+                </div>
+            </div>
+
+            <!-- RELEASE LINE -->
+            <div class="release-line">
+                <strong>RELEASE v0.63.0</strong> &nbsp;·&nbsp; <span class="highlight">EKA Rebranding</span> &amp; <span class="highlight">Chapter 22 Launch</span>
+            </div>
+
+            <!-- FEATURES -->
+            <div class="features">
+                <div class="feature">
+                    <span class="icon">✨</span>
+                    <span class="label"><strong>NEW IN CH 22:</strong> Semantic Validation &amp; The Probe Class</span>
+                </div>
+                <div class="feature">
+                    <span class="icon">📦</span>
+                    <span class="label"><strong>SERIES-WIDE:</strong> Complete Volume 1–4 Rebranding Update</span>
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <div class="footer">
+                <span class="tagline"><em>"From Pizza.owl to Executable Intelligence"</em></span>
+                <span class="meta">EKA · 2026</span>
+            </div>
+
+        </div><!-- /content -->
+    </div><!-- /cover -->
+
+</body>
+</html>
