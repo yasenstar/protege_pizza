@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Chapters List -- Volume 2
 
 - Cover Page
@@ -33,4 +34,4 @@
 
 ---
 
-Last Updated at 2026-09-05
+Last Updated at 2026-09-11
