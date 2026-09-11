@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Foreword from Timothy W. Cook
 
 For more than twenty years, ontology engineering has carried a quiet reputation: powerful in theory, hard to reach in practice. Michael DeBellis' Pizza tutorial did more than almost any other resource to change that, by letting people learn semantics with their hands instead of only their heads. What Xiaoqi Zhao has done here is take that well-loved starting point and carry it all the way to where the work actually has to live, which is inside real systems, under real governance.
@@ -18,4 +19,7 @@ Timothy W. Cook
 Founder, Axius SDC, Inc.  
 Creator, the Semantic Data Charter (SDC)  
 June 2026
-(Last Updated at 2026-09-04)
+
+---
+
+Last Updated at 2026-09-11

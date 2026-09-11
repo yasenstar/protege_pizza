@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Volume 1 -- Publishing Manifest
 
 **Scope:** Chapters 00-08
@@ -57,4 +58,4 @@ ch900_Appex-A.md
 ch997_contributors.md
 ```
 
-Last Updated at 2026-09-04
+Last Updated at 2026-09-11

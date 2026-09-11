@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Volume 1: Ontology Foundation in Protégé
 
 **Introduction and Core Ontology Building Blocks**
@@ -25,4 +26,4 @@
 
 ---
 
-Last updated at 2026-08-28
+Last updated at 2026-09-11

@@ -224,7 +224,7 @@ Executable Intelligence
 
 👉 **Read the Source Code & Markdown Files Directly**
 
-All raw chapters remain open-source and available under CC BY-NC-SA 4.0.
+All raw chapters remain open-source and available under [CC BY-NC-SA 4.0](./LICENSE.md).
 
 ```text
 /ebook/markdown/
@@ -301,4 +301,4 @@ And in EKA:
 
 ---
 
-Last updated at 2026-09-07
+Last updated at 2026-09-11

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Executable Knowledge Architecture (EKA)
 
 *<h2>Mastering Ontology Engineering with Protégé and Pizza.owl</h2>*
@@ -353,4 +354,4 @@ Welcome to the World of Ontology Engineering!
 
 ---
 
-Last updated at: 2026-09-07
+Last updated at: 2026-09-11

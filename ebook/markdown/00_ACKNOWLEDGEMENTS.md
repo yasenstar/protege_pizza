@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Acknowledgements
 
 This project would not have reached its current level of maturity without the generosity of numerous members of the ontology, semantic web, enterprise architecture, and knowledge graph communities.
@@ -59,4 +60,4 @@ Knowledge grows through reuse, collaboration, and continuous refinement -- the v
 
 ---
 
-Last updated at 2026-08-06
+Last updated at 2026-09-11

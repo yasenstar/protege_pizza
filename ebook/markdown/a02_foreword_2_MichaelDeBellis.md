@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Preface from Michael DeBellis
 
 I sometimes find it easy to be pessimistic about the human race. The world gives us plenty of reasons for discouragement. But one thing that illustrates some of the best in people is the open source movement.
@@ -54,3 +55,7 @@ Michael DeBellis<br>
 2 July 2026<br>
 San Francisco, CA<br>
 https://www.michaeldebellis.com/blog
+
+---
+
+Last updated at 2026-09-11

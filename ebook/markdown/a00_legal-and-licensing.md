@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Legal & Licensing
 
 This eBook is a derivative work of the "`Pizza.owl` Tutorial", a foundational resource for the ontology engineering community.
@@ -22,4 +23,4 @@ For further details regarding the full attribution chain, the history of this pr
 
 ---
 
-Last updated at 2026-09-03
+Last updated at 2026-09-11

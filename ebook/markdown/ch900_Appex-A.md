@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 # Appendix A -- Chapter Mapping with Exercises
 
 | Volume # | Chapter | Exercise | Tutorial Section | Video | Notes |
@@ -41,4 +42,4 @@
 
 ---
 
-Last Updated at: 2026-08-29
+Last Updated at: 2026-09-11
