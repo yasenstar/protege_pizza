@@ -196,8 +196,13 @@ Completes the transformation from semantic knowledge into executable intelligenc
 
 ---
 
-## Book Roadmap
+## 👉 Read the Source Code & Markdown Files Directly
 
+All raw chapters remain open-source and available under [CC BY-NC-SA 4.0](./LICENSE.md).
+
+Read book source: [/ebook/markdown/](ebook/markdown/)
+
+<!-- 
 ```text
 Volume 1
 Semantic Foundations
@@ -219,17 +224,7 @@ AI-Ready Semantic Systems
 ↓
 Volume 7
 Executable Intelligence
-```
-
----
-
-👉 **Read the Source Code & Markdown Files Directly**
-
-All raw chapters remain open-source and available under [CC BY-NC-SA 4.0](./LICENSE.md).
-
-```text
-/ebook/markdown/
-```
+``` -->
 
 ---
 
