@@ -25,6 +25,7 @@
         "Stardog",
         "TOGAF",
         "triplestore",
-        "triplestores"
+        "triplestores",
+        "Unsatisfiability"
     ]
 }
