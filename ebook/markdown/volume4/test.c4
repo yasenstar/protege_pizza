@@ -1,0 +1,29 @@
+specification {
+  element actor
+  element system
+  element component
+}
+
+model {
+  customer = actor 'Customer'
+  saas = system 'Our SaaS' {
+    component ui
+    component backend
+
+    // UI requests data from the Backend
+    ui -> backend
+
+    // Customer uses the UI
+    customer -> ui 'opens in browser'
+  }
+}
+
+views {
+  view index {
+    include *
+  }
+
+  view of saas {
+    include *
+  }
+}

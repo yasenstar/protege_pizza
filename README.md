@@ -21,13 +21,41 @@
 
 ---
 
+# 📢 Exciting News: Plan Protégé Going Global! 🌍
+
+> 🎉 **We've forked the official Protégé Desktop project — and we're taking it multilingual!**
+
+To bring the power of Protégé to a much wider audience, we have forked the original [Protégé Desktop](https://github.com/protegeproject/protege) project into our brand-new open-source organization:
+
+👉 **[github.com/yasen-opensource](https://github.com/yasen-opensource)** — starting with **[yasen-opensource/protege](https://github.com/yasen-opensource/protege)**
+
+### 🗺 The Roadmap
+
+- 🇨🇳 **Chinese Edition First** — a full Simplified Chinese localization of the Protégé Desktop UI
+  (menus, dialogs, the OWL editing views — classes, object/data properties, individuals, SWRL rules —
+  and more), implemented with standard Java internationalization (`ResourceBundle` / `.properties`),
+  so Chinese-speaking developers and ontology engineers can learn and work in their native language.
+- 🌍 **Multilingual Branch Next** — the Chinese edition is only the beginning. Our roadmap extends to
+  further languages, growing a true multilingual branch of the tool.
+- 🛠 **Community-Driven** — built by the community, for the community.
+
+### 🤝 Contributors Welcome!
+
+Whether you are a Java/Swing developer, a translator, a technical writer, or simply a passionate
+Protégé user — there is a place for you in this journey:
+
+- 🐛 Report untranslated strings or UI glitches
+- 🌐 Contribute translations — refine the Chinese edition, or kick off a new language
+- 💻 Help with i18n engineering (ResourceBundle extraction, Maven packaging, Swing runtime support)
+- 📖 Improve documentation and onboarding guides
+
+⭐ **Star [yasen-opensource/protege](https://github.com/yasen-opensource/protege) to follow our progress, open a [discussion](https://github.com/yasen-opensource/protege/discussions) to say hello, and jump into the [issues](https://github.com/yasen-opensource/protege/issues) to claim your first contribution!**
+
+---
+
 # 🏛 What is EKA?
 
-**EKA** stands for:
-
-```text
-Executable Knowledge Architecture
-```
+**EKA** stands for `Executable Knowledge Architecture`.
 
 EKA is a practical framework for transforming human knowledge into machine-readable, machine-reasonable, and ultimately machine-executable intelligence.
 
