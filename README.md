@@ -2,7 +2,7 @@
 
 ## Executable Knowledge Architecture (EKA)
 
-### From Pizza.owl to Executable Intelligence
+### From Pizza.owl to Executable Knowledge
 
 An open-source ontology engineering learning and knowledge-development platform built around the Protégé Pizza.owl tradition, extending hands-on OWL modeling into semantic governance, reasoning, knowledge graphs, and Executable Knowledge Architecture (EKA).
 

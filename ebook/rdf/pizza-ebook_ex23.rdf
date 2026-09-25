@@ -219,6 +219,19 @@ Date: 2026-08-28</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A pizza that only has Mozzarella and Tomato toppings</rdfs:comment>
     </owl:Class>
     
@@ -388,6 +401,21 @@ Date: 2026-08-28</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#hasTopping"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#MozzarellaTopping"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#ParmesanTopping"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TomatoTopping"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A pizza that has Mozzarella, Tomato, Olive, and Parmesan toppings.
