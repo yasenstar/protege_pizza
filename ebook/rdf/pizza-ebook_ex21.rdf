@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook_ex21/"
-     xml:base="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook_ex21/"
+<rdf:RDF xmlns="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook/"
+     xml:base="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:pizza-ebook="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook_ex21">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook">
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by-sa/4.0/</terms:license>
     </owl:Ontology>
     

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook_ex22/"
-     xml:base="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook_ex22/"
+<rdf:RDF xmlns="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook/"
+     xml:base="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:pizza-ebook="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook_ex22">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook">
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by-sa/4.0/</terms:license>
     </owl:Ontology>
     
@@ -609,17 +609,9 @@ Date: 2026-08-28</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza1 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TestVegetarianPizza -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook_ex22#TestVegetarianPizza -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook_ex22#TestVegetarianPizza">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#TestVegetarianPizza">
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#Pizza"/>
         <rdf:type>
             <owl:Restriction>
@@ -646,6 +638,14 @@ Date: 2026-08-28</rdfs:comment>
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetarianPizza"/>
     </owl:NamedIndividual>
     
 
