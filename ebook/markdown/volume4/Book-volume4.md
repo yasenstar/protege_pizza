@@ -7,29 +7,32 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 ## Front Matter
 
 - cover image of volume4 (cover_volume4_a4-v.pdf)
-- `01_TOC_volume4.md`
-- `README.md`
-- `00_ACKNOWLEDGEMENTS.md`
-- `a00_legal-and-licensing.md`
-- `a01_foreword_1_TimothyCook.md`
-- `a02_foreword_2_MichaelDeBellis.md`
-- `a10_AuthorPreface.md`
+- 01_TOC_volume4.md
+- README.md
+- 00_ACKNOWLEDGEMENTS.md
+- a00_legal-and-licensing.md
+- a01_foreword_1_TimothyCook.md
+- a02_foreword_2_MichaelDeBellis.md
+- a10_AuthorPreface.md
 
 ## Chapters
 
-- `ch17.md`
-- `ch18.md`
-- `ch19.md`
-- `ch20.md`
-- `ch21.md`
-- `ch22.md`
-- `ch23.md` (WIP)
+- ch17.md
+- ch18.md
+- ch19.md
+- ch20.md
+- ch21.md
+- ch22.md
+- ch23.md
 - ch24.md
+- ch25.md (WIP)
+- ch26.md
+- ch27.md
 
 ## Back Matter
 
-- `ch900_Appex-A.md`
-- `ch997_contributors.md`
+- ch900_Appex-A.md
+- ch997_contributors.md
 
 ---
 

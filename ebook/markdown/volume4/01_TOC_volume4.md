@@ -19,15 +19,17 @@
 - [Chapter 21 -- Semantic Governance: Stage 4 of the Semantic Knowledge Development Lifecycle](./ch21.md)
 - [Chapter 22 -- Semantic Validation: Stage 5 of the Semantic Knowledge Development Lifecycle](./ch22.md)
 - [Chapter 23 -- Semantic Reasoning: Stage 6 of the Semantic Knowledge Development Lifecycle](./ch23.md)
-- [Chapter 24 -- Executable Knowledge: Stage 7 of the Semantic Knowledge Development Lifecycle](./ch24.md)
-- [Chapter 25 - SKDL Synthesis & Volume 4 Conclusion]()
+- [Chapter 24 - Stage 7 of SKDL -- Executable Knowledge (Part 1): Introduction & Boundary Control](./ch24.md)
+- [Chapter 25 - Stage 7 of SKDL -- Executable Knowledge (Part 2): Value Specification & Precise Binding]()
+- [Chapter 26 - Stage 7 of SKDL -- Executable Knowledge (Part 3): Data Integrity & Comprehensive Architecture]()
+- [Chapter 27 - SKDL Synthesis & Volume 4 Conclusion]()
 
 ## Full Book Roadmap
 
 - Volume 1 -- Chapters 00-08: Ontology Foundations in Protégé
 - Volume 2 -- Chapters 09-13: Object Properties, Characteristics, Domain and Range
 - Volume 3 -- Chapters 14-16: Semantic Requirements and EKA Governance
-- **Volume 4 (this book)** -- Chapters 17-25: Semantic Knowledge Development Lifecycle (SKDL) (In writing...)
+- **Volume 4 (this book)** -- Chapters 17-27: Semantic Knowledge Development Lifecycle (SKDL) (In writing...)
 - Volume 5: EKA Part 1 — Executable Knowledge Implementation (In Plan)
 - Volume 6: EKA Part 2a — Advanced Reasoning & Interdisciplinary Depth (In Plan)
 - Volume 7: EKA Part 2b — Synthesis & Methodology (In Plan)
@@ -39,4 +41,4 @@
 
 ---
 
-Last Updated at 2026-09-11
+Last Updated at 2026-10-02
