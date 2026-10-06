@@ -6,15 +6,11 @@
 
 An open-source ontology engineering learning and knowledge-development platform built around the Protégé Pizza.owl tradition, extending hands-on OWL modeling into semantic governance, reasoning, knowledge graphs, and Executable Knowledge Architecture (EKA).
 
-[![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers)
-![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC--BY--NC--SA--4.0-lightgrey.svg)
+[![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers) ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC--BY--NC--SA--4.0-lightgrey.svg)
 
-[![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW)
-[![Official Ebook Hub](https://img.shields.io/badge/Official_Website-xiaoqi.com-blue?style=for-the-badge&logo=googlechrome)](https://xiaoqi.com)
+[![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW) [![Official Ebook Hub](https://img.shields.io/badge/Official_Website-xiaoqi.com-blue?style=for-the-badge&logo=googlechrome)](https://xiaoqi.com)
 
-[![Leanpub Ebook](https://img.shields.io/badge/Buy_on-Leanpub-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/store?category=&search=executable+knowledge+architecture&sort=bestsellers_last_week&language=&lng=en)
-
-[![Amazon Kindle](https://img.shields.io/badge/Buy_on-Amazon_Kindle-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)
+[![Leanpub Ebook](https://img.shields.io/badge/Buy_on-Leanpub-brightgreen?style=for-the-badge&logo=leanpub)](https://leanpub.com/store?category=&search=executable+knowledge+architecture&sort=bestsellers_last_week&language=&lng=en) [![Amazon Kindle](https://img.shields.io/badge/Buy_on-Amazon_Kindle-orange?style=for-the-badge&logo=amazonkindle)](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)
 
 > 💡 **Looking for the complete, professional guide?** While this repository provides open-source snapshot code (the individual "pieces"), our structured multi-volume eBook series on **Leanpub** and **Amazon Kindle** provides the complete architectural framework, deep-dive explanations, and advanced engineering practices (such as Stage 4 Semantic Governance). 
 >
