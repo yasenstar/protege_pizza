@@ -187,7 +187,7 @@ Explores existential restrictions, universal restrictions, reasoning foundations
 
 **The Semantic Knowledge Development Lifecycle (SKDL)**
 
-Chapters 17-25
+Chapters 17-27
 
 Introduces ontology engineering as a disciplined engineering process through the Semantic Knowledge Development Lifecycle.
 
@@ -197,7 +197,7 @@ Introduces ontology engineering as a disciplined engineering process through the
 
 **Transforming Ontologies into Connected Intelligence**
 
-Chapters 26-30
+Chapters 28-30
 
 Focuses on transforming ontologies into operational knowledge graphs and connected semantic systems.
 
