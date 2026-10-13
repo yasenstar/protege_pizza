@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>交互式 Concept Map</title>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+      startOnLoad: true,
+      securityLevel: 'loose',
+      theme: 'base',
+      flowchart: {
+        htmlLabels: true,
+        curve: 'basis'
+      }
+    });
+  </script>
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #faf9f6;
+      padding: 40px;
+    }
+
+    /* ========== 高亮核心样式 ========== */
+    .mermaid svg .node rect,
+    .mermaid svg .node polygon,
+    .mermaid svg .node path {
+      transition: all 0.25s ease;
+      cursor: pointer;
+    }
+
+    /* 鼠标悬停时高亮当前节点 */
+    .mermaid svg .node:hover rect,
+    .mermaid svg .node:hover polygon,
+    .mermaid svg .node:hover path {
+      stroke: #2563eb !important;
+      stroke-width: 3px !important;
+      filter: drop-shadow(0 0 6px rgba(37, 99, 235, 0.5));
+    }
+
+    /* 文字也跟着变 */
+    .mermaid svg .node:hover .label {
+      font-weight: 600;
+    }
+
+    /* 可选：让连线也轻微高亮 */
+    .mermaid svg .edgePath path {
+      transition: stroke 0.25s ease;
+    }
+    .mermaid svg .node:hover ~ .edgePath path,
+    .mermaid svg .edgePath:hover path {
+      stroke: #2563eb !important;
+      stroke-width: 2.5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Concept map</h1>
+  <h3>Lifecycle as a system: concepts and dependencies</h3>
+
+  <div class="mermaid">
+    flowchart TD
+      %% 定义节点
+      A["Accelerator, memory<br/>hierarchy, fabric"]
+      B["Resource ledger<br/>N, D, FLOPs, capacity,<br/>traffic, communication,<br/>latency..."]
+      C{{"Problem formulation<br/>task distribution, users,<br/>acceptable error, success<br/>criteria"}}
+      
+      D["Levels of analysis: objective ...<br/>product behavior"]
+      E["Scientific interpretation:<br/>hypotheses, causal evidence,<br/>falsification"]
+      F["Retrieval integration"]
+      G(["Evaluation gate"])
+      
+      %% 连线
+      A --> B --> C
+      D --> E
+      E --> G
+      F --> G
+      C --> G
+      G -->|accept| H[ ]
+
+      %% 给节点加 class（方便更精细控制）
+      class A,B,C,D,E,F,G highlightable
+  </div>
+
+</body>
+</html>
