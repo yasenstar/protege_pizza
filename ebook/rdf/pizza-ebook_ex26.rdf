@@ -329,7 +329,7 @@ Date: 2026-08-28</rdfs:comment>
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#OliveTopping">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#CheeseTopping"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/4/pizza-ebook#VegetableTopping"/>
     </owl:Class>
     
 
