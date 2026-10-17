@@ -1,5 +1,5 @@
 <!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
-# Chapters List -- Volume 4
+# Chapters List -- Volume 4b
 
 - Cover Page
 - [Chapter List](./01_TOC_volume4.md) -- This File
@@ -10,14 +10,8 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 4 of 7)
+## This Volume's Chapters (Volume 5 of 8)
 
-- [Chapter 17 -- Semantic Knowledge Development Lifecycle (SKDL)](./ch17.md)
-- [Chapter 18 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle](./ch18.md)
-- [Chapter 19 -- Semantic Description: Stage 2 of the Semantic Knowledge Development Lifecycle](./ch19.md)
-- [Chapter 20 -- Knowledge Reuse: Stage 3 of the Semantic Knowledge Development Lifecycle](./ch20.md)
-- [Chapter 21 -- Semantic Governance: Stage 4 of the Semantic Knowledge Development Lifecycle](./ch21.md)
-- [Chapter 22 -- Semantic Validation: Stage 5 of the Semantic Knowledge Development Lifecycle](./ch22.md)
 - [Chapter 23 -- Semantic Reasoning: Stage 6 of the Semantic Knowledge Development Lifecycle](./ch23.md)
 - [Chapter 24 - Stage 7 of SKDL -- Executable Knowledge (Part 1): Introduction & Boundary Control](./ch24.md)
 - [Chapter 25 - Stage 7 of SKDL -- Executable Knowledge (Part 2): Value Specification & Precise Binding]()
@@ -29,7 +23,8 @@
 - Volume 1 -- Chapters 00-08: Ontology Foundations in Protégé
 - Volume 2 -- Chapters 09-13: Object Properties, Characteristics, Domain and Range
 - Volume 3 -- Chapters 14-16: Semantic Requirements and EKA Governance
-- **Volume 4 (this book)** -- Chapters 17-27: Semantic Knowledge Development Lifecycle (SKDL) (In writing...)
+- Volume 4a -- Chapters 17-22: Semantic Knowledge Engineering, Part 1
+- **Volume 4b (this book)** -- Semantic Knowledge Engineering, Part 2 (In writing...)
 - Volume 5: EKA Part 1 — Executable Knowledge Implementation (In Plan)
 - Volume 6: EKA Part 2a — Advanced Reasoning & Interdisciplinary Depth (In Plan)
 - Volume 7: EKA Part 2b — Synthesis & Methodology (In Plan)
@@ -41,4 +36,4 @@
 
 ---
 
-Last Updated at 2026-10-02
+Last Updated at 2026-10-17

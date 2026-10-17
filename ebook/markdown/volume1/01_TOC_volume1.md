@@ -10,7 +10,7 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 1 of 7)
+## This Volume's Chapters (Volume 1 of 8)
 
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 -- Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)
@@ -27,7 +27,8 @@
 - **Volume 1 (this book)** -- Chapters 00-08: Ontology Foundations in Protégé
 - Volume 2 -- Chapters 09-13: Object Properties, Characteristics, Domain and Range
 - Volume 3 -- Chapters 14-16: Semantic Requirements and EKA Governance
-- Volume 4 -- Chapters 17-27: Semantic Knowledge Development Lifecycle (SKDL) (In writing...)
+- Volume 4a -- Chapters 17-22: Semantic Knowledge Engineering, Part 1
+- Volume 4b -- Semantic Knowledge Engineering, Part 2 (In writing...)
 - Volume 5: EKA Part 1 — Executable Knowledge Implementation (In Plan)
 - Volume 6: EKA Part 2a — Advanced Reasoning & Interdisciplinary Depth (In Plan)
 - Volume 7: EKA Part 2b — Synthesis & Methodology (In Plan)
@@ -39,4 +40,4 @@
 
 ---
 
-Last Updated at 2026-10-02
+Last Updated at 2026-10-17
