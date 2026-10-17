@@ -25,8 +25,8 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 - ch22.md
 - ch23.md
 - ch24.md
-- ch25.md (WIP)
-- ch26.md
+- ch25.md
+- ch26.md (WIP)
 - ch27.md
 
 ## Back Matter
