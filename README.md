@@ -14,7 +14,7 @@ An open-source ontology engineering learning and knowledge-development platform 
 
 > 💡 **Looking for the complete, professional guide?** While this repository provides open-source snapshot code (the individual "pieces"), our structured multi-volume eBook series on **Leanpub** and **Amazon Kindle** provides the complete architectural framework, deep-dive explanations, and advanced engineering practices (such as Stage 4 Semantic Governance). 
 >
-> ![all books](./ebook/publish/img/complete_7_volumes_promotion_banner.jpg)
+> ![all books](./eka_generated_covers/website/EKA_7_Volumes_Website_Banner.png)
 >  
 > 👉 **[Get the Full eBook on Leanpub](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)** or **[Get it on Amazon Kindle](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)** to support this project!
 
@@ -28,7 +28,7 @@ To bring the power of Protégé to a much wider audience, we have forked the ori
 
 👉 **[github.com/yasen-opensource](https://github.com/yasen-opensource)** — starting with **[yasen-opensource/protege](https://github.com/yasen-opensource/protege)**
 
-### 🗺 The Roadmap
+## 🗺 The Roadmap
 
 - 🇨🇳 **Chinese Edition First** — a full Simplified Chinese localization of the Protégé Desktop UI
   (menus, dialogs, the OWL editing views — classes, object/data properties, individuals, SWRL rules —
@@ -38,7 +38,7 @@ To bring the power of Protégé to a much wider audience, we have forked the ori
   further languages, growing a true multilingual branch of the tool.
 - 🛠 **Community-Driven** — built by the community, for the community.
 
-### 🤝 Contributors Welcome!
+## 🤝 Contributors Welcome!
 
 Whether you are a Java/Swing developer, a translator, a technical writer, or simply a passionate
 Protégé user — there is a place for you in this journey:
@@ -153,71 +153,70 @@ By following this repository and companion eBook series, you will learn how to:
 
 ### Mastering Ontology Engineering with Protégé and Pizza.owl
 
-### Volume 1 — Semantic Foundations
+> [!Note] About the 8-volume structure.
+> The series has been expanded from the original 7-volume plan to an 8-volume structure. The former Volume 4 (Chapters 17–27, SKDL) has been split into Volume 4a (Chapters 17–22, Stages 1–5) and Volume 4b (Chapters 23–27, Stages 6–7 + Synthesis). The split was made for two reasons:
+> (1) Volume 4 had grown past 400 PDF pages, exceeding the Amazon KDP paperback page limit;
+> (2) it had become disproportionately larger than Volumes 1–3. Chapter numbering is preserved; the split is a container-level change only.
+
+### Volume 1 — Semantic Foundations (Chapters 00-08)
 
 **Learning Ontology Engineering through Protégé and Pizza.owl**
-
-Chapters 00-08
 
 Introduces ontology engineering fundamentals, Protégé, RDF foundations, class hierarchies, semantic thinking, reasoning, and the EKA framework.
 
 ---
 
-### Volume 2 — Semantic Relationships
+### Volume 2 — Semantic Relationships (Chapters 09-13)
 
 **Mastering Object Properties and Ontology Structures**
-
-Chapters 09-13
 
 Introduces object properties, inverse properties, property characteristics, domain, range, and semantic relationship design.
 
 ---
 
-### Volume 3 — Semantic Logic
+### Volume 3 — Semantic Logic (Chapters 14-16)
 
 **OWL Restrictions, Reasoning and Governance**
-
-Chapters 14-16
 
 Explores existential restrictions, universal restrictions, reasoning foundations, semantic requirements, and governance concepts.
 
 ---
 
-### Volume 4 — Semantic Knowledge Engineering
+### Volume 4a — Semantic Knowledge Engineering, Part 1 (Chapters 17-22)
 
-**The Semantic Knowledge Development Lifecycle (SKDL)**
+**Foundations & Governance (SKDL Stages 1-5)**
 
-Chapters 17-27
-
-Introduces ontology engineering as a disciplined engineering process through the Semantic Knowledge Development Lifecycle.
+Introduces the Semantic Knowledge Development Lifecycle (SKDL) and walks through its first five stages: Conceptual Modeling, Semantic Description, Knowledge Reuse, Semantic Governance, and Semantic Validation. Ends with the validation discipline that prepares the ground for automated reasoning.
 
 ---
 
-### Volume 5 — Knowledge Graph Engineering
+### Volume 4b — Semantic Knowledge Engineering, Part 2 (Chapters 23-27)
+
+**Reasoning & Executable Knowledge (Stages 6–7 + Synthesis)**
+
+Completes the SKDL: Semantic Reasoning, then the three-part Executable Knowledge stage (boundary control, value specification, data integrity), and closes with a synthesis of the full lifecycle. Includes the Exercise 26 troubleshooting arc — a three-week diagnostic journey through OWA counting, Stage 1 error propagation, closure-inheritance conflicts, and Protégé's local-vs-global view split.
+
+---
+
+### Volume 5 — Knowledge Graph Engineering (Chapters 28-30)
 
 **Transforming Ontologies into Connected Intelligence**
-
-Chapters 28-30
 
 Focuses on transforming ontologies into operational knowledge graphs and connected semantic systems.
 
 ---
 
-### Volume 6 — AI-Ready Semantic Systems
+### Volume 6 — AI-Ready Semantic Systems (Chapters 31-36)
 
 **Knowledge Graphs, Agents and Intelligent Retrieval**
-
-Chapters 31-36
 
 Connects ontologies, knowledge graphs, reasoning, retrieval, and agent-based architectures.
 
 ---
 
-### Volume 7 — Executable Intelligence
+### Volume 7 — Executable Intelligence (Chapters 37-42)
 
 **Realizing the Vision of Executable Knowledge Architecture**
-
-Chapters 37-42
 
 Completes the transformation from semantic knowledge into executable intelligence systems.
 
@@ -228,30 +227,6 @@ Completes the transformation from semantic knowledge into executable intelligenc
 All raw chapters remain open-source and available under [CC BY-NC-SA 4.0](./LICENSE.md).
 
 Read book source: [/ebook/markdown/](ebook/markdown/)
-
-<!-- 
-```text
-Volume 1
-Semantic Foundations
-↓
-Volume 2
-Semantic Relationships
-↓
-Volume 3
-Semantic Logic
-↓
-Volume 4
-Semantic Knowledge Engineering (SKDL)
-↓
-Volume 5
-Knowledge Graph Engineering
-↓
-Volume 6
-AI-Ready Semantic Systems
-↓
-Volume 7
-Executable Intelligence
-``` -->
 
 ---
 
@@ -324,4 +299,4 @@ And in EKA:
 
 ---
 
-Last updated at 2026-09-17
+Last updated at 2026-10-17
