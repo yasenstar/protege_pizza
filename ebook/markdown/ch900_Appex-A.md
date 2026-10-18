@@ -18,24 +18,23 @@
 | Vol-3 | Chapter 14 | Exercise 13 | Section 4.10.2 | 14 | Existential Restrictions |
 | Vol-3 | Chapter 15 | N/A | Section 4.10.2 | 14 | Semantic Description (Theory) |
 | Vol-3 | Chapter 16 | N/A | Section 4.10.2 | 14 | Description Logic Foundations |
-| Vol-4 | Chapter 17 | N/A | N/A | N/A | SKDL Introduction |
-| Vol-4 | Chapter 18 | Exercise 14 | Section 4.10.3 | 15 | Stage 1 — Conceptual Modeling |
-| Vol-4 | Chapter 19 | Exercise 15 | Section 4.10.3 | 16 | Stage 2 — Semantic Description |
-| Vol-4 | Chapter 20 | Exercise 16 | Section 4.10.3 | 17 | Stage 3 — Knowledge Reuse (Cloning Pattern) |
-| Vol-4 | Chapter 20 | Exercise 17 | Section 4.10.3 | 18 | Stage 3 — Knowledge Reuse (Practicing Specialization) |
-| Vol-4 | Chapter 21 | Exercise 18 | Section 4.10.3 | 19 | Stage 4 — Semantic Governance (Disjointness) |
-| Vol-4 | Chapter 22 | Exercise 19 | Section 4.10.4 | 20 | Stage 5 — Semantic Validation (Probe Class) |
-| Vol-4 | Chapter 23 | Exercise 20 | Section 4.11 | 21 | Stage 6 — Semantic Reasoning (Primitive Classes) |
-| Vol-4 | Chapter 23 | Exercise 21 | Section 4.11 | | Stage 6 — Semantic Reasoning (Defined Classes) |
-| Vol-4 | Chapter 24 | Exercise 22-26 | N/A | | Stage 7 — Executable Knowledge (Introduction) |
-| Vol-4 | Chapter 25 | N/A | N/A | | SKDL Synthesis & Volume 4 Closure |
-| Vol-5 | | Exercise 27 | Section 5.1 | | Datatype Properties |
-| Vol-5 | | Exercise 28, 29, 30, 31, 32 | Section 5.2 | | Data Property Values & Classification |
-| Vol-5 | | Exercise 33 | Section 9.1 | | DL Queries |
-| Vol-5 | | Exercise 34, 35, 36 | Section 10.0 | | SWRL & SQwRL Rules |
+| Vol-4a | Chapter 17 | N/A | N/A | N/A | SKDL Introduction |
+| Vol-4a | Chapter 18 | Exercise 14 | Section 4.10.3 | 15 | Stage 1 — Conceptual Modeling |
+| Vol-4a | Chapter 19 | Exercise 15 | Section 4.10.3 | 16 | Stage 2 — Semantic Description |
+| Vol-4a | Chapter 20 | Exercise 16 | Section 4.10.3 | 17 | Stage 3 — Knowledge Reuse (Cloning Pattern) |
+| Vol-4a | Chapter 20 | Exercise 17 | Section 4.10.3 | 18 | Stage 3 — Knowledge Reuse (Practicing Specialization) |
+| Vol-4a | Chapter 21 | Exercise 18 | Section 4.10.3 | 19 | Stage 4 — Semantic Governance (Disjointness) |
+| Vol-4a | Chapter 22 | Exercise 19 | Section 4.10.4 | 20 | Stage 5 — Semantic Validation (Probe Class) |
+| Vol-4b | Chapter 23 | Exercise 20 | Section 4.11 | 21 | Stage 6 — Semantic Reasoning (Primitive Classes) |
+| Vol-4b | Chapter 23 | Exercise 21 | Section 4.11 | | Stage 6 — Semantic Reasoning (Defined Classes) |
+| Vol-4b | Chapter 24-26 | Exercise 22-26 | N/A | | Stage 7 — Executable Knowledge (Introduction) |
+| Vol-4b | Chapter 27 | N/A | N/A | | SKDL Synthesis & Volume 4 Closure |
+| Vol-5 | | Exercise 28 | Section 5.2 | | Data Property Values & Classification |
+| Vol-5 | | Exercise 29| Section 9.1 | | DL Queries |
+| Vol-5 | | Exercise 30 | Section 10.0 | | SWRL & SQwRL Rules |
 | Vol-6 | | | | | Advanced Topics |
 | Vol-7 | | | | | EKA & AI Integration |
 
 ---
 
-Last Updated at: 2026-09-16
+Last Updated at: 2026-10-18

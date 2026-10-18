@@ -35,7 +35,7 @@
 - Chapter 15 -- Semantic Requirements: Universal Restriction, Composition, and the Neo4j Mirror
 - Chapter 16 -- Restriction as Governance: EKA Synthesis, Common Mistakes, and Unit Summary
 
-## Volume 4 -- Chapters 17-27: Semantic Knowledge Development Lifecycle (SKDL)
+## Volume 4a -- Chapters 17-27: Semantic Knowledge Engineering, Part 1
 
 - Chapter 17 -- Semantic Knowledge Development Lifecycle (SKDL)
 - Chapter 18 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle
@@ -43,6 +43,9 @@
 - Chapter 20 -- Knowledge Reuse: Stage 3 of the Semantic Knowledge Development Lifecycle
 - Chapter 21 -- Semantic Governance: Stage 4 of the Semantic Knowledge Development Lifecycle
 - Chapter 22 -- Semantic Validation: Stage 5 of the Semantic Knowledge Development Lifecycle
+
+## Volume 4b -- Chapters 17-27: Semantic Knowledge Engineering, Part 2
+
 - Chapter 23 -- Semantic Reasoning: Stage 6 of the Semantic Knowledge Development Lifecycle
 - Chapter 24 - Stage 7 of SKDL -- Executable Knowledge (Part 1): Introduction & Boundary Control
 - Chapter 25 - Stage 7 of SKDL -- Executable Knowledge (Part 2): Value Specification & Precise Binding
@@ -62,4 +65,4 @@
 
 ---
 
-Last updated at 2026-10-17
+Last updated at 2026-10-18

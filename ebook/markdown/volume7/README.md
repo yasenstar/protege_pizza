@@ -12,7 +12,7 @@
 | 40 | Enterprise Architecture Integration | Connecting ontologies to enterprise architecture frameworks (TOGAF, ArchiMate); capability-based planning; business-IT alignment; architecture repositories; (linking to more EA practice/tools) |
 | 41 | AI and Knowledge Graphs | LLMs, RAG, and ontologies; how semantic knowledge enhances AI systems; knowledge distillation; semantic grounding; hybrid AI architectures |
 | 42 | The Complete Methodology | SKDL as a practical framework; engineering guidelines; best practices; anti-patterns; quality metrics; ontology maturity assessment |
-| 43 | Conclusion and Future Direction | the future of ontology engineering; EKA as a paradigm; emerging standards; the role of semantics in the AI era; final reflections; (invite reader and communities to contribute and co-write the future) |
+| TBD | Conclusion and Future Direction | the future of ontology engineering; EKA as a paradigm; emerging standards; the role of semantics in the AI era; final reflections; (invite reader and communities to contribute and co-write the future) |
 
 **Volume 7 Focus:**
 

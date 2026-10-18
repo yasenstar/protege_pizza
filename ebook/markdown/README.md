@@ -51,7 +51,7 @@ Using a familiar pizza domain, the tutorial teaches learners how to:
 - construct ontology hierarchies,
 - model relationships,
 - apply OWL logic (rules), and
-- and understand reasoning behavior inside Protégé
+- understand reasoning behavior inside Protégé
 
 What makes the Pizza tutorial special is that it gradually introduces semantic complexity in a highly structured manner.
 
@@ -224,7 +224,7 @@ This book is intended for:
 
 No prior ontology experience is required.
 
-However, reader with backgrounds in:
+However, readers with backgrounds in:
 
 - UML,
 - ER Modeling,
@@ -334,7 +334,7 @@ It is rapidly becoming part of the foundational infrastructure for:
 - semantic interoperability,
 - and executable intelligence architectures.
 
-Understanding ontology today is increasingly similar to understand databases or APIs twenty years ago.
+Understanding ontology today is increasingly similar to understanding databases or APIs twenty years ago.
 
 It is becoming a core architectural capability.
 
@@ -354,4 +354,4 @@ Welcome to the World of Ontology Engineering!
 
 ---
 
-Last updated at: 2026-09-11
+Last updated at: 2026-10-18

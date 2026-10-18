@@ -10,6 +10,8 @@ The educational content, including the eBook, tutorials, and textual explanation
 * **License**: [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 * **Requirement**: Any derivative works based on this educational content must credit this repository and the original tutorial authors, carry the same CC BY-NC-SA 4.0 license, and must not be used for commercial purposes.
 
+The CC BY-NC-SA license applies to the open repository content. Compiled/paid editions on Leanpub/Amazon are distributed by the author under separate commercial terms where permitted.
+
 ## 2. Software, Code & Scripts
 
 The associated software artifacts, scripts, and automation tools in this repository are provided for your use in engineering environments.
