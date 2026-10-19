@@ -34,7 +34,7 @@ Build order for Leanpub / EPUB / PDF packaging. Each `.md` filename below must e
 ## Raw `Book.txt` (for Leanpub)
 
 ```text
-01_TOC_volume4.md
+01_TOC_volume4a.md
 README.md
 00_ACKNOWLEDGEMENTS.md
 a00_legal-and-licensing.md
