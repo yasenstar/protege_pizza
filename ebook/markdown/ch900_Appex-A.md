@@ -27,7 +27,9 @@
 | Vol-4a | Chapter 22 | Exercise 19 | Section 4.10.4 | 20 | Stage 5 — Semantic Validation (Probe Class) |
 | Vol-4b | Chapter 23 | Exercise 20 | Section 4.11 | 21 | Stage 6 — Semantic Reasoning (Primitive Classes) |
 | Vol-4b | Chapter 23 | Exercise 21 | Section 4.11 | | Stage 6 — Semantic Reasoning (Defined Classes) |
-| Vol-4b | Chapter 24-26 | Exercise 22-26 | N/A | | Stage 7 — Executable Knowledge (Introduction) |
+| Vol-4b | Chapter 24 | Exercise 22-23 | N/A | | Stage 7 — Executable Knowledge (Introduction) - Part 1 |
+| Vol-4b | Chapter 25 | Exercise 24-25 | N/A | | Stage 7 — Executable Knowledge (Introduction) -Part 2 |
+| Vol-4b | Chapter 26 | Exercise 26 | N/A | | Stage 7 — Executable Knowledge (Introduction) - Part 3 |
 | Vol-4b | Chapter 27 | N/A | N/A | | SKDL Synthesis & Volume 4 Closure |
 | Vol-5 | | Exercise 28 | Section 5.2 | | Data Property Values & Classification |
 | Vol-5 | | Exercise 29| Section 9.1 | | DL Queries |
@@ -37,4 +39,4 @@
 
 ---
 
-Last Updated at: 2026-10-18
+Last Updated at: 2026-11-01
