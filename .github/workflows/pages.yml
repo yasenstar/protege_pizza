@@ -31,7 +31,8 @@ jobs:
             --exclude 'ebook' \
             --exclude 'ontology_ref' \
             --exclude '.git' \
-            --exclude '.github'
+            --exclude '.github'\
+            --exclude 'README.md'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
