@@ -4,6 +4,10 @@ on:
   push:
     branches: [ main ] # Change to 'master' if your default branch is master
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 permissions:
   contents: read
   pages: write
@@ -16,19 +20,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Optional: If you use a static site generator or build tool (like Vite/Next.js/Node), 
-      # run your build command here. Make sure it outputs to a dedicated folder (e.g., ./dist or ./out).
-      # - name: Install and Build
-      #   run: |
-      #     npm ci
-      #     npm run build
-
-      - name: Stage web files for deployment
+      - name: Stage clean web files
         run: |
           mkdir -p _site
-          # Copy only your public web files/folders into _site. 
-          # Adjust 'index.html' or folders to match your actual web root contents:
-          cp -r index.html assets _site/ 2>/dev/null || true
+          
+          # Copy project files to _site while automatically excluding all archive, ebook, and ontology_ref folders anywhere in the repo
+          rsync -av --progress . _site/ \
+            --exclude 'archive' \
+            --exclude 'ebook' \
+            --exclude 'ontology_ref' \
+            --exclude '.git' \
+            --exclude '.github'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
