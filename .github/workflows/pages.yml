@@ -20,48 +20,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Stage and Convert README to HTML
+      - name: Stage clean web files
         run: |
           mkdir -p _site
           
-          # Install lightweight markdown converter
-          pip install -q markdown
-          
-          # Convert README.md into index.html wrapped in GitHub Markdown CSS
-          python3 -c "
-          import markdown
-          with open('README.md', 'r', encoding='utf-8') as f:
-              text = f.read()
-          html = markdown.markdown(text, extensions=['fenced_code', 'tables', 'nl2br'])
-          page = f'''<!DOCTYPE html>
-          <html lang=\"en\">
-          <head>
-              <meta charset=\"utf-8\">
-              <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-              <title>Mastering Ontology Engineering with Protégé and Pizza.owl</title>
-              <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-min.css\">
-              <style>
-                  body {{ box-sizing: border-box; min-width: 200px; max-width: 980px; margin: 0 auto; padding: 45px; }}
-                  @media (max-width: 767px) {{ body {{ padding: 15px; }}}}
-              </style>
-          </head>
-          <body class=\"markdown-body\">
-              {html}
-          </body>
-          </html>'''
-          with open('_site/index.html', 'w', encoding='utf-8') as f:
-              f.write(page)
-          "
-          
-          # Copy remaining necessary assets while excluding heavy folders and staging directory
+          # Copy your custom index.html and other assets, excluding heavy/unwanted folders
           rsync -av --progress . _site/ \
             --exclude '_site' \
             --exclude 'archive' \
             --exclude 'ebook' \
             --exclude 'ontology_ref' \
             --exclude '.git' \
-            --exclude '.github' \
-            --exclude 'README.md'
+            --exclude '.github'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
