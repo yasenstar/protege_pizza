@@ -31,6 +31,12 @@ jobs:
             --exclude 'ontology_ref' \
             --exclude '.git' \
             --exclude '.github'
+        
+          # Verification: ensure index.html exists in _site
+          if [ ! -f "_site/index.html" ]; then
+            echo "Error: index.html missing from build output!"
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
