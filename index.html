@@ -1,11 +1,577 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Protege Pizza Ontology</title>
-    <meta http-equiv="refresh" content="0; url=./">
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid@11.14.0/dist/mermaid.min.js"></script>
 </head>
 <body>
-    <p>Loading Protégé Pizza Documentation...</p>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="-mastering-ontology-engineering-with-protégé-and-pizzaowl">🍕 Mastering Ontology Engineering with Protégé and Pizza.owl</h1>
+<h2 id="executable-knowledge-architecture-eka">Executable Knowledge Architecture (EKA)</h2>
+<h3 id="from-pizzaowl-to-executable-knowledge">From Pizza.owl to Executable Knowledge</h3>
+<p>An open-source ontology engineering learning and knowledge-development platform built around the Protégé Pizza.owl tradition, extending hands-on OWL modeling into semantic governance, reasoning, knowledge graphs, and Executable Knowledge Architecture (EKA).</p>
+<p><a href="https://github.com/yasenstar/protege_pizza/stargazers"><img src="https://img.shields.io/github/stars/yasenstar/protege_pizza" alt="GitHub stars"></a> <img src="https://img.shields.io/badge/Code-GPL--3.0-blue.svg" alt="License: GPL-3.0"> <img src="https://img.shields.io/badge/Content-CC--BY--NC--SA--4.0-lightgrey.svg" alt="License: CC BY-NC-SA 4.0"></p>
+<p><a href="https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW"><img src="https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&amp;logo=youtube" alt="YouTube Course"></a> <a href="https://xiaoqi.com"><img src="https://img.shields.io/badge/Official_Website-xiaoqi.com-blue?style=for-the-badge&amp;logo=googlechrome" alt="Official Ebook Hub"></a></p>
+<p><a href="https://leanpub.com/store?category=&amp;search=executable+knowledge+architecture"><img src="https://img.shields.io/badge/Buy_on-Leanpub-brightgreen?style=for-the-badge&amp;logo=leanpub" alt="Leanpub Ebook"></a> <a href="https://www.amazon.com/s?k=executable+knowledge+architecture+xiaoqi+zhao+pizza.owl&amp;crid=PCSR6NHAIAJ7&amp;sprefix=executable+knowledge+architecture+xiaoqi+zhao+pizza.owl%2Caps%2C159&amp;ref=nb_sb_noss_1"><img src="https://img.shields.io/badge/Buy_on-Amazon_Kindle-orange?style=for-the-badge&amp;logo=amazonkindle" alt="Amazon Kindle"></a></p>
+<blockquote>
+<p>💡 <strong>Looking for the complete, professional guide?</strong> While this repository provides open-source snapshot code (the individual &quot;pieces&quot;), our structured multi-volume eBook series on <strong>Leanpub</strong> and <strong>Amazon Kindle</strong> provides the complete architectural framework, deep-dive explanations, and advanced engineering practices (such as Stage 4 Semantic Governance).</p>
+<p><img src="./eka_generated_covers/website/EKA_7_Volumes_Website_Banner.png" alt="all books"></p>
+<p>👉 <strong><a href="https://leanpub.com/store?category=&amp;search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&amp;sort=bestsellers_last_week&amp;language=&amp;lng=en">Get the Full eBook on Leanpub</a></strong> or <strong><a href="https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&amp;i=digital-text&amp;crid=2OCZWC2LH7LLI&amp;sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&amp;ref=nb_sb_noss_1">Get it on Amazon Kindle</a></strong> to support this project!</p>
+</blockquote>
+<hr>
+<h1 id="-exciting-news-plan-protégé-going-global-">📢 Exciting News: Plan Protégé Going Global! 🌍</h1>
+<blockquote>
+<p>🎉 <strong>We've forked the official Protégé Desktop project — and we're taking it multilingual!</strong></p>
+</blockquote>
+<p>To bring the power of Protégé to a much wider audience, we have forked the original <a href="https://github.com/protegeproject/protege">Protégé Desktop</a> project into our brand-new open-source organization:</p>
+<p>👉 <strong><a href="https://github.com/yasen-opensource">github.com/yasen-opensource</a></strong> — starting with <strong><a href="https://github.com/yasen-opensource/protege">yasen-opensource/protege</a></strong></p>
+<h2 id="-the-roadmap">🗺 The Roadmap</h2>
+<ul>
+<li>🇨🇳 <strong>Chinese Edition First</strong> — a full Simplified Chinese localization of the Protégé Desktop UI
+(menus, dialogs, the OWL editing views — classes, object/data properties, individuals, SWRL rules —
+and more), implemented with standard Java internationalization (<code>ResourceBundle</code> / <code>.properties</code>),
+so Chinese-speaking developers and ontology engineers can learn and work in their native language.</li>
+<li>🌍 <strong>Multilingual Branch Next</strong> — the Chinese edition is only the beginning. Our roadmap extends to
+further languages, growing a true multilingual branch of the tool.</li>
+<li>🛠 <strong>Community-Driven</strong> — built by the community, for the community.</li>
+</ul>
+<h2 id="-contributors-welcome">🤝 Contributors Welcome!</h2>
+<p>Whether you are a Java/Swing developer, a translator, a technical writer, or simply a passionate
+Protégé user — there is a place for you in this journey:</p>
+<ul>
+<li>🐛 Report untranslated strings or UI glitches</li>
+<li>🌐 Contribute translations — refine the Chinese edition, or kick off a new language</li>
+<li>💻 Help with i18n engineering (ResourceBundle extraction, Maven packaging, Swing runtime support)</li>
+<li>📖 Improve documentation and onboarding guides</li>
+</ul>
+<p>⭐ <strong>Star <a href="https://github.com/yasen-opensource/protege">yasen-opensource/protege</a> to follow our progress, open a <a href="https://github.com/yasen-opensource/protege/discussions">discussion</a> to say hello, and jump into the <a href="https://github.com/yasen-opensource/protege/issues">issues</a> to claim your first contribution!</strong></p>
+<hr>
+<h1 id="-what-is-eka">🏛 What is EKA?</h1>
+<p><strong>EKA</strong> stands for <code>Executable Knowledge Architecture</code>.</p>
+<p>EKA is a practical framework for transforming human knowledge into machine-readable, machine-reasonable, and ultimately machine-executable intelligence.</p>
+<p>The framework is represented as:</p>
+<pre class="hljs"><code><div>EKA = (K, R, Θ, Φ, Γ)
+
+K = Knowledge
+R = Reasoning &amp; Rules
+Θ = Triggers
+Φ = Actions / Execution
+Γ = Governance
+</div></code></pre>
+<p>EKA provides an architectural bridge between:</p>
+<ul>
+<li>Ontology Engineering</li>
+<li>Knowledge Graphs</li>
+<li>Semantic Governance</li>
+<li>AI Systems</li>
+<li>Agent Architectures</li>
+<li>Executable Intelligence</li>
+</ul>
+<hr>
+<h1 id="-the-eka-journey">🌍 The EKA Journey</h1>
+<p>This project began as an exploration of the legendary <code>Pizza.owl</code> tutorial created by Michael DeBellis and the Protégé community.</p>
+<p>Over time it evolved into a broader journey, I use <code>Pizza.owl</code> as a controlled environment for teaching ontology engineering as an engineering discipline:</p>
+<pre class="hljs"><code><div>Pizza.owl
+↓
+Ontology Engineering
+↓
+Knowledge Graphs
+↓
+Semantic Governance
+↓
+Reasoning
+↓
+AI-Ready Systems
+↓
+Executable Intelligence
+</div></code></pre>
+<p>The Pizza tutorial remains the educational foundation.</p>
+<p>EKA is the destination.</p>
+<hr>
+<h1 id="-project-vision">🚀 Project Vision</h1>
+<p>This repository is the official engineering environment for the <strong>Executable Knowledge Architecture (EKA)</strong> initiative.</p>
+<p>The objective is not simply to learn OWL or Protégé.</p>
+<p>The objective is to learn how knowledge itself can become:</p>
+<ul>
+<li>Structured</li>
+<li>Governed</li>
+<li>Reused</li>
+<li>Reasoned</li>
+<li>Automated</li>
+<li>Executable</li>
+</ul>
+<p>Through the EKA series you will gradually move from ontology fundamentals toward enterprise-scale knowledge architecture and intelligent systems.</p>
+<hr>
+<h1 id="-why-learn-ontology--protégé">🌟 Why Learn Ontology &amp; Protégé?</h1>
+<p>In the era of AI and Large Language Models (LLMs), ontologies provide the formal semantic layer that machines need to reason reliably.</p>
+<p>By following this repository and companion eBook series, you will learn how to:</p>
+<ul>
+<li>Build ontologies using Protégé</li>
+<li>Model domains semantically</li>
+<li>Design reusable ontologies</li>
+<li>Apply reasoning and inference</li>
+<li>Govern semantic knowledge</li>
+<li>Build knowledge graphs</li>
+<li>Prepare AI-ready semantic systems</li>
+<li>Understand executable knowledge architecture</li>
+</ul>
+<p><img src="./img/cover.png" alt="cover"></p>
+<hr>
+<h1 id="-companion-ebook-series">📚 Companion eBook Series</h1>
+<h2 id="executable-knowledge-architecture-eka-1">Executable Knowledge Architecture (EKA)</h2>
+<h3 id="mastering-ontology-engineering-with-protégé-and-pizzaowl">Mastering Ontology Engineering with Protégé and Pizza.owl</h3>
+<blockquote>
+<p>[!Note] About the 8-volume structure.
+The series has been expanded from the original 7-volume plan to an 8-volume structure. The former Volume 4 (Chapters 17–27, SKDL) has been split into Volume 4a (Chapters 17–22, Stages 1–5) and Volume 4b (Chapters 23–27, Stages 6–7 + Synthesis). The split was made for two reasons:
+(1) Volume 4 had grown past 400 PDF pages, exceeding the Amazon KDP paperback page limit;
+(2) it had become disproportionately larger than Volumes 1–3. Chapter numbering is preserved; the split is a container-level change only.</p>
+</blockquote>
+<h3 id="volume-1--semantic-foundations-chapters-00-08">Volume 1 — Semantic Foundations (Chapters 00-08)</h3>
+<p><strong>Learning Ontology Engineering through Protégé and Pizza.owl</strong></p>
+<p>Introduces ontology engineering fundamentals, Protégé, RDF foundations, class hierarchies, semantic thinking, reasoning, and the EKA framework.</p>
+<hr>
+<h3 id="volume-2--semantic-relationships-chapters-09-13">Volume 2 — Semantic Relationships (Chapters 09-13)</h3>
+<p><strong>Mastering Object Properties and Ontology Structures</strong></p>
+<p>Introduces object properties, inverse properties, property characteristics, domain, range, and semantic relationship design.</p>
+<hr>
+<h3 id="volume-3--semantic-logic-chapters-14-16">Volume 3 — Semantic Logic (Chapters 14-16)</h3>
+<p><strong>OWL Restrictions, Reasoning and Governance</strong></p>
+<p>Explores existential restrictions, universal restrictions, reasoning foundations, semantic requirements, and governance concepts.</p>
+<hr>
+<h3 id="volume-4a--semantic-knowledge-engineering-part-1-chapters-17-22">Volume 4a — Semantic Knowledge Engineering, Part 1 (Chapters 17-22)</h3>
+<p><strong>Foundations &amp; Governance (SKDL Stages 1-5)</strong></p>
+<p>Introduces the Semantic Knowledge Development Lifecycle (SKDL) and walks through its first five stages: Conceptual Modeling, Semantic Description, Knowledge Reuse, Semantic Governance, and Semantic Validation. Ends with the validation discipline that prepares the ground for automated reasoning.</p>
+<hr>
+<h3 id="volume-4b--semantic-knowledge-engineering-part-2-chapters-23-27">Volume 4b — Semantic Knowledge Engineering, Part 2 (Chapters 23-27)</h3>
+<p><strong>Reasoning &amp; Executable Knowledge (Stages 6–7 + Synthesis)</strong></p>
+<p>Completes the SKDL: Semantic Reasoning, then the three-part Executable Knowledge stage (boundary control, value specification, data integrity), and closes with a synthesis of the full lifecycle. Includes the Exercise 26 troubleshooting arc — a three-week diagnostic journey through OWA counting, Stage 1 error propagation, closure-inheritance conflicts, and Protégé's local-vs-global view split.</p>
+<hr>
+<h3 id="volume-5--knowledge-graph-engineering-chapters-28-30">Volume 5 — Knowledge Graph Engineering (Chapters 28-30)</h3>
+<p><strong>Transforming Ontologies into Connected Intelligence</strong></p>
+<p>Focuses on transforming ontologies into operational knowledge graphs and connected semantic systems.</p>
+<hr>
+<h3 id="volume-6--ai-ready-semantic-systems-chapters-31-36">Volume 6 — AI-Ready Semantic Systems (Chapters 31-36)</h3>
+<p><strong>Knowledge Graphs, Agents and Intelligent Retrieval</strong></p>
+<p>Connects ontologies, knowledge graphs, reasoning, retrieval, and agent-based architectures.</p>
+<hr>
+<h3 id="volume-7--executable-intelligence-chapters-37-42">Volume 7 — Executable Intelligence (Chapters 37-42)</h3>
+<p><strong>Realizing the Vision of Executable Knowledge Architecture</strong></p>
+<p>Completes the transformation from semantic knowledge into executable intelligence systems.</p>
+<hr>
+<h2 id="-read-the-source-code--markdown-files-directly">👉 Read the Source Code &amp; Markdown Files Directly</h2>
+<p>All raw chapters remain open-source and available under <a href="./LICENSE.md">CC BY-NC-SA 4.0</a>.</p>
+<p>Read book source: <a href="ebook/markdown/">/ebook/markdown/</a></p>
+<hr>
+<h1 id="-learning-path">🎓 Learning Path</h1>
+<p>This repository is a companion to the complete video series.</p>
+<p>Recommended sequence:</p>
+<pre class="hljs"><code><div>Videos
+↓
+Repository Snapshots
+↓
+Markdown Chapters
+↓
+Companion eBooks
+↓
+Knowledge Graph Projects
+↓
+Executable Knowledge Architecture
+</div></code></pre>
+<hr>
+<h1 id="-intellectual-heritage">🙏 Intellectual Heritage</h1>
+<p>This work stands on the shoulders of giants.</p>
+<p>Special recognition goes to:</p>
+<ul>
+<li>Matthew Horridge</li>
+<li>Holger Knublauch</li>
+<li>Alan Rector</li>
+<li>Robert Stevens</li>
+<li>Chris Wroe</li>
+<li>Simon Jupp</li>
+<li>Georgina Moulton</li>
+<li>Nick Drummond</li>
+<li>Sebastian Brandt</li>
+</ul>
+<p>and particularly:</p>
+<p><strong>Michael DeBellis</strong></p>
+<p>whose Pizza.owl tutorial remains one of the most influential practical introductions to ontology engineering ever created.</p>
+<p>We are also honored to feature technical review and forewords from:</p>
+<p><strong>Timothy W. Cook</strong>
+Founder of SDC (Semantic Data Charter)</p>
+<hr>
+<h1 id="️-final-thought">❤️ Final Thought</h1>
+<blockquote>
+<p>The journey begins with pizza.</p>
+<p>But the real subject is meaning.</p>
+<p>— Michael DeBellis</p>
+</blockquote>
+<p>And in EKA:</p>
+<blockquote>
+<p>The journey begins with Pizza.owl.</p>
+<p>The destination is Executable Intelligence.</p>
+<p>— EKA Project</p>
+</blockquote>
+<hr>
+<p>Last updated at 2026-10-18</p>
+
 </body>
 </html>
