@@ -1,0 +1,44 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ] # Change to 'master' if your default branch is master
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Optional: If you use a static site generator or build tool (like Vite/Next.js/Node), 
+      # run your build command here. Make sure it outputs to a dedicated folder (e.g., ./dist or ./out).
+      # - name: Install and Build
+      #   run: |
+      #     npm ci
+      #     npm run build
+
+      - name: Stage web files for deployment
+        run: |
+          mkdir -p _site
+          # Copy only your public web files/folders into _site. 
+          # Adjust 'index.html' or folders to match your actual web root contents:
+          cp -r index.html assets _site/ 2>/dev/null || true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './_site'
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
