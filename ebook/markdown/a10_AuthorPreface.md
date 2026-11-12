@@ -23,7 +23,7 @@ Through years of distillation, everything crystallized into two simple, powerful
 
 1. **EKA (Executable Knowledge Architecture)**: The overarching paradigm that treats enterprise architecture and knowledge graphs not as static documents, but as executable, machine-readable specifications.
 
-    > A slogan now circulating in industrial semantics is *Meaning before Automation*, associated with Frédéric Verhelst's *The Onology Imperative*. It captures a readiness problem rather than a technology problem: agreed meaning is the bottleneck, and an ontology is that meaning in a form a machine can check. This book accepts the slogan and asks the engineering question it leaves open -- meaning must not only precede automation, it must be **executable, checkable and governable**. That is what EKA provides, and the `Pizza` ontology is the vehicle we use to show it.
+A slogan now circulating in industrial semantics is *Meaning before Automation*, associated with Frédéric Verhelst's *The Ontology Imperative*. It captures a readiness problem rather than a technology problem: agreed meaning is the bottleneck, and an ontology is that meaning in a form a machine can check. This book accepts the slogan and asks the engineering question it leaves open -- meaning must not only precede automation, it must be **executable, checkable and governable**. That is what EKA provides, and the `Pizza` ontology is the vehicle we use to show it.
 
 2. **SKDL (Semantic Knowledge Development Lifecycle)**: The structured 7-stage approach I formulated to guide practitioners seamlessly from raw domain concepts all the way to advanced semantic reasoning and governance.
 
