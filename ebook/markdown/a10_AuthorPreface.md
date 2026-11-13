@@ -23,7 +23,7 @@ Through years of distillation, everything crystallized into two simple, powerful
 
 1. **EKA (Executable Knowledge Architecture)**: The overarching paradigm that treats enterprise architecture and knowledge graphs not as static documents, but as executable, machine-readable specifications.
 
-A slogan now circulating in industrial semantics is *Meaning before Automation*, associated with Frédéric Verhelst's *The Ontology Imperative*. It captures a readiness problem rather than a technology problem: agreed meaning is the bottleneck, and an ontology is that meaning in a form a machine can check. This book accepts the slogan and asks the engineering question it leaves open -- meaning must not only precede automation, it must be **executable, checkable and governable**. That is what EKA provides, and the `Pizza` ontology is the vehicle we use to show it.
+A phrase from Frédéric Verhelst's summary of PLM Road Map & PDT EMEA 2026 is *Meaning before Automation*[^1]. It captures a readiness problem rather than a technology problem: agreed meaning is the bottleneck, and an ontology is that meaning in a form a machine can check. This book accepts the slogan and asks the engineering question it leaves open -- meaning must not only precede automation, it must be **executable, checkable and governable**. That is what EKA provides, and the `Pizza` ontology is the vehicle we use to show it.
 
 2. **SKDL (Semantic Knowledge Development Lifecycle)**: The structured 7-stage approach I formulated to guide practitioners seamlessly from raw domain concepts all the way to advanced semantic reasoning and governance.
 
@@ -45,6 +45,10 @@ Enterprise Architect, Founder of the EKA and SKDL
 
 November, 2026 (Updated)
 
+Last updated at 2026-11-12
+
 ---
 
-Last updated at 2026-11-12
+**Reference**
+
+[^1]: Verhelst, Frédéric. LinkedIn post, 9 November 2026, summary of PLM Road Map & PDT EMEA 2026. https://lnkd.in/p/gjP2WJRd — *Disclosure: The author is Principal, Energy and Infrastructure, at Graphwise.*
