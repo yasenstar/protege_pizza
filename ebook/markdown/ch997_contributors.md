@@ -3,6 +3,7 @@
 
 | Name / GitHub Handle | Contribution Type | Issue/Discussion | Chapter(s) | Date | Memo |
 |----------------------|-------------------|:--------:|------------|------|------|
+| Frédéric Verhelst, PhD | Technical Review | #83 | 15 | 2026-11-14 | Identified two OWA errors in §15.3.4: `PizzaC` under `some CheeseTopping` is Unknown, not False; `PizzaB` under `only PizzaTopping` is Unknown, not vacuously true. Also clarified that `only` yields a definite violation only with typed, disjoint toppings — OWL fixes the meaning, closed-world validation enforces it. Fixed. |
 | Frédéric Verhelst, PhD | Technical Review | LinkedIn correspondence | Preface, 00, 01, 14, 15, 16 | 2026-11-12 | Reviewed the integration of his "Meaning before Automation" argument across six chapters, and provided detailed corrections on attribution, CIMdata wording, the OWL/SHACL governance distinction, and citation format. |
 | Timothy Cook | Issue Report | #66 | 20 & 21 | 2026-09-06 | Continue technical review |
 | Timothy Cook | Foreword | -- | Front matter | 2026-09-06 | Wrote the foreword on semantic governance and the Semantic Data Charter, framing the book's treatment of trustworthy meaning in Chapter 16 and 20-21. |
@@ -21,4 +22,4 @@
 | Your name here | Error report / Pull request / Question | — | X | YYYY-MM-DD | Brief Memo |
 
 ---
-Last updated: 2026-11-13
+Last updated: 2026-11-14
