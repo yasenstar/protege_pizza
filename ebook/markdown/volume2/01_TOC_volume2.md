@@ -10,7 +10,7 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 2 of 8)
+## This Volume's Chapters (Volume 2 of 7)
 
 - [Chapter 09 -- Building Semantic Foundations Through Class Hierarchy](./ch09.md)
 - [Chapter 10 -- Connecting Concepts Through Object Properties](./ch10.md)

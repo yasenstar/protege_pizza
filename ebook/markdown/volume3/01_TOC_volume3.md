@@ -9,7 +9,7 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 3 of 8)
+## This Volume's Chapters (Volume 3 of 7)
 
 - [Chapter 14 -- Semantic Requirements: Existential Restriction and the Logic of "Some"](./ch14.md)
 - [Chapter 15 -- Semantic Requirements: Universal Restriction, Composition, and the Neo4j Mirror](./ch15.md)
@@ -33,4 +33,4 @@
 
 ---
 
-Last Updated at 2026-10-17
+Last Updated at 2026-11-14

@@ -10,7 +10,7 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 5 of 8)
+## This Volume's Chapters (Volume 4b of 7)
 
 - [Chapter 23 -- Semantic Reasoning: Stage 6 of the Semantic Knowledge Development Lifecycle](./ch23.md)
 - [Chapter 24 - Stage 7 of SKDL -- Executable Knowledge (Part 1): Introduction & Boundary Control](./ch24.md)
@@ -36,4 +36,4 @@
 
 ---
 
-Last Updated at 2026-10-17
+Last Updated at 2026-11-14

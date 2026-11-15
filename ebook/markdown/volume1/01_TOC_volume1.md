@@ -10,7 +10,7 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 1 of 8)
+## This Volume's Chapters (Volume 1 of 7)
 
 - [Chapter 00 -- EKA Formalized: The Executable Knowledge Architecture Definition](./ch00.md)
 - [Chapter 01 -- Entering the World of Ontology Engineering with Protégé and `Pizza.owl`](./ch01.md)

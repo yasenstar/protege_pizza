@@ -10,7 +10,7 @@
 - [Foreword from Michael DeBellis](./a02_foreword_2_MichaelDeBellis.md)
 - [Preface from the Author](./a03_AuthorPreface.md)
 
-## This Volume's Chapters (Volume 4 of 8)
+## This Volume's Chapters (Volume 4a of 7)
 
 - [Chapter 17 -- Semantic Knowledge Development Lifecycle (SKDL)](./ch17.md)
 - [Chapter 18 -- Conceptual Modeling: Stage 1 of the Semantic Knowledge Development Lifecycle](./ch18.md)
@@ -37,4 +37,4 @@
 
 ---
 
-Last Updated at 2026-10-17
+Last Updated at 2026-11-14
