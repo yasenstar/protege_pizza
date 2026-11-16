@@ -154,7 +154,7 @@ By following this repository and companion eBook series, you will learn how to:
 ### Mastering Ontology Engineering with Protégé and Pizza.owl
 
 > [!Note] About the 8-volume structure.
-> The series has been expanded from the original 7-volume plan to an 8-volume structure. The former Volume 4 (Chapters 17–27, SKDL) has been split into Volume 4a (Chapters 17–22, Stages 1–5) and Volume 4b (Chapters 23–27, Stages 6–7 + Synthesis). The split was made for two reasons:
+> The series has been expanded the original 7-volume plan structure. The former Volume 4 (Chapters 17–27, SKDL) has been split into Volume 4a (Chapters 17–22, Stages 1–5) and Volume 4b (Chapters 23–27, Stages 6–7 + Synthesis). The split was made for two reasons:
 > (1) Volume 4 had grown past 400 PDF pages, exceeding the Amazon KDP paperback page limit;
 > (2) it had become disproportionately larger than Volumes 1–3. Chapter numbering is preserved; the split is a container-level change only.
 
