@@ -252,6 +252,18 @@ Executable Knowledge Architecture
 
 ---
 
+# 📁 What's in this repository
+
+- `ebook/` — Source files for the 8-volume *Mastering Ontology Engineering with Protégé and Pizza.owl* series (Volumes 1–3, 4a, 4b, and 5–7), including chapter drafts (`ebook/markdown/`) and OWL/RDF modeling snapshots (`ebook/rdf/`)[cite: 2].
+- `ebook/markdown/` — Open-source Markdown chapters (`ch00`–`ch42`) organized across the 8-volume structure (with Volume 4 split into `4a` and `4b`) and table-of-contents files[cite: 2].
+- `ebook/rdf/` — Step-by-step OWL/RDF ontology snapshots and exercise models aligned with the chapters and video lessons.
+- `eka_generated_covers/` — Generated volume cover artwork and promotional banners, including web hub assets (`eka_generated_covers/website/`)[cite: 2].
+- `img/` — Diagrams, architecture visuals, and Protégé screenshots referenced across the documentation and chapters[cite: 2].
+- `publish/` — Packaging and export structure for generating PDF and eBook publishing builds across the split volumes.
+- `scripts/` — Automation and consistency-checking utilities used for book packaging, TOC updates, and site/link consistency checks.
+
+---
+
 # 🙏 Intellectual Heritage
 
 This work stands on the shoulders of giants.
@@ -299,4 +311,4 @@ And in EKA:
 
 ---
 
-Last updated at 2026-10-18
+Last updated at 2026-11-18
