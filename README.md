@@ -14,7 +14,7 @@ An open-source ontology engineering learning and knowledge-development platform 
 
 > 💡 **Looking for the complete, professional guide?** While this repository provides open-source snapshot code (the individual "pieces"), our structured multi-volume eBook series on **Leanpub** and **Amazon Kindle** provides the complete architectural framework, deep-dive explanations, and advanced engineering practices (such as Stage 4 Semantic Governance). 
 >
-> ![all books](./eka_generated_covers/website/EKA_7_Volumes_Website_Banner.png)
+> [![all books](./eka_generated_covers/website/EKA_7_Volumes_Website_Banner.png)](https://xiaoqi.com/publications)
 >  
 > 👉 **[Get the Full eBook on Leanpub](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)** or **[Get it on Amazon Kindle](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)** to support this project!
 
@@ -323,4 +323,4 @@ And in EKA:
 
 ---
 
-Last updated at 2026-11-18
+Last updated at 2026-11-26
