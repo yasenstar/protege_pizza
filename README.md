@@ -6,7 +6,8 @@
 
 An open-source ontology engineering learning and knowledge-development platform built around the Protégé Pizza.owl tradition, extending hands-on OWL modeling into semantic governance, reasoning, knowledge graphs, and Executable Knowledge Architecture (EKA).
 
-[![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers) ![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC--BY--NC--SA--4.0-lightgrey.svg)
+<!-- [![GitHub stars](https://img.shields.io/github/stars/yasenstar/protege_pizza)](https://github.com/yasenstar/protege_pizza/stargazers)  -->
+![License: GPL-3.0](https://img.shields.io/badge/Code-GPL--3.0-blue.svg) ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC--BY--NC--SA--4.0-lightgrey.svg)
 
 [![YouTube Course](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhwW) [![Official Ebook Hub](https://img.shields.io/badge/Official_Website-xiaoqi.com-blue?style=for-the-badge&logo=googlechrome)](https://xiaoqi.com)
 
