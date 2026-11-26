@@ -18,6 +18,18 @@ An open-source ontology engineering learning and knowledge-development platform 
 >  
 > 👉 **[Get the Full eBook on Leanpub](https://leanpub.com/store?category=&search=Xiaoqi+Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl&sort=bestsellers_last_week&language=&lng=en)** or **[Get it on Amazon Kindle](https://www.amazon.com/s?k=Mastering+Ontology+Engineering+with+Prot%C3%A9g%C3%A9+and+Pizza.owl+Xiaoqi&i=digital-text&crid=2OCZWC2LH7LLI&sprefix=mastering+ontology+engineering+with+prot%C3%A9g%C3%A9+and+pizza.owl+xiaoqi%2Cdigital-text%2C400&ref=nb_sb_noss_1)** to support this project!
 
+> [!TIP]
+> 🧪 **Book Side-Tool #1 — EKA Studio (Interactive Workbench)**
+> Practice concepts from **Volumes 1–4b** and **SKDL Stages 1–7** in a browser-based playground as you read. Test scenarios, run custom triples/SKDL experiments, inspect the `EKA = (K, R, Θ, Φ, Γ)` tuple matrix, and export Markdown/JSON reports.
+>
+> 👉 **[Launch EKA Studio](https://xiaoqi.com/eka-studio)**
+
+> [!IMPORTANT]
+> 🧭 **Book Side-Tool #2 — SKDL Explorer (7-Stage SKDL & EKA Tuple Interactive Lab)**
+> Step through the **Semantic Knowledge Development Lifecycle (SKDL)** from Competency Questions to live `EKA = (K, R, Θ, Φ, Γ)` execution with interactive sandboxes designed as a companion playground alongside the eBook series.
+>
+> 👉 **[Launch SKDL Explorer](https://xiaoqi.com/skdl-explorer)**
+
 ---
 
 # 📢 Exciting News: Plan Protégé Going Global! 🌍
